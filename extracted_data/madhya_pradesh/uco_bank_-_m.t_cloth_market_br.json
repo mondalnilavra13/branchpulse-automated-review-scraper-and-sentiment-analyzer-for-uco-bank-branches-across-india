@@ -1,0 +1,52 @@
+{
+  "name": "UCO Bank - M.T Cloth Market Branch",
+  "address": "\n66, Hukumchand Marg, Cloth Market, Sitlamata Bazar, M.T Cloth Market, Maharaja Tukoji Rao Holker Cloth Market, Indore, Madhya Pradesh 452002",
+  "rating": "3.3 stars",
+  "pincode": "452002",
+  "reviews": [
+    {
+      "reviewer": "Raj Nager",
+      "rating": "4 stars",
+      "date": "5 months ago",
+      "text": "Staff any enquiry to be late t customer",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Adv.Jitendra Purohit",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "AC is not working in ATM.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "ganpat Singh",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "It is clear from the name that banking business is done here, the staff here is very friendly and sociable.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "jwarsi",
+      "rating": "4 stars",
+      "date": "2 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Hemlata Verma",
+      "rating": "5 stars",
+      "date": "10 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "samrat nema",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+M.T+Cloth+Market+Branch/data=!4m7!3m6!1s0x3962fda6b65a8197:0x6dcb3b027476da2e!8m2!3d22.7162539!4d75.8488924!16s%2Fg%2F1q62crny7!19sChIJl4Fatqb9YjkRLtp2dAI7y20?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_madhya_pradesh.json"
+}

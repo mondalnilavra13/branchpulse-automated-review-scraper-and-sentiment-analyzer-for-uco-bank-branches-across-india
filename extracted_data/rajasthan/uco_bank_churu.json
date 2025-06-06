@@ -1,0 +1,94 @@
+{
+  "name": "UCO Bank Churu",
+  "address": "\n7XW6+JXM, Bhartiya Rd, Naya Bass, Churu, Rajasthan 331001",
+  "rating": "3.5 stars",
+  "pincode": "331001",
+  "reviews": [
+    {
+      "reviewer": "Ayan’s Circle",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "Useless bank.employees don't know how to behave with customer.bad behavior.not supportive staff.never visit or open account in this bank.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Prashant Sharma",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "Useless bank.employees don't know how to behave with customer.bad behavior.not supportive staff.never visit or open account in this bank.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nafees Gauri",
+      "rating": "5 stars",
+      "date": "10 months ago",
+      "text": "Nice",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Hitesh Panwar",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "The bank without mob.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ankit Saini",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "Better",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sikander Ali",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "Dear UCO Bank, your staff's service is the slowest, 3rd no. The counter is open anytime, I have got the account, I opened the account 2 days ago, I got the passbook yesterday and the debit card today, they are also late by 45 minutes just because there was no one at the counter and the service has been very slow.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nitesh Sarothia",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "very nice manager sir",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Javed Bhati",
+      "rating": "5 stars",
+      "date": "8 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nadeem behlim",
+      "rating": "4 stars",
+      "date": "11 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Wasim Behlim",
+      "rating": "4 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "manish grewal",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "yakib hussain",
+      "rating": "1 star",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Churu/data=!4m7!3m6!1s0x39149e00b7409c85:0xc830237007ac2bb3!8m2!3d28.2965997!4d74.9624113!16s%2Fg%2F11hbgqj3nj!19sChIJhZxAtwCeFDkRsyusB3AjMMg?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_rajasthan.json"
+}

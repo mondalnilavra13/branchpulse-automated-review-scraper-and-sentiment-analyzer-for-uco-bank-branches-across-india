@@ -1,0 +1,31 @@
+{
+  "name": "Not found",
+  "address": "Not found",
+  "rating": "Not found",
+  "pincode": "Not found",
+  "reviews": [
+    {
+      "reviewer": "bala kishore",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Renukrishna Gutta",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vamsi Edupuganti",
+      "rating": "2 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3a35ff93d49e614b:0x5fad4559af445e77!8m2!3d16.3474542!4d80.7827346!16s%2Fg%2F11g8yflcxz!19sChIJS2Ge1JP_NToRd15Er1lFrV8?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_andhra_pradesh.json"
+}

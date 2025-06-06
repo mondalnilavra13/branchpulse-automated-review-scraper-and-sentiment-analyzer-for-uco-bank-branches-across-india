@@ -1,0 +1,31 @@
+{
+  "name": "UCO Bank - Customer Service Point",
+  "address": "\nCRH5+QM3, सिविल हॉस्पिटल रोड, Loharu, Haryana 127201",
+  "rating": "3.3 stars",
+  "pincode": "127201",
+  "reviews": [
+    {
+      "reviewer": "Naveen Jangra",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sahil Sain",
+      "rating": "1 star",
+      "date": "2 years ago",
+      "text": "The lowest bank is",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sunil Kumar",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "Correct",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Customer+Service+Point/data=!4m7!3m6!1s0x3912e478da965d4d:0x75929ea77620543b!8m2!3d28.4293821!4d75.8091863!16s%2Fg%2F11f3jwpcqj!19sChIJTV2W2njkEjkRO1QgdqeeknU?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_haryana.json"
+}

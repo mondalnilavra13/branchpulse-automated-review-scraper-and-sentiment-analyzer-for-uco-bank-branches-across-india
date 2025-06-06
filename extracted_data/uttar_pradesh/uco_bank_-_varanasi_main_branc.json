@@ -1,0 +1,87 @@
+{
+  "name": "UCO Bank - Varanasi Main Branch",
+  "address": "\nVishalashi Building, Godowlia Rd, Chowk Varanasi, Opposite Police Station, Govindpura, Varanasi, Uttar Pradesh 221001",
+  "rating": "4.0 stars",
+  "pincode": "221001",
+  "reviews": [
+    {
+      "reviewer": "Pooja Patel",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "Nice Bank for students",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "prashant_ji_hindu",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Good man in branch",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "RAAKES NAGER",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "Nice",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Kalpana Gautam",
+      "rating": "2 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "शशिकांत राय",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "kailash chand",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Farhan Sheikh",
+      "rating": "1 star",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ranjeet Ranjeet",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Keshav Mishra",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Abu Zaid",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nihit Jain",
+      "rating": "4 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Varanasi+Main+Branch/data=!4m7!3m6!1s0x398e2e19331c1a29:0xb01656530ac34cee!8m2!3d25.3138419!4d83.01111!16s%2Fg%2F11g_gp42d!19sChIJKRocMxkujjkR7kzDClNWFrA?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_uttar_pradesh.json"
+}

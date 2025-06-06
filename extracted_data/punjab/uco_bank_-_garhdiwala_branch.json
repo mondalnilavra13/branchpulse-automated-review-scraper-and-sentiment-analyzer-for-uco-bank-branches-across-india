@@ -1,0 +1,31 @@
+{
+  "name": "UCO Bank - Garhdiwala Branch",
+  "address": "\nPQR4+FCV, Seth market main road, Garhdiwala, Punjab 144207",
+  "rating": "4.3 stars",
+  "pincode": "144207",
+  "reviews": [
+    {
+      "reviewer": "Balbir Singh",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "It is a small bank but better place to meet the requirements of Garhdiwala locality.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Anisha Sharma",
+      "rating": "5 stars",
+      "date": "10 months ago",
+      "text": "It is very good branch",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Arun Verma",
+      "rating": "4 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Garhdiwala+Branch/data=!4m7!3m6!1s0x391b087ceaaaaaab:0x25c518fb5fa15c9c!8m2!3d31.7412342!4d75.7560455!16s%2Fg%2F11fz9jmcpz!19sChIJq6qq6nwIGzkRnFyhX_sYxSU?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_punjab.json"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "UCO Bank",
+  "address": "\nNidhi Sadan, 75/04, Halsi Rd, Mulganj Chauraha, Badshahi Naka, Hatia, Kanpur, Uttar Pradesh 208001",
+  "rating": "2.0 stars",
+  "pincode": "208001",
+  "reviews": [
+    {
+      "reviewer": "Praveen Tiwari (tanu)",
+      "rating": "3 stars",
+      "date": "9 years ago",
+      "text": "UCO Bank @",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shekhu Khan",
+      "rating": "3 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Royal Steel Works",
+      "rating": "1 star",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ayush Verma",
+      "rating": "1 star",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x399c47829a64bde7:0xe4a2c7ee5e50278c!8m2!3d26.4659494!4d80.3474043!16s%2Fg%2F1xgz9641!19sChIJ571kmoJHnDkRjCdQXu7HouQ?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_uttar_pradesh.json"
+}

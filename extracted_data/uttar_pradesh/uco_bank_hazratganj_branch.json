@@ -1,0 +1,73 @@
+{
+  "name": "UCO Bank, Hazratganj Branch",
+  "address": "\nVW2R+2G3, Lalbagh, Lucknow, Uttar Pradesh 226001",
+  "rating": "4.4 stars",
+  "pincode": "226001",
+  "reviews": [
+    {
+      "reviewer": "Manish Kumar",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Best customer service when compared with other banks. Very cooperative staff.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "haniya siddiqui",
+      "rating": "2 stars",
+      "date": "5 years ago",
+      "text": "Best bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vishal Singh",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Excellent service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Arpita",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Nice",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mohammad Shamad Warsi",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "Lucknow",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mayank Bharti",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ritesh Patel",
+      "rating": "4 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ashish medical store lko",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Umesh Daryanani",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank,+Hazratganj+Branch/data=!4m7!3m6!1s0x399bfda7a1709015:0x23343479d8e20ed0!8m2!3d26.8500126!4d80.9413068!16s%2Fg%2F124yd849j!19sChIJFZBwoaf9mzkR0A7i2Hk0NCM?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_uttar_pradesh.json"
+}

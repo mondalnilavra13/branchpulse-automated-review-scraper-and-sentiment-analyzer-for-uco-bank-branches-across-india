@@ -1,0 +1,24 @@
+{
+  "name": "UCO Bank, Chandrasekharpur Branch",
+  "address": "\n8RF8+FVV, District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016",
+  "rating": "5.0 stars",
+  "pincode": "751016",
+  "reviews": [
+    {
+      "reviewer": "Prasenjit Mohanty",
+      "rating": "5 stars",
+      "date": "a month ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Santosh Kumar Pradhan",
+      "rating": "5 stars",
+      "date": "5 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank,+Chandrasekharpur+Branch/data=!4m7!3m6!1s0x3a1909005a560a63:0xb5d61058221c4638!8m2!3d20.3238761!4d85.8170307!16s%2Fg%2F11y73tt05s!19sChIJYwpWWgAJGToROEYcIlgQ1rU?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_odisha.json"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "UCO Bank - Bhandara Branch",
+  "address": "\n5MF4+27G, Madhav Nagar, Bhandara, Maharashtra 441904",
+  "rating": "4.0 stars",
+  "pincode": "441904",
+  "reviews": [
+    {
+      "reviewer": "khalil Qureshi",
+      "rating": "1 star",
+      "date": "10 months ago",
+      "text": "This is a very useless bank, there is no need to open an account, these banks charge a lot for opening an account or they make a minus from a pure money account.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Roshan Idpate",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "prashant mishra",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mayur Karande",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Saurabh Ramteke",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Devyani Nikhare",
+      "rating": "3 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Aditya Singh",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gaurav Katakwar",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Bhandara+Branch/data=!4m7!3m6!1s0x3a2b3f4c28d7bd49:0x2e1da8722982493c!8m2!3d21.1725733!4d79.6557186!16s%2Fg%2F11c3tycp92!19sChIJSb3XKEw_KzoRPEmCKXKoHS4?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_maharashtra.json"
+}

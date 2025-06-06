@@ -1,0 +1,52 @@
+{
+  "name": "SBP UCO Bank",
+  "address": "\nVJRC+9VP, Unnamed Road, Kamal Colony, Model Town, Rohtak, Haryana 124001",
+  "rating": "3.2 stars",
+  "pincode": "124001",
+  "reviews": [
+    {
+      "reviewer": "Amit Bairagi",
+      "rating": "4 stars",
+      "date": "3 years ago",
+      "text": "ATM opens only in office hours. It closes with bank.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "sameer sagar",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Best M-Banking App of Uco Bank.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Amit Sheoran",
+      "rating": "3 stars",
+      "date": "6 years ago",
+      "text": "It is just ok.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Manmohan Saluja",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "gourav raghav",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gaurav Kumar",
+      "rating": "1 star",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/SBP+UCO+Bank/data=!4m7!3m6!1s0x390d85216779d66b:0xc2d6c5f52de2e654!8m2!3d28.890961!4d76.6221937!16s%2Fg%2F11hb8mjzd4!19sChIJa9Z5ZyGFDTkRVObiLfXF1sI?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_haryana.json"
+}

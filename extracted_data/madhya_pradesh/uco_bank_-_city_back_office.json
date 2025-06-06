@@ -1,0 +1,31 @@
+{
+  "name": "UCO Bank - City Back Office",
+  "address": "\n1, Subash Marg, Jail Road, Chiman Bagh, Nagar Nigam, Indore, Madhya Pradesh 452007",
+  "rating": "4.0 stars",
+  "pincode": "452007",
+  "reviews": [
+    {
+      "reviewer": "Vande Mataram",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Best and fast services provide by staff.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ashish singh",
+      "rating": "4 stars",
+      "date": "8 years ago",
+      "text": "One of the good bank for saving accounts",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "RAVI Choudhary",
+      "rating": "3 stars",
+      "date": "8 years ago",
+      "text": "Good service",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+City+Back+Office/data=!4m7!3m6!1s0x3962fd7334133253:0xb9faca8a84bfac7f!8m2!3d22.7240447!4d75.8610097!16s%2Fg%2F125__8wfw!19sChIJUzITNHP9YjkRf6y_hIrK-rk?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_madhya_pradesh.json"
+}

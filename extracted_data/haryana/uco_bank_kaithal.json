@@ -1,0 +1,66 @@
+{
+  "name": "UCO Bank Kaithal",
+  "address": "\nRC44+F5M, Unnamed Road, Model Town, Kaithal, Haryana 136027",
+  "rating": "3.4 stars",
+  "pincode": "136027",
+  "reviews": [
+    {
+      "reviewer": "Rahul D",
+      "rating": "4 stars",
+      "date": "4 years ago",
+      "text": "Best bank , and very good services and good customer behaviour .",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "PARVEEN KUMAR PRAJAPATI",
+      "rating": "1 star",
+      "date": "2 years ago",
+      "text": "Very bad service by bank.\nNo ATM service in kaithal",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Govind Bansal",
+      "rating": "2 stars",
+      "date": "4 years ago",
+      "text": "Nice.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Karam Singh",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "Cool & NYC place",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sukh Saini",
+      "rating": "1 star",
+      "date": "6 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Himanshu Asija",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Lokash Kumar",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sunil Saraf",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Kaithal/data=!4m7!3m6!1s0x3911e08920fa06bd:0xd45984ccd0f2286d!8m2!3d29.8062002!4d76.4054268!16s%2Fg%2F11f4pvbv9k!19sChIJvQb6IIngETkRbSjy0MyEWdQ?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_haryana.json"
+}

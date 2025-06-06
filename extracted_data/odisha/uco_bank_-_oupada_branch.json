@@ -1,0 +1,38 @@
+{
+  "name": "UCO Bank - Oupada Branch",
+  "address": "\n8GG4+5MW, Oupada, Odisha 756049",
+  "rating": "3.3 stars",
+  "pincode": "756049",
+  "reviews": [
+    {
+      "reviewer": "Satyaprakash Rout",
+      "rating": "3 stars",
+      "date": "2 years ago",
+      "text": "UCO bank Oupada branch helpful to rural people.\nNeed better service by the staffs.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "chandrakant panda",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "Cool place for single to serve",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Narayan Mohanty",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Very very good...",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Debashis Behera",
+      "rating": "1 star",
+      "date": "7 months ago",
+      "text": "5 dina helani kyc form bharilini e parjyanta heini khanjini bajaucha ki",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Oupada+Branch/data=!4m7!3m6!1s0x3a1c13e6849eaa13:0x90b9798b95ce96fa!8m2!3d21.3254892!4d86.5067014!16s%2Fg%2F11dxhykw31!19sChIJE6qehOYTHDoR-pbOlYt5uZA?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_odisha.json"
+}

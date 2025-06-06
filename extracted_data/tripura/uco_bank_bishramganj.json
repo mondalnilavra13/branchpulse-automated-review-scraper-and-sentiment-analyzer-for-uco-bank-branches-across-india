@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank, Bishramganj",
+  "address": "\nJ85X+H8W, Shillong - Agartala - Sabrum Rd, Bisramgang Bazar, Bishramganj, Tripura 799103",
+  "rating": "3.9 stars",
+  "pincode": "799103",
+  "reviews": [
+    {
+      "reviewer": "faruk islam",
+      "rating": "1 star",
+      "date": "10 months ago",
+      "text": "Useless staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sanu Debbarma",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Balraj Debbarman",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shiman Debbarma",
+      "rating": "4 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "S D",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Babatosh Debbarma",
+      "rating": "4 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Bapan Das",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank,+Bishramganj/data=!4m7!3m6!1s0x37538fca216fff4d:0xd428b7ce9e799517!8m2!3d23.6089878!4d91.3483222!16s%2Fg%2F11b6_gn19y!19sChIJTf9vIcqPUzcRF5V5ns63KNQ?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_tripura.json"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "UCO Bank Muglisara Branch",
+  "address": "\n6R2C+783, Mughal Sarai, Surat, Gujarat 395003",
+  "rating": "3.4 stars",
+  "pincode": "395003",
+  "reviews": [
+    {
+      "reviewer": "Saj Vanani",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "My experience with UCO Bank was disappointing. The customer service was unsatisfactory, with representatives showing little interest or empathy. Transactions were cumbersome, and the online platform was plagued with glitches. Overall, the atmosphere in branches was unwelcoming.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Kishan Maru",
+      "rating": "5 stars",
+      "date": "2 months ago",
+      "text": "👍 …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vadhel Bhartiamit",
+      "rating": "5 stars",
+      "date": "3 months ago",
+      "text": "Excellent 👍 good  service 👍 …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Aaliya Chiniwala",
+      "rating": "1 star",
+      "date": "3 months ago",
+      "text": "Worst staff\nWorst service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Manisur Midday",
+      "rating": "5 stars",
+      "date": "2 months ago",
+      "text": "Great",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Muglisara+Branch/data=!4m7!3m6!1s0x3be04f006883d79d:0x32268779c1c7507f!8m2!3d21.2006319!4d72.8207999!16s%2Fg%2F11ldr9l0s4!19sChIJndeDaABP4DsRf1DHwXmHJjI?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_gujarat.json"
+}

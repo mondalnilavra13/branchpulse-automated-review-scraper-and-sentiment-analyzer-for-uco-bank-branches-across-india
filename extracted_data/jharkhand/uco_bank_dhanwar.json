@@ -1,0 +1,52 @@
+{
+  "name": "UCO Bank, Dhanwar",
+  "address": "\nShivShakti Complex, Main Rd, Rajdhanwar, Jharkhand 825412",
+  "rating": "5.0 stars",
+  "pincode": "825412",
+  "reviews": [
+    {
+      "reviewer": "Vikrant Kumar",
+      "rating": "5 stars",
+      "date": "8 months ago",
+      "text": "Must visit",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "VIKRAM KUMAR",
+      "rating": "5 stars",
+      "date": "6 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ritesh Kumar",
+      "rating": "5 stars",
+      "date": "8 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Kishore Kumar",
+      "rating": "5 stars",
+      "date": "8 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "mukesh kumar",
+      "rating": "5 stars",
+      "date": "8 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "gopal kumar",
+      "rating": "5 stars",
+      "date": "8 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank,+Dhanwar/data=!4m7!3m6!1s0x39f3eb0052be1cbd:0x248bd14bacb2c711!8m2!3d24.4092219!4d85.9796059!16s%2Fg%2F11y73pttb5!19sChIJvRy-UgDr8zkREceyrEvRiyQ?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_jharkhand.json"
+}

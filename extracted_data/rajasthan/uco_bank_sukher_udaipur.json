@@ -1,0 +1,87 @@
+{
+  "name": "UCO Bank Sukher, Udaipur",
+  "address": "\nSukher Rd, near SBI Bank ATM, Sukher, Sapetiya, Rajasthan 313001",
+  "rating": "4.5 stars",
+  "pincode": "313001",
+  "reviews": [
+    {
+      "reviewer": "Avins Beacon",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Nice bank and helpful staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mahesh jetha",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "Branch of the famous public sector bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Kalpesh Jain",
+      "rating": "4 stars",
+      "date": "4 years ago",
+      "text": "Nice Bank to bank with.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Neeraj Chhajed",
+      "rating": "5 stars",
+      "date": "9 years ago",
+      "text": "Good staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Dheeraj Kushwaha",
+      "rating": "1 star",
+      "date": "2 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Bharat Sen3",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "sheela kitawat",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "govind singh chouhan",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ramesh Mali",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mohan Mohan Lal Dalal",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Lahar Singh Chhajed",
+      "rating": "5 stars",
+      "date": "9 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Sukher,+Udaipur/data=!4m7!3m6!1s0x3967e444881edc8d:0xf56640fc21d51b91!8m2!3d24.6367735!4d73.7154066!16s%2Fg%2F11bxc7f2tb!19sChIJjdweiETkZzkRkRvVIfxAZvU?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_rajasthan.json"
+}

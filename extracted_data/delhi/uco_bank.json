@@ -1,0 +1,87 @@
+{
+  "name": "UCO Bank",
+  "address": "\nNo H46, Middle Cir, Shankar Market, Block M, Connaught Place, New Delhi, Delhi 110001",
+  "rating": "3.8 stars",
+  "pincode": "110001",
+  "reviews": [
+    {
+      "reviewer": "Ashish Negi",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "This GPS location is wrong please update it. Correct location is H-Block Radial Road no 3, Middle Circle PVR road near Panjab National Bank and Bank of Baroda..",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Adarsh Kumar",
+      "rating": "1 star",
+      "date": "6 months ago",
+      "text": "The address is wrong , pls update the correct address",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Abhishek Bhardwaj",
+      "rating": "1 star",
+      "date": "7 years ago",
+      "text": "Near punjab national bank.\nNAMOKSHA",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Harmandeep Singh",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "Nice",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nokehlal Choudhary",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Swapnil Mishra",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sanjeev Khurana",
+      "rating": "4 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Tapan Mishra",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "HIMANSHU SINGH",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "anup bhagat",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Jesika Yadav",
+      "rating": "4 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x390cfd37fcdb6b71:0xfaa0c8f479bf802b!8m2!3d28.6336259!4d77.2220943!16s%2Fg%2F1pw3xbgf3!19sChIJcWvb_Df9DDkRK4C_efTIoPo?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_delhi.json"
+}

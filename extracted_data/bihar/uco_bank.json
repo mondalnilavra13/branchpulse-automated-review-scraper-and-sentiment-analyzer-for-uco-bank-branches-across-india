@@ -1,0 +1,24 @@
+{
+  "name": "UCO Bank",
+  "address": "\n5V3R+VRP, Tower Chowk, Bada Bazar, Lal Bagh, Lalganj, Darbhanga, Bihar 846004",
+  "rating": "4.0 stars",
+  "pincode": "846004",
+  "reviews": [
+    {
+      "reviewer": "Dev Gyan Priyadarshi",
+      "rating": "4 stars",
+      "date": "4 years ago",
+      "text": "Atm is good but little bit in interior.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "rajeev kumar",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "Uco bank atm",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39edb8337f505e71:0xd5c2027a2f620d6b!8m2!3d26.1547096!4d85.8920812!16s%2Fg%2F11ggs8h4c0!19sChIJcV5QfzO47TkRaw1iL3oCwtU?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_bihar.json"
+}

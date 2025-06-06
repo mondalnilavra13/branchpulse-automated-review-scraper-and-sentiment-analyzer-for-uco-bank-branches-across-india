@@ -1,0 +1,94 @@
+{
+  "name": "UCO Bank",
+  "address": "\nG5M7+GX5, SH 9, Palari, Chhattisgarh 493228",
+  "rating": "4.7 stars",
+  "pincode": "493228",
+  "reviews": [
+    {
+      "reviewer": "Raj Lahari",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Good work",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Zeshan roxx",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "Always crowded",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "GOPI Yadaw",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "Good service 👍 …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Duggu Vijay",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Ok",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Royal car lover",
+      "rating": "1 star",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Saurabh",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "krishna yadav",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sneha kiran",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Virendra Rajak",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Preety Shukla",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "vivek lahari",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "yOGi K vERMA",
+      "rating": "5 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3a2883a96eb74343:0x3e50173f755db618!8m2!3d21.5337569!4d82.1649933!16s%2Fg%2F1pzr2w0yw!19sChIJQ0O3bqmDKDoRGLZddT8XUD4?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_chhattisgarh.json"
+}

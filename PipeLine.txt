@@ -1,0 +1,9 @@
+1. Run the "uco_branches_extracting_all_url_code" code to extract URL of all branches of all Indian States.The URL will will saved in a folder called "uco_bank_data".inside the folder there are two more folders called json and csv which stores the files in their respective name format.
+
+2.we open the json folder and we see list of json files named as "uco_bank_andaman_and_nicobar_islands" and several others which are named in the same format.
+
+3.Now we run the "extracting_review_from_all_branches_all_states" code where its using the "uco_bank_data" folders json files to extract reviews from all branches from all states 
+
+4.you will have an extracted_data folder as output from step_3 .click on that.there you will see a csv file called "all_branches_reviews"..use that as an input file to do sentiment analysis.
+
+5. The output of the sentiment analysis will be stored in the folder called Sentiment_analysis as "reviews_sentiment_topic.csv" and this folder also has a txt file called topic_categorisation.txt which is used as a dictionary for topic categorisation

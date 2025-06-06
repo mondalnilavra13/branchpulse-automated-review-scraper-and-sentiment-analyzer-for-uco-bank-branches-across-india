@@ -1,0 +1,17 @@
+{
+  "name": "UCO Bank Oraiyur",
+  "address": "\nRF9X+CXQ, Oraiyur, Tamil Nadu 607108",
+  "rating": "5.0 stars",
+  "pincode": "607108",
+  "reviews": [
+    {
+      "reviewer": "Guruvel S",
+      "rating": "5 stars",
+      "date": "a month ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Oraiyur/data=!4m7!3m6!1s0x3a54a9003e53583f:0xe655b1bdd18c4ead!8m2!3d11.8186186!4d79.4999728!16s%2Fg%2F11y6s5yxg5!19sChIJP1hTPgCpVDoRrU6M0b2xVeY?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_tamil_nadu.json"
+}

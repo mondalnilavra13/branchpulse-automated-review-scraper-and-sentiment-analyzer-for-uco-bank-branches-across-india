@@ -1,0 +1,52 @@
+{
+  "name": "UCO Bank",
+  "address": "\nZanda Chowk, Gawara Rd, Dhanjisha ni Pol, Rana Chakla, Khambhat, Gujarat 388620",
+  "rating": "3.3 stars",
+  "pincode": "388620",
+  "reviews": [
+    {
+      "reviewer": "Vipul Rana",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "Banking services",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Irshad Shaikh",
+      "rating": "1 star",
+      "date": "10 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vipul Rathod",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Uvesh Shaikh",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "24 Nandan Gandhi",
+      "rating": "3 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vaibhav Rana",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x395f06a6762ef6c3:0x4d486ee4067a1544!8m2!3d22.3155531!4d72.6249402!16s%2Fg%2F11b7hjcz1r!19sChIJw_YudqYGXzkRRBV6BuRuSE0?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_gujarat.json"
+}

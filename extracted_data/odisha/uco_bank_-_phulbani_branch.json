@@ -1,0 +1,52 @@
+{
+  "name": "UCO Bank - Phulbani Branch",
+  "address": "\nGround floor, Masjid Rd, Amalpada, Phulbani, Odisha 762001",
+  "rating": "4.0 stars",
+  "pincode": "762001",
+  "reviews": [
+    {
+      "reviewer": "santosh kumar Swain",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Nice Branch and nice Staff's",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ritesh Padhi",
+      "rating": "1 star",
+      "date": "2 years ago",
+      "text": "Good experience",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Phoenix",
+      "rating": "3 stars",
+      "date": "6 years ago",
+      "text": "UCO Bank - Phulbani Branch",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Surekha Pradhan",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Laxminarayan Hotta",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sarbeswar Senapati",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Phulbani+Branch/data=!4m7!3m6!1s0x3a23b30243607b15:0x641b9b60d9bd9c4f!8m2!3d20.4757952!4d84.2349474!16s%2Fg%2F1jkz5_lqx!19sChIJFXtgQwKzIzoRT5y92WCbG2Q?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_odisha.json"
+}

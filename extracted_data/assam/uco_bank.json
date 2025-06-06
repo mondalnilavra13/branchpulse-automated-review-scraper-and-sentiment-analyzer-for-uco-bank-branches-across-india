@@ -1,0 +1,31 @@
+{
+  "name": "UCO Bank",
+  "address": "\n6364+H77, Dokmoka, Assam 782441",
+  "rating": "4.0 stars",
+  "pincode": "782441",
+  "reviews": [
+    {
+      "reviewer": "Michael Engti",
+      "rating": "4 stars",
+      "date": "a year ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Praneswar Engti",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Roselin Phangchopi",
+      "rating": "3 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3745076490b89341:0xe6dc7b9ce1a54416!8m2!3d26.2114095!4d93.0556767!16s%2Fg%2F11sk8c9688!19sChIJQZO4kGQHRTcRFkSl4Zx73OY?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_assam.json"
+}

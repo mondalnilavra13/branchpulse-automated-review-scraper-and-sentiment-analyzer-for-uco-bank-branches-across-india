@@ -1,0 +1,181 @@
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException
+from webdriver_manager.chrome import ChromeDriverManager
+import time
+import json
+import csv
+import os
+
+# List of Indian states and union territories
+STATES = [
+    "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", 
+    "Haryana", "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", 
+    "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", 
+    "Rajasthan", "Sikkim", "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", 
+    "Uttarakhand", "West Bengal", "Andaman and Nicobar Islands", "Chandigarh", 
+    "Dadra and Nagar Haveli and Daman and Diu", "Delhi", "Jammu and Kashmir", 
+    "Ladakh", "Lakshadweep", "Puducherry"
+]
+
+def setup_driver():
+    """Set up and return the Chrome webdriver."""
+    options = webdriver.ChromeOptions()
+    # Uncomment the line below to run Chrome in headless mode (no GUI)
+    # options.add_argument("--headless")
+    options.add_argument("--window-size=1920,1080")
+    return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
+def search_for_branches(driver, state):
+    """Search for UCO Bank branches in the specified state on Google Maps."""
+    driver.get("https://www.google.com/maps")
+    time.sleep(3)
+    
+    # Find search box and enter query
+    search_box = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.ID, "searchboxinput"))
+    )
+    search_box.clear()
+    search_box.send_keys(f"UCO Bank branches in {state}")
+    
+    # Click search button
+    search_button = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.ID, "searchbox-searchbutton"))
+    )
+    search_button.click()
+    time.sleep(5)  # Wait for results to load
+
+def get_branch_data(driver, state):
+    """Scroll through results and extract branch URLs for the specified state."""
+    branches = []
+    collected_urls = set()
+
+    print(f"Scrolling through results to find all branches in {state}...")
+
+    try:
+        # Wait for results to load
+        WebDriverWait(driver, 20).until(
+            EC.presence_of_element_located((By.XPATH, '//div[@role="feed"]'))
+        )
+        time.sleep(2)
+
+        scrollable_div = driver.find_element(By.XPATH, '//div[@role="feed"]')
+        last_height = driver.execute_script("return arguments[0].scrollHeight", scrollable_div)
+
+        scroll_attempts = 0
+        max_scrolls = 20  # Max scroll attempts
+
+        while scroll_attempts < max_scrolls:
+            # Scroll down
+            driver.execute_script("arguments[0].scrollTo(0, arguments[0].scrollHeight);", scrollable_div)
+            time.sleep(3)  # Wait for content to load
+
+            new_height = driver.execute_script("return arguments[0].scrollHeight", scrollable_div)
+            if new_height == last_height:
+                scroll_attempts += 1
+                print(f"No new content loaded. Attempt {scroll_attempts}/{max_scrolls}")
+            else:
+                scroll_attempts = 0  # Reset if new content loads
+                last_height = new_height
+
+            # Extract branches
+            branch_elements = driver.find_elements(By.XPATH, '//a[contains(@href, "/maps/place/")]')
+            print(f"Currently visible places in {state}: {len(branch_elements)}")
+
+            for element in branch_elements:
+                try:
+                    name = element.get_attribute("aria-label")
+                    url = element.get_attribute("href")
+                    if name and "UCO Bank" in name and url not in collected_urls:
+                        branches.append({"name": name, "url": url, "state": state})
+                        collected_urls.add(url)
+                        print(f"Added: {name}")
+                except StaleElementReferenceException:
+                    continue
+
+    except Exception as e:
+        print(f"Error while scraping {state}: {e}")
+    
+    print(f"Scrolling complete for {state}! Total branches found: {len(branches)}")
+    return branches
+
+def create_output_directories():
+    """Create output directories for JSON and CSV files."""
+    os.makedirs("uco_bank_data", exist_ok=True)
+    os.makedirs("uco_bank_data/json", exist_ok=True)
+    os.makedirs("uco_bank_data/csv", exist_ok=True)
+
+def save_to_json(branches, state):
+    """Save branch data to JSON file."""
+    filename = f"uco_bank_data/json/uco_bank_{state.lower().replace(' ', '_')}.json"
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(branches, f, ensure_ascii=False, indent=4)
+    print(f"Data saved to {filename}")
+
+def save_to_csv(branches, state):
+    """Save branch data to CSV file."""
+    filename = f"uco_bank_data/csv/uco_bank_{state.lower().replace(' ', '_')}.csv"
+    with open(filename, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=["name", "url", "state"])
+        writer.writeheader()
+        writer.writerows(branches)
+    print(f"Data saved to {filename}")
+
+def save_all_states_summary(all_branches):
+    """Save a summary JSON file containing all states and branch counts."""
+    state_summary = {}
+    for state, branches in all_branches.items():
+        state_summary[state] = {
+            "branch_count": len(branches),
+            "json_file": f"uco_bank_data/json/uco_bank_{state.lower().replace(' ', '_')}.json",
+            "csv_file": f"uco_bank_data/csv/uco_bank_{state.lower().replace(' ', '_')}.csv"
+        }
+    
+    with open("uco_bank_data/state_summary.json", 'w', encoding='utf-8') as f:
+        json.dump(state_summary, f, ensure_ascii=False, indent=4)
+    print(f"Summary saved to uco_bank_data/state_summary.json")
+
+def main():
+    driver = None
+    all_branches = {}
+    
+    try:
+        print("Starting UCO Bank branch scraper for all Indian states...")
+        create_output_directories()
+        driver = setup_driver()
+        
+        for state in STATES:
+            print(f"\n{'='*50}")
+            print(f"Processing state: {state}")
+            print(f"{'='*50}")
+            
+            search_for_branches(driver, state)
+            branches = get_branch_data(driver, state)
+            
+            # Save data for this state in both formats
+            save_to_json(branches, state)
+            save_to_csv(branches, state)
+            
+            # Store in our all_branches dictionary
+            all_branches[state] = branches
+            
+            print(f"Successfully scraped {len(branches)} UCO Bank branches in {state}!")
+            time.sleep(2)  # Brief pause between states
+        
+        # Save a summary file with all states
+        save_all_states_summary(all_branches)
+        
+        print("\nAll states processed successfully!")
+        
+    except Exception as e:
+        print(f"An error occurred in main execution: {e}")
+    finally:
+        if driver:
+            driver.quit()
+            print("Browser closed.")
+
+if __name__ == "__main__":
+    main()

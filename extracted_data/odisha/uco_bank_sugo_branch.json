@@ -1,0 +1,73 @@
+{
+  "name": "UCO Bank, Sugo Branch",
+  "address": "\nQ7XP+453, Sugo, Dhansimulia, Odisha 756084",
+  "rating": "4.0 stars",
+  "pincode": "756084",
+  "reviews": [
+    {
+      "reviewer": "Bandan Jana",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Papu Jena",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Nice",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "BALKRISHNA TRIPATHI",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Best place... Give brother's house...",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Hritik Marndi",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nimay Roul",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Subrat Behera",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "amit kumar",
+      "rating": "3 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Partha Parida",
+      "rating": "1 star",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "RUPAM JYOTI KAR",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank,+Sugo+Branch/data=!4m7!3m6!1s0x3a1cdf233bfbc759:0x3b36f8e9159ac5a0!8m2!3d21.797752!4d87.2854168!16s%2Fg%2F11c5rvgdqm!19sChIJWcf7OyPfHDoRoMWaFen4Njs?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_odisha.json"
+}

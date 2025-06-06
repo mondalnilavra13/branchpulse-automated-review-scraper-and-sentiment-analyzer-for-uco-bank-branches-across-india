@@ -1,0 +1,45 @@
+{
+  "name": "UCO Bank Risida",
+  "address": "\n9FX9+286, Risida, Jharmunda, Odisha 766031",
+  "rating": "3.8 stars",
+  "pincode": "766031",
+  "reviews": [
+    {
+      "reviewer": "Avinash Sharma",
+      "rating": "4 stars",
+      "date": "2 years ago",
+      "text": "It is the oldest bank in this village. Since it's the oldest bank here so the infrastructure and the building it not new, but the service here is too good. It been catering to the people of this village and nearby many villages since a decade. No other bank has this much presence in this village. This is the The Best one here..",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Dayanidhi Gahir",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Maintaining  banking facilities in our area👍 …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "birendra padhan",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "BABULAL RANA",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Kurukshetra Sahu (Siba)",
+      "rating": "4 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Risida/data=!4m7!3m6!1s0x3a247a7f15e81b61:0x2aa54e293ec77296!8m2!3d20.3975437!4d83.4682742!16s%2Fg%2F11f2m0rxfk!19sChIJYRvoFX96JDoRlnLHPilOpSo?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_odisha.json"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "UCO Bank - Jhabua Branch",
+  "address": "\nQHCR+W29, OLD TEACHERS COLONY, Jhabua, Madhya Pradesh 457661",
+  "rating": "2.8 stars",
+  "pincode": "457661",
+  "reviews": [
+    {
+      "reviewer": "Yashwant Kharadi",
+      "rating": "2 stars",
+      "date": "2 years ago",
+      "text": "Mast",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Deepak Jain",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "pintu Meada",
+      "rating": "1 star",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Kamal Maru",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mohammad Iqbal",
+      "rating": "2 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Jhabua+Branch/data=!4m7!3m6!1s0x39610d2b82f7e995:0x44c0f0d066cc19a8!8m2!3d22.7722851!4d74.5901182!16s%2Fg%2F11f1pc8163!19sChIJlen3gisNYTkRqBnMZtDwwEQ?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_madhya_pradesh.json"
+}

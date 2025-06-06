@@ -1,0 +1,38 @@
+{
+  "name": "UCO Bank Karunagappally Branch",
+  "address": "\n3G3R+MJ5, Karunagappalli, Kerala 690518",
+  "rating": "4.0 stars",
+  "pincode": "690518",
+  "reviews": [
+    {
+      "reviewer": "project neet ug",
+      "rating": "1 star",
+      "date": "7 months ago",
+      "text": "very bad service. took many days for my card to arrive and still after all the waiting i could not sign up in gpay and other upi apps since they never bothered activating my card. had to call them multiple times to remind them to activate. it was a huge mistake.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "prince alex",
+      "rating": "5 stars",
+      "date": "a week ago",
+      "text": "Super service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Abhishek H",
+      "rating": "5 stars",
+      "date": "8 months ago",
+      "text": "Super service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Yudith Dror",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Karunagappally+Branch/data=!4m7!3m6!1s0x3b06030019bd58b3:0x3b5a8cd3ef1e0498!8m2!3d9.0543969!4d76.5412756!16s%2Fg%2F11vytmhk13!19sChIJs1i9GQADBjsRmAQe79OMWjs?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_kerala.json"
+}

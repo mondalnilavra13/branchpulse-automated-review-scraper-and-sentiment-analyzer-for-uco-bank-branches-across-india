@@ -1,0 +1,73 @@
+{
+  "name": "UCO Bank, Pratapgarh",
+  "address": "\nZero Mile Circle, MG Rd, Bada Bag Colony, Pratapgarh, Rajasthan 312605",
+  "rating": "4.6 stars",
+  "pincode": "312605",
+  "reviews": [
+    {
+      "reviewer": "Hemant Sharma",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Good work",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Harish meghwal",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Nice bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Lalaram Meena",
+      "rating": "5 stars",
+      "date": "6 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ganesh Yadav",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Yashil Joshi",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "swati mishra",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mohit Karwasara",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Manoj Chawada",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nishant Mehra",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank,+Pratapgarh/data=!4m7!3m6!1s0x3966a21672190425:0x4ae5c894756b46ee!8m2!3d24.0275778!4d74.7873527!16s%2Fg%2F11c37r13bh!19sChIJJQQZchaiZjkR7kZrdZTI5Uo?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_rajasthan.json"
+}

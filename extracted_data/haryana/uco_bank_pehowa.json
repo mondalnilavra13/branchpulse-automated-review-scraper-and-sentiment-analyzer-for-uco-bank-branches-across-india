@@ -1,0 +1,38 @@
+{
+  "name": "UCO Bank Pehowa",
+  "address": "\nXHPM+FGV, Guru Nanak Colony, Model Town, Pehowa, Haryana 136128",
+  "rating": "2.8 stars",
+  "pincode": "136128",
+  "reviews": [
+    {
+      "reviewer": "RAKESH Kumar ROCKY",
+      "rating": "4 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Karam Dass",
+      "rating": "1 star",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Karn Saud",
+      "rating": "1 star",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gurdev Singh",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Pehowa/data=!4m7!3m6!1s0x390e25affc245317:0x9408467e07e7801d!8m2!3d29.9862349!4d76.5837911!16s%2Fg%2F11gg9l2xkn!19sChIJF1Mk_K8lDjkRHYDnB35GCJQ?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_haryana.json"
+}

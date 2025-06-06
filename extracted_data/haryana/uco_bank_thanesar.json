@@ -1,0 +1,73 @@
+{
+  "name": "UCO Bank Thanesar",
+  "address": "\nXVF5+FHW, Sector 13, Kurukshetra, Haryana 136118",
+  "rating": "4.3 stars",
+  "pincode": "136118",
+  "reviews": [
+    {
+      "reviewer": "Mechanos",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "Best Staff I Ever See in any bank .... everyone is here is helpful\n\nLunch timing is 2 pm to 3 pm",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Deepak Jagdev",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "Best bank in Kurukshetra in the matter of service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Narinder Sharma",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Very cooperative and helping staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gurjeet Singh Jordan",
+      "rating": "1 star",
+      "date": "4 years ago",
+      "text": "😤😤 …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Visalila Y Sangtam",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vishal Ranga",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Deepak Sharma Deepak Sharma",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sumit Kumar",
+      "rating": "4 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Samshad Khan",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Thanesar/data=!4m7!3m6!1s0x390e473b6a55e233:0x21e4d355ff415288!8m2!3d29.9737433!4d76.8589623!16s%2Fg%2F11c5blvqy8!19sChIJM-JVajtHDjkRiFJB_1XT5CE?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_haryana.json"
+}

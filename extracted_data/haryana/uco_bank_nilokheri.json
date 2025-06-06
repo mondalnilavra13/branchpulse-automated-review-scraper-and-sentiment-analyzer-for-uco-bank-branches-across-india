@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank Nilokheri",
+  "address": "\nRWRJ+686, MDR 120, Old Press Colony, Nilokheri, Haryana 132117",
+  "rating": "4.1 stars",
+  "pincode": "132117",
+  "reviews": [
+    {
+      "reviewer": "learning Geeks",
+      "rating": "3 stars",
+      "date": "4 years ago",
+      "text": "A small branch, but have customers, situated near charnalia ground, or water tank ground. You can avail any bank service their, ATM machine is also their, lastly they have very less space even for 6 -10 customers, but their services are quite good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gagan Dhillon",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "Verry bad staff\nThey guys doesn't have manners\nBakwas staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Deepak Rao",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "Good sttaffff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Priyanshu Kataria",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Good staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sukhdeep",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sukhwinder Singh",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sunita Garg",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Nilokheri/data=!4m7!3m6!1s0x390e69900ea47ba5:0xa6f13139048d5a63!8m2!3d29.8405342!4d76.9307715!16s%2Fg%2F11hcj3sxm4!19sChIJpXukDpBpDjkRY1qNBDkx8aY?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_haryana.json"
+}

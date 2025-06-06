@@ -1,0 +1,80 @@
+{
+  "name": "UCO Bank, Zonal Office",
+  "address": "\n2ND Floor, NCR Plaza, 24-A, New Cantonment Rd, Vijay Colony, Hathibarkala, Dehradun, Uttarakhand 248001",
+  "rating": "4.2 stars",
+  "pincode": "248001",
+  "reviews": [
+    {
+      "reviewer": "Bhaskar C",
+      "rating": "1 star",
+      "date": "6 years ago",
+      "text": "Wrong phone number given,  please update.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Balwant Negi",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Gud to work",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "ravi singh",
+      "rating": "5 stars",
+      "date": "3 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Kavi G",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sandeep Negi",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vineet Sharma",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Devesh Bisht",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "debasish mahapatra",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "prem prakash",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "AMIT RAWAT",
+      "rating": "5 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank,+Zonal+Office/data=!4m7!3m6!1s0x390929df486b4673:0x83e320a049794ca3!8m2!3d30.3440282!4d78.0474329!16s%2Fg%2F11c5g_2k5h!19sChIJc0ZrSN8pCTkRo0x5SaAg44M?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_uttarakhand.json"
+}

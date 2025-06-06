@@ -1,0 +1,38 @@
+{
+  "name": "UCO Bank - Sarkaghat Branch",
+  "address": "\nMPWP+R7W, SH 19, Sarkaghat, Himachal Pradesh 175024",
+  "rating": "4.0 stars",
+  "pincode": "175024",
+  "reviews": [
+    {
+      "reviewer": "Praveen Mandyal (A)",
+      "rating": "1 star",
+      "date": "6 months ago",
+      "text": "Bank of troubles 😞, my account doesn't exist in costumer care of UCO bank & I m unable to pay anywhere n ATM is not working as well . …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mohit Rana",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Nice",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Dinesh Kumar",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Manish Kumar",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Sarkaghat+Branch/data=!4m7!3m6!1s0x3904df2cee4162f1:0xc8c8a4e349d201c4!8m2!3d31.6971206!4d76.7357043!16s%2Fg%2F11c1r63kfw!19sChIJ8WJB7izfBDkRxAHSSeOkyMg?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_himachal_pradesh.json"
+}

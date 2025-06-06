@@ -1,0 +1,38 @@
+{
+  "name": "UCO Bank Chunni Kalan",
+  "address": "\nMH58+83J, Chunni Kalan, Punjab 140307",
+  "rating": "3.8 stars",
+  "pincode": "140307",
+  "reviews": [
+    {
+      "reviewer": "RAMAN Jot",
+      "rating": "1 star",
+      "date": "9 months ago",
+      "text": "UCO bank is very useless bank, staff have no knowledge at all, service is useless, whenever call for work they refuse every time.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sapinder Singh",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Experience is very good. Staff is very helpful.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Riya Dadwal",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Abhishek Sharma",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Chunni+Kalan/data=!4m7!3m6!1s0x390fe5a73f27d0a9:0xf0dee10d5b7a001a!8m2!3d30.6583355!4d76.565149!16s%2Fg%2F11gj19t7bn!19sChIJqdAnP6flDzkRGgB6Ww3h3vA?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_punjab.json"
+}

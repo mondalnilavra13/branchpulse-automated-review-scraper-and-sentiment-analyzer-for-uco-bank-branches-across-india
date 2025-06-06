@@ -1,0 +1,24 @@
+{
+  "name": "UCO Bank",
+  "address": "\nMoh No-1, opposite Idga, near Cindi Cant Bank, Gobind Garh, Jalandhar Cantt, Jalandhar, Punjab 144001",
+  "rating": "1.0 stars",
+  "pincode": "144001",
+  "reviews": [
+    {
+      "reviewer": "Nikita Rana",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gursewak Singh",
+      "rating": "1 star",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a594745555555:0x2841994e4aa13cfa!8m2!3d31.3271102!4d75.5917092!16s%2Fg%2F1ts2yp1g!19sChIJVVVVRUdZGjkR-jyhSk6ZQSg?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_punjab.json"
+}

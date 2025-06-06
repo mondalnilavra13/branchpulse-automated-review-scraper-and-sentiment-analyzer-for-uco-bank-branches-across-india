@@ -1,0 +1,80 @@
+{
+  "name": "UCO Bank - Katra Ahluwalia Branch",
+  "address": "\nJVJF+282, Golden Temple Out Rd, near Subash Juice Bar, Chowk Regent Cinema, Katra Sher Singh, Katra Ahluwalia, Amritsar, Punjab 143001",
+  "rating": "4.1 stars",
+  "pincode": "143001",
+  "reviews": [
+    {
+      "reviewer": "Vishal Malhotra",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Best PSU among others",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sunil Kumar",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "Good management",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sumit Raj",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "Best place for financial transaction",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Manmeet Kaur",
+      "rating": "4 stars",
+      "date": "5 years ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Amit Wahi",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "God",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Krishna Gihar",
+      "rating": "1 star",
+      "date": "9 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "manjit singh",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "saddam hossain",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sheetal Mahajan",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Umeash Kumaarr",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Katra+Ahluwalia+Branch/data=!4m7!3m6!1s0x391964aa905ebe1f:0xd8f2d7af1eb2170a!8m2!3d31.630003!4d74.873265!16s%2Fg%2F11b6bpvwhg!19sChIJH75ekKpkGTkRCheyHq_X8tg?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_punjab.json"
+}

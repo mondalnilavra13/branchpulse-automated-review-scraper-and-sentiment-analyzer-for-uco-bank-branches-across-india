@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank - Sojati Gate Branch",
+  "address": "\n1st Floor, Station Rd, Minerva Center, Ratanada, Jodhpur, Rajasthan 342002",
+  "rating": "4.1 stars",
+  "pincode": "342002",
+  "reviews": [
+    {
+      "reviewer": "KARAN VYAS",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "One of the Main Branch of UCO Bank. At Minerva Center. Opposite Janta Misthan Bhandar at Station Road Jodhpur.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ananthanarayan C S",
+      "rating": "3 stars",
+      "date": "8 years ago",
+      "text": "Poorly maintained branch with old infrastructure",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "BANSIDAS VAISHNAV",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "nitesh chouhan",
+      "rating": "1 star",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Virm Meghwanshi",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gaurav Rajwani",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Tarun Shrotriya",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Sojati+Gate+Branch/data=!4m7!3m6!1s0x39418c4ca9d130bd:0x17a2e5644ff854ac!8m2!3d26.2868033!4d73.022843!16s%2Fg%2F11b637th98!19sChIJvTDRqUyMQTkRrFT4T2Tlohc?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_rajasthan.json"
+}

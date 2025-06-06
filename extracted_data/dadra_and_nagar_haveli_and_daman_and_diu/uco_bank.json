@@ -1,0 +1,24 @@
+{
+  "name": "UCO Bank",
+  "address": "\nPX9J+2Q7, Maruti Nagar, Diu, Dadra and Nagar Haveli and Daman and Diu 362520",
+  "rating": "4.0 stars",
+  "pincode": "362520",
+  "reviews": [
+    {
+      "reviewer": "Shabbir Kasmani",
+      "rating": "3 stars",
+      "date": "6 years ago",
+      "text": "Good staff but very slow service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sumit Wadhwa",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3be31cde8f36f50f:0x9d1faba393e0de2a!8m2!3d20.7175415!4d70.9819284!16s%2Fg%2F11byflm63n!19sChIJD_U2j94c4zsRKt7gk6OrH50?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_dadra_and_nagar_haveli_and_daman_and_diu.json"
+}

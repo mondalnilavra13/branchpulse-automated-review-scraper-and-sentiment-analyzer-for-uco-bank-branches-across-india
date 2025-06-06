@@ -1,0 +1,87 @@
+{
+  "name": "UCO Bank",
+  "address": "\nGMF5+FJX, Amarpur, Tripura 799101",
+  "rating": "3.8 stars",
+  "pincode": "799101",
+  "reviews": [
+    {
+      "reviewer": "Prasenjith Das (BITTU)",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "Bank staffs having Nice Cooperation with customers",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sourav Paul",
+      "rating": "5 stars",
+      "date": "9 months ago",
+      "text": "very good bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shibu Das",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "Waste bank in amarpur",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shilpi Das",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mukes KUmar",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "My face recurs",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "prabir sarkar",
+      "rating": "4 stars",
+      "date": "8 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Suman Sarkar",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ajit Jamatia",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mousumi Das",
+      "rating": "1 star",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Anubrata Saha",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "SHANKAR MSHA",
+      "rating": "2 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3753a57375553b23:0xdd4f8f6bc0bdea6f!8m2!3d23.5237317!4d91.6590961!16s%2Fg%2F11bwky98bw!19sChIJIztVdXOlUzcRb-q9wGuPT90?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_tripura.json"
+}

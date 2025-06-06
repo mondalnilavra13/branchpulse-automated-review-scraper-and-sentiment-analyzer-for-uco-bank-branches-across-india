@@ -1,0 +1,80 @@
+{
+  "name": "UCO Bank - Dhar Branch",
+  "address": "\nH8X2+664, Ghoda Chopati, Dhar, Madhya Pradesh 454001",
+  "rating": "3.0 stars",
+  "pincode": "454001",
+  "reviews": [
+    {
+      "reviewer": "Prakruti",
+      "rating": "1 star",
+      "date": "4 months ago",
+      "text": "Always Had Very bad experience ....the staff is very rude and ignorant...",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Jai Singh Thakur",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "The temporary staff behaves very poorly here.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shivendra Dubey",
+      "rating": "1 star",
+      "date": "4 years ago",
+      "text": "Congested building, no parking area, service not up to the mark. Need lot of improvements.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Bhupendra Masaniya",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Fast Work Low rush 👌👌👌 …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Satish khedekar",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Abhishek Yadav",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "pankaj kushwaha",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "rakham Minava",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "RitiK Joshi",
+      "rating": "2 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "RV Sam",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Dhar+Branch/data=!4m7!3m6!1s0x396236794ba056f3:0x2415d690b54aeab8!8m2!3d22.5980191!4d75.3005927!16s%2Fg%2F11cnn0qnbb!19sChIJ81agS3k2YjkRuOpKtZDWFSQ?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_madhya_pradesh.json"
+}

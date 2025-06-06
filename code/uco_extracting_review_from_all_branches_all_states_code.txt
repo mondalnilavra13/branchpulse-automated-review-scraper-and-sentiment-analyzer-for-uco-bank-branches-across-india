@@ -1,0 +1,951 @@
+import json
+import os
+import pandas as pd
+import time
+import re
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException, TimeoutException, ElementClickInterceptedException, StaleElementReferenceException
+from webdriver_manager.chrome import ChromeDriverManager
+import glob
+
+# Base directory for JSON files
+BASE_DIR = r"C:\Users\rzzzc\BFARPy\Python\4th Sem\UCO_google_review_scrapping"
+# Path to the JSON folder containing all state JSON files
+JSON_FOLDER = os.path.join(BASE_DIR, "uco_bank_data", "json")
+
+def load_branch_urls_from_file(json_path, limit=None):
+    """
+    Load branch URLs from a single JSON file.
+    It handles various possible JSON formats.
+    Only the first 'limit' entries are returned if specified.
+    """
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except UnicodeDecodeError:
+        # Try with a different encoding if UTF-8 fails
+        with open(json_path, 'r', encoding='latin-1') as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f"Error reading JSON file {json_path}: {e}")
+        return []
+    
+    urls = []
+    count = 0
+    
+    # Print first item for debugging
+    if data and len(data) > 0:
+        print(f"First item in JSON data ({os.path.basename(json_path)}):", data[0])
+    
+    # Handle different JSON formats
+    if isinstance(data, list):
+        for item in data:
+            if limit is not None and count >= limit:
+                break
+                
+            if isinstance(item, dict):
+                # Handle dictionary format
+                if "url" in item:
+                    urls.append(item["url"])
+                    count += 1
+                elif isinstance(item, dict) and all(isinstance(v, str) for v in item.values()):
+                    # Dictionary with string values but no 'url' key
+                    # Try to find a value that looks like a URL
+                    for value in item.values():
+                        if value.startswith("http"):
+                            urls.append(value)
+                            count += 1
+                            break
+            elif isinstance(item, str):
+                # Handle string format
+                if item.startswith("http"):
+                    urls.append(item)
+                    count += 1
+    else:
+        print(f"Unexpected JSON format in {json_path}. Expected a list.")
+    
+    print(f"Loaded {len(urls)} URLs from {os.path.basename(json_path)}")
+    return urls
+
+def get_all_json_files():
+    """Get all JSON files from the JSON folder"""
+    json_pattern = os.path.join(JSON_FOLDER, "*.json")
+    json_files = glob.glob(json_pattern)
+    print(f"Found {len(json_files)} JSON files in {JSON_FOLDER}")
+    return json_files
+
+def scroll_to_load_all_reviews(driver, max_scrolls=30):
+    """
+    Scroll the reviews container to load more reviews dynamically.
+    Returns the number of reviews loaded.
+    """
+    print("Starting to scroll to load more reviews...")
+    
+    # Wait for reviews to be initially loaded
+    time.sleep(3)
+    
+    # Try different scrollable container selectors
+    scrollable_div_xpaths = [
+        '//div[contains(@class, "m6QErb")]//div[@role="feed"]',
+        '//div[contains(@class, "DxyBCb")]',
+        '//div[@role="feed"]',
+        '//div[contains(@class, "section-scrollbox")]',
+        '//div[contains(@class, "m6QErb-HiaYvf")]',
+        '//div[contains(@class, "m6QErb")]/div',
+        '//div[contains(@class, "review-dialog-list")]',
+        # Add more precise selectors for Google Maps reviews
+        '//div[@data-review-id]/ancestor::div[@role="feed"]',
+        '//div[contains(@class, "siAUzd-neVct")]',
+        '//div[@role="main"]',
+        '//div[contains(@class, "section-layout")]'
+    ]
+    
+    # Find the scrollable container
+    scrollable = None
+    for xpath in scrollable_div_xpaths:
+        try:
+            elements = driver.find_elements(By.XPATH, xpath)
+            if elements:
+                for element in elements:
+                    try:
+                        # Check if element is scrollable by examining its properties
+                        scroll_height = driver.execute_script("return arguments[0].scrollHeight", element)
+                        client_height = driver.execute_script("return arguments[0].clientHeight", element)
+                        
+                        if scroll_height > client_height:
+                            scrollable = element
+                            print(f"Found scrollable container with xpath: {xpath}")
+                            print(f"Scroll height: {scroll_height}, Client height: {client_height}")
+                            break
+                    except Exception as e:
+                        print(f"Error checking element scrollability: {e}")
+                        continue
+            if scrollable:
+                break
+        except Exception:
+            continue
+    
+    if not scrollable:
+        print("Could not find scrollable container. Trying direct document scrolling.")
+        scrollable = driver.find_element(By.TAG_NAME, 'body')
+    
+    # Count reviews before scrolling
+    review_elements = count_review_elements(driver)
+    print(f"Initial review count: {review_elements}")
+    
+    # Track the last review count to detect when no new reviews are loaded
+    last_review_count = 0
+    unchanged_count = 0
+    scroll_count = 0
+    
+    # Scroll until we hit maximum or no new reviews load after multiple attempts
+    while scroll_count < max_scrolls and unchanged_count < 5:
+        try:
+            # Try multiple scroll methods
+            
+            # Method 1: Standard JavaScript scroll
+            driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", scrollable)
+            print(f"Method 1: Scrolled container, attempt {scroll_count+1}")
+            
+            # Method 2: Alternative scroll approach
+            driver.execute_script("""
+                var element = arguments[0];
+                element.scrollTo({
+                    top: element.scrollHeight,
+                    behavior: 'smooth'
+                });
+            """, scrollable)
+            print(f"Method 2: Smooth scrolled container")
+            
+            # Method 3: Scroll by a specific amount
+            driver.execute_script("arguments[0].scrollTop += 1000;", scrollable)
+            print(f"Method 3: Incremental scroll by 1000px")
+            
+            # Method 4: Try to click on the last visible review to ensure focus
+            try:
+                reviews = driver.find_elements(By.XPATH, '//div[@data-review-id]')
+                if reviews:
+                    last_review = reviews[-1]
+                    driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'end'});", last_review)
+                    print(f"Method 4: Scrolled last review into view")
+            except Exception as e:
+                print(f"Method 4 failed: {e}")
+            
+            # Method 5: Direct body scroll (a fallback)
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            print(f"Method 5: Direct body scroll")
+            
+            # Wait longer for new content to load
+            time.sleep(3)
+            
+            # Count reviews after scrolling
+            current_reviews = count_review_elements(driver)
+            print(f"Current review count: {current_reviews}")
+            
+            if current_reviews == last_review_count:
+                unchanged_count += 1
+                print(f"No new reviews loaded. Unchanged count: {unchanged_count}")
+                
+                # Take screenshot for debugging if no new reviews loaded
+                if unchanged_count == 1:
+                    try:
+                        screenshot_path = f"scroll_debug_{scroll_count}.png"
+                        driver.save_screenshot(screenshot_path)
+                        print(f"Saved debug screenshot to {screenshot_path}")
+                    except Exception:
+                        pass
+                        
+                # Try to click "Show More Reviews" button if no progress
+                try_click_more_reviews(driver)
+            else:
+                unchanged_count = 0
+                print(f"Success! Loaded {current_reviews - last_review_count} new reviews")
+            
+            last_review_count = current_reviews
+            scroll_count += 1
+            
+        except Exception as e:
+            print(f"Error while scrolling: {e}")
+            break
+    
+    final_review_count = count_review_elements(driver)
+    print(f"Finished scrolling. Total reviews loaded: {final_review_count}")
+    return final_review_count
+
+def try_click_more_reviews(driver):
+    """Attempt to click on "More Reviews" or similar buttons."""
+    more_reviews_button_xpaths = [
+        '//button[contains(text(), "More reviews")]',
+        '//button[contains(text(), "Show more")]',
+        '//button[contains(@aria-label, "more reviews")]',
+        '//button[contains(@aria-label, "Show more reviews")]',
+        '//span[contains(text(), "more reviews")]/ancestor::button',
+        '//div[contains(text(), "More reviews") and @role="button"]',
+        # Add more Google Maps specific selectors
+        '//button[contains(@data-tab-index, "0") and contains(text(), "review")]',
+        '//button[contains(@class, "HHrUdb")]',  # Common class for buttons in Google Maps
+        '//span[text()="More"]/ancestor::button',
+        '//div[contains(@jsaction, "pane.review.expandReview")]',
+        '//div[text()="Show more reviews"]/ancestor::*[@role="button"]'
+    ]
+    
+    for xpath in more_reviews_button_xpaths:
+        try:
+            more_buttons = driver.find_elements(By.XPATH, xpath)
+            for more_button in more_buttons:
+                if more_button.is_displayed():
+                    print(f"Found 'More Reviews' button with text: {more_button.text}")
+                    try:
+                        # Try the regular click first
+                        more_button.click()
+                        print("Clicked 'More Reviews' button with direct click")
+                    except Exception as e:
+                        print(f"Direct click failed: {e}, trying JavaScript click")
+                        try:
+                            # Try JavaScript click as fallback
+                            driver.execute_script("arguments[0].click();", more_button)
+                            print("Clicked 'More Reviews' button with JavaScript")
+                        except Exception as e:
+                            print(f"JavaScript click also failed: {e}")
+                            continue
+                    time.sleep(3)  # Wait longer for new reviews to load
+                    return True
+        except Exception as e:
+            print(f"Error with xpath {xpath}: {e}")
+            continue
+    
+    # Additional fallback method: Look for "more reviews" text and click nearby
+    try:
+        more_text_elements = driver.find_elements(By.XPATH, '//*[contains(text(), "more review") or contains(text(), "More review")]')
+        for el in more_text_elements:
+            if el.is_displayed():
+                print(f"Found text mentioning more reviews: {el.text}")
+                # Click on the element or its parent
+                try:
+                    el.click()
+                    print("Clicked directly on text element")
+                except Exception:
+                    try:
+                        parent = driver.execute_script("return arguments[0].parentNode;", el)
+                        driver.execute_script("arguments[0].click();", parent)
+                        print("Clicked on parent of text element")
+                    except Exception:
+                        continue
+                time.sleep(3)
+                return True
+    except Exception as e:
+        print(f"Error in fallback method: {e}")
+    
+    return False
+
+def count_review_elements(driver):
+    """Count the number of review elements currently on the page."""
+    review_container_xpaths = [
+        '//div[contains(@class, "jftiEf")]',
+        '//div[contains(@class, "gws-localreviews__google-review")]',
+        '//div[contains(@data-review-id, "Ch")]',
+        '//div[@data-review-id]',
+        '//div[@jsaction="mouseover:pane.review.in"]',
+        '//div[starts-with(@class, "m") and contains(@class, "xn")]',
+        '//div[contains(@class, "fontBodyMedium")]//div[contains(@class, "MyEned")]',
+        '//div[@jscontroller and contains(@class, "fontBodyMedium")]',
+        '//*[@class="m6QErb DxyBCb kA9KIf dS8AEf"]//div[@data-review-id and @aria-label]',
+        # Add more specific selectors for Google Maps reviews
+        '//div[contains(@class, "jJc9Ad")]',
+        '//div[contains(@class, "siAUzd-neVct") and @data-review-id]',
+        '//div[contains(@aria-label, "reviews") or contains(@aria-label, "review")]'
+    ]
+    
+    max_count = 0
+    for xpath in review_container_xpaths:
+        try:
+            reviews = driver.find_elements(By.XPATH, xpath)
+            current_count = len(reviews)
+            if current_count > max_count:
+                max_count = current_count
+                print(f"Found {current_count} reviews with xpath: {xpath}")
+        except Exception:
+            continue
+    
+    # If we still can't find reviews, try a more general approach
+    if max_count == 0:
+        try:
+            # Look for elements that might contain reviewer names
+            reviewer_elements = driver.find_elements(By.XPATH, '//div[contains(@class, "d4r55") or contains(@class, "DHIhE")]')
+            if reviewer_elements:
+                max_count = len(reviewer_elements)
+                print(f"Found {max_count} possible reviews based on reviewer elements")
+        except Exception:
+            pass
+    
+    return max_count
+
+def navigate_to_reviews_tab(driver, url, branch_name=""):
+    """
+    Navigate to the reviews tab using various methods.
+    Returns True if successfully navigated to reviews.
+    """
+    print(f"\nAttempting to navigate to reviews tab for: {branch_name}")
+    
+    # First try: Direct navigation via URL modification
+    try:
+        # Extract place ID from the URL
+        match = re.search(r"!1s([^!]+)!", url)
+        if match:
+            place_id = match.group(1)
+            print(f"Extracted place ID: {place_id}")
+            
+            # Construct a direct URL to the reviews tab
+            safe_branch_name = branch_name.replace(' ', '+') if branch_name else "location"
+            reviews_url = f"https://www.google.com/maps/place/{safe_branch_name}/@0,0,10z/data=!4m7!3m6!1s{place_id}!8m2!3d0!4d0!9m1!1b1"
+            print(f"Navigating directly to reviews URL: {reviews_url}")
+            
+            driver.get(reviews_url)
+            time.sleep(5)  # Wait for the page to load
+            
+            # Check if we're on a page with reviews
+            if count_review_elements(driver) > 0:
+                print("Successfully navigated to reviews via URL modification")
+                return True
+            else:
+                print("No reviews found via URL modification, trying alternative methods")
+        else:
+            print("Could not extract place ID from URL")
+    except Exception as e:
+        print(f"Error during direct navigation to reviews: {e}")
+    
+    # Second try: Click on the reviews tab or button
+    try:
+        # Try various ways to access the reviews section
+        wait = WebDriverWait(driver, 15)
+        
+        # First make sure we're on the main page if URL modification failed
+        if not url.endswith("/reviews"):
+            driver.get(url)
+            time.sleep(5)
+        
+        # Look for reviews button with various xpaths
+        review_button_xpaths = [
+            '//button[contains(@aria-label, " reviews")]',
+            '//button[contains(@aria-label, "reviews")]',
+            '//div[contains(@role, "button")][contains(., "reviews")]',
+            '//div[contains(@jsaction, "pane.rating.moreReviews")]',
+            '//span[contains(text(), "reviews")]/ancestor::button',
+            '//div[contains(@class, "F7nice")]/span[2]/span/span',
+            '//button[contains(@jsaction, "pane.rating.moreReviews")]',
+            '//button[contains(@data-tab-index, "0") and contains(., "review")]',
+            # New patterns specifically for reviews tab
+            '//button[@data-tab="reviews" or @data-item-id="reviews"]',
+            '//button[contains(@aria-label, "Reviews")]',
+            '//div[contains(@role, "tab") and contains(., "review")]'
+        ]
+        
+        for xpath in review_button_xpaths:
+            try:
+                print(f"Trying to find reviews button with: {xpath}")
+                reviews_button = wait.until(EC.element_to_be_clickable((By.XPATH, xpath)))
+                print(f"Found reviews button with xpath: {xpath}")
+                print(f"Button text: {reviews_button.text}")
+                
+                # Try to click the button
+                try:
+                    reviews_button.click()
+                    print("Clicked reviews button with direct click")
+                except Exception:
+                    driver.execute_script("arguments[0].click();", reviews_button)
+                    print("Clicked reviews button with JavaScript")
+                
+                time.sleep(4)
+                
+                # Check if reviews are visible
+                if count_review_elements(driver) > 0:
+                    print("Successfully navigated to reviews via button click")
+                    return True
+                else:
+                    print("Clicked button but no reviews found, trying next method")
+            except Exception as e:
+                print(f"Error with xpath {xpath}: {e}")
+                continue
+    except Exception as e:
+        print(f"Error navigating to reviews tab: {e}")
+    
+    # Third try: Look for a reviews section that's already visible
+    if count_review_elements(driver) > 0:
+        print("Reviews already visible on page")
+        return True
+    
+    print("All navigation methods to reviews tab failed")
+    return False
+
+def extract_branch_data(driver, url, json_source=""):
+    """Extract branch details and reviews from a direct Google Maps branch URL."""
+    print(f"\nLoading URL: {url} (source: {json_source})")
+    try:
+        driver.get(url)
+        time.sleep(5)  # Adjust if the page loads slowly
+    except Exception as e:
+        print(f"Error loading URL: {e}")
+        return {
+            "name": "Error Loading Page",
+            "address": "N/A",
+            "rating": "N/A",
+            "pincode": "N/A",
+            "reviews": [],
+            "url": url,
+            "source_file": json_source
+        }
+
+    # --- Extract Basic Branch Details ---
+    branch_name = "Not found"
+    address = "Not found"
+    rating = "Not found"
+    pincode = "Not found"
+    
+    try:
+        branch_name = driver.find_element(By.XPATH, '//h1[contains(@class,"DUwDvf")]').text
+        print(f"Found branch name: {branch_name}")
+    except Exception as e:
+        print(f"Error finding branch name: {e}")
+    
+    try:
+        address = driver.find_element(By.XPATH, '//button[contains(@aria-label, "Address")]/div').text
+        print(f"Found address: {address}")
+    except Exception as e:
+        try:
+            # Alternative way to find address
+            address_elements = driver.find_elements(By.XPATH, '//div[contains(@class, "Io6YTe")]/div')
+            if address_elements:
+                address = address_elements[0].text
+                print(f"Found address (alternative): {address}")
+        except Exception:
+            print("Error finding address using both methods")
+    
+    try:
+        rating = driver.find_element(By.XPATH, '//div[contains(@aria-label, " stars")]').get_attribute("aria-label")
+        print(f"Found rating: {rating}")
+    except Exception as e:
+        print(f"Error finding rating: {e}")
+        
+    if address != "Not found":
+        match = re.search(r"\b\d{6}\b", address)
+        pincode = match.group(0) if match else "Not found"
+    
+    print("Branch Name:", branch_name)
+    print("Rating:", rating)
+    print("Address:", address)
+    print("Pincode:", pincode)
+    
+    # --- Extract Reviews ---
+    reviews_list = []
+    print("\nFetching reviews for:", branch_name)
+    
+    # Save a screenshot to debug review issues
+    try:
+        screenshot_path = os.path.join(BASE_DIR, f"{branch_name}_screenshot.png".replace(" ", "_"))
+        driver.save_screenshot(screenshot_path)
+        print(f"Saved screenshot to {screenshot_path}")
+    except Exception as e:
+        print(f"Could not save screenshot: {e}")
+    
+    # Navigate to the reviews tab
+    if navigate_to_reviews_tab(driver, url, branch_name):
+        # Successfully navigated to reviews tab
+        # Now scroll to load all available reviews
+        print("Successfully navigated to reviews tab, now loading all reviews...")
+        
+        # Scroll to load all reviews
+        total_reviews = scroll_to_load_all_reviews(driver, max_scrolls=30)
+        print(f"Loaded a total of {total_reviews} reviews")
+        
+        # Process the reviews
+        try:
+            # Find parent review containers - these will contain both customer reviews and potentially owner responses
+            primary_review_xpaths = [
+                '//div[contains(@class, "jftiEf")]',
+                '//div[contains(@data-review-id, "Ch")]',
+                '//div[@data-review-id]',
+                '//div[contains(@class, "fontBodyMedium")]//div[contains(@class, "MyEned")]/ancestor::div[@data-review-id]',
+                '//*[@class="m6QErb DxyBCb kA9KIf dS8AEf"]//div[@data-review-id and @aria-label]'
+            ]
+            
+            primary_reviews = []
+            for xpath in primary_review_xpaths:
+                try:
+                    review_elements = driver.find_elements(By.XPATH, xpath)
+                    if review_elements and len(review_elements) > 0:
+                        primary_reviews = review_elements
+                        print(f"Found {len(primary_reviews)} primary review containers with xpath: {xpath}")
+                        break
+                except Exception as e:
+                    print(f"Error with primary review xpath {xpath}: {e}")
+            
+            # Set max reviews to process (can be adjusted based on need)
+            max_reviews_to_process = len(primary_reviews)
+            print(f"Processing {max_reviews_to_process} primary review containers...\n")
+            
+            processed_reviews = 0
+            for i, review_container in enumerate(primary_reviews[:max_reviews_to_process]):
+                try:
+                    # Save individual review HTML for debugging (first few only)
+                    if i < 3:
+                        try:
+                            review_html = review_container.get_attribute('outerHTML')
+                            review_debug_path = os.path.join(BASE_DIR, f"{branch_name}_review_{i+1}_debug.txt".replace(" ", "_"))
+                            with open(review_debug_path, 'w', encoding='utf-8') as f:
+                                f.write(review_html)
+                            print(f"Saved review {i+1} HTML to {review_debug_path}")
+                        except Exception:
+                            pass
+                    
+                    # IMPORTANT: First check if this entire container is an owner response
+                    is_full_container_owner_response = False
+                    try:
+                        # Look for indicators that the entire container is an owner response
+                        owner_container_indicators = [
+                            './/div[contains(text(), "Response from the owner")]',
+                            './/div[contains(@class, "CDe7pd")][contains(text(), "owner")]',
+                            './/div[contains(text(), "Owner response")]',
+                            './/div[contains(@class, "JsEyr")][contains(text(), "owner")]',
+                            './/div[@jslog and contains(text(), "owner")]'
+                        ]
+                        
+                        for xpath in owner_container_indicators:
+                            owner_indicators = review_container.find_elements(By.XPATH, xpath)
+                            if owner_indicators and len(owner_indicators) > 0:
+                                print(f"Container {i+1} is an owner response - skipping")
+                                is_full_container_owner_response = True
+                                break
+                    except Exception as e:
+                        print(f"Error checking if container {i+1} is owner response: {e}")
+                    
+                    if is_full_container_owner_response:
+                        continue
+                    
+                    # Process customer review within this container
+                    # First, identify the reviewer information
+                    reviewer = "Unknown Reviewer"
+                    reviewer_xpaths = [
+                        './/div[contains(@class, "d4r55")]',
+                        './/div[@class="TSUbDb"]',
+                        './/div[contains(@class, "WNxzHc")]',
+                        './/div[contains(@class, "tPuDnb")]',
+                        './/span[@class="x3AX1-LfntMc-header-title-title"]/span',
+                        './/div[@class="DHIhE"]',
+                        './/div[@role="text" and @class]',
+                        './/a[contains(@href, "contrib")]',
+                        './/div[contains(@class, "WNxzHc")]//span'
+                    ]
+                    
+                    for xpath in reviewer_xpaths:
+                        try:
+                            reviewer_elements = review_container.find_elements(By.XPATH, xpath)
+                            if reviewer_elements and reviewer_elements[0].text and len(reviewer_elements[0].text) > 0:
+                                reviewer = reviewer_elements[0].text
+                                break
+                        except Exception:
+                            continue
+                    
+                    # Skip if reviewer name indicates this is the owner
+                    if (reviewer.lower() == "owner" or 
+                        "owner" in reviewer.lower() or 
+                        (branch_name != "Not found" and branch_name.lower() in reviewer.lower())):
+                        print(f"Skipping review {i+1} as reviewer '{reviewer}' appears to be the owner")
+                        continue
+                    
+                    # Expand the review if it's truncated
+                    try:
+                        more_button_xpaths = [
+                            './/button[@aria-label="More"]',
+                            './/button[contains(text(), "More")]',
+                            './/button[contains(@class, "w8nwRe")]',
+                            './/button[text()="More"]',
+                            './/button[contains(@jsaction, "pane.review.expandReview")]'
+                        ]
+                        
+                        for xpath in more_button_xpaths:
+                            more_buttons = review_container.find_elements(By.XPATH, xpath)
+                            for more_button in more_buttons:
+                                if more_button.is_displayed():
+                                    try:
+                                        more_button.click()
+                                    except Exception:
+                                        driver.execute_script("arguments[0].click();", more_button)
+                                    print(f"Expanded review {i+1}")
+                                    time.sleep(0.5)
+                                    break
+                    except Exception as e:
+                        print(f"Error expanding review {i+1}: {e}")
+                    
+                    # Get review text - focus on the main customer review, not the owner response
+                    review_text = "No review text found"
+                    text_xpaths = [
+                        './/span[contains(@class, "wiI7pd")]',
+                        './/div[contains(@class, "wiI7pd")]',
+                        './/*[contains(@class, "MyEned")]',
+                        './/*[contains(@class, "review-full-text")]',
+                        './/span[contains(@class, "review-full-text")]',
+                        './/div[@class="MyEned"]',
+                        './/div[@data-js-log-root]',
+                        './/div[contains(@class, "RBcccd")]/div[not(contains(@class, "CDe7pd"))]/span',
+                        './/div[contains(@class, "RBcccd")]/div[not(contains(@class, "CDe7pd"))]/div'
+                    ]
+                    
+                    # First try to find actual review text containers that are not owner responses
+                    for xpath in text_xpaths:
+                        try:
+                            # Get all potential text elements
+                            text_elements = review_container.find_elements(By.XPATH, xpath)
+                            
+                            # Filter out elements that are inside owner response sections
+                            filtered_elements = []
+                            for element in text_elements:
+                                # Check if this element is inside an owner response section
+                                parent_is_owner = False
+                                try:
+                                    # Check if any parent element has owner response indicators
+                                    owner_indicators = element.find_elements(By.XPATH, 'ancestor::div[contains(text(), "Response from the owner") or contains(@class, "CDe7pd") or contains(text(), "Owner response")]')
+                                    if owner_indicators and len(owner_indicators) > 0:
+                                        parent_is_owner = True
+                                except Exception:
+                                    pass
+                                
+                                if not parent_is_owner and element.text and len(element.text) > 0:
+                                    filtered_elements.append(element)
+                            
+                            # Use the first valid text element
+                            if filtered_elements:
+                                review_text = filtered_elements[0].text
+                                break
+                        except Exception:
+                            continue
+                    
+                    # Get review rating
+                    review_rating = "Rating not found"
+                    rating_xpaths = [
+                        './/span[contains(@aria-label, "stars")]',
+                        './/*[contains(@class, "kvMYJc")]',
+                        './/*[contains(@aria-label, "Rated")]',
+                        './/div[@role="img" and contains(@aria-label, "stars")]',
+                        './/g-review-stars',
+                        './/*[contains(@class, "IQDGvf")]',
+                        './/span[@role="img"]'
+                    ]
+                    
+                    for xpath in rating_xpaths:
+                        try:
+                            rating_elements = review_container.find_elements(By.XPATH, xpath)
+                            if rating_elements:
+                                aria_label = rating_elements[0].get_attribute('aria-label')
+                                if aria_label and "star" in aria_label.lower():
+                                    review_rating = aria_label
+                                    break
+                                
+                                # If no aria-label, try looking at class name indicators
+                                class_attr = rating_elements[0].get_attribute('class')
+                                if class_attr and any(c in class_attr for c in ['kvMYJc', 'IQDGvf']):
+                                    # Try to extract rating from style attribute
+                                    style_attr = rating_elements[0].get_attribute('style')
+                                    if style_attr and 'width' in style_attr:
+                                        width_match = re.search(r'width:\s*(\d+)%', style_attr)
+                                        if width_match:
+                                            width_percent = int(width_match.group(1))
+                                            stars = round(width_percent / 20, 1)
+                                            review_rating = f"{stars} stars"
+                                            break
+                        except Exception:
+                            continue
+                    
+                    # Get review date
+                    review_date = "Date not found"
+                    date_xpaths = [
+                        './/span[contains(@class, "rsqaWe")]',
+                        './/span[contains(@class, "dehysf")]',
+                        './/span[contains(@class, "ODSEW-ShBeI-RgZmSc-date")]',
+                        './/span[contains(@class, "review-date")]',
+                        './/div[contains(@class, "DHIhE")]/following-sibling::div',
+                        './/div[contains(@class, "DU9Pgb")]/span'
+                    ]
+                    
+                    for xpath in date_xpaths:
+                        try:
+                            date_elements = review_container.find_elements(By.XPATH, xpath)
+                            if date_elements and date_elements[0].text and len(date_elements[0].text) > 0:
+                                review_date = date_elements[0].text
+                                break
+                        except Exception:
+                            continue
+                    
+                    # Look for bank response to this review (if any)
+                    owner_response = "No response from bank"
+                    try:
+                        response_container_xpaths = [
+                            './/div[contains(text(), "Response from the owner")]/following-sibling::div',
+                            './/div[contains(@class, "CDe7pd")]/following-sibling::div',
+                            './/div[contains(text(), "Owner response")]/following-sibling::div',
+                            './/div[contains(@class, "JsEyr")]/following-sibling::div'
+                        ]
+                        
+                        for xpath in response_container_xpaths:
+                            response_elements = review_container.find_elements(By.XPATH, xpath)
+                            if response_elements and response_elements[0].text and len(response_elements[0].text) > 0:
+                                owner_response = response_elements[0].text
+                                break
+                    except Exception as e:
+                        print(f"Error finding owner response for review {i+1}: {e}")
+                    
+                    # Add the review to our list
+                    review_data = {
+                        "reviewer": reviewer,
+                        "rating": review_rating,
+                        "date": review_date,
+                        "text": review_text,
+                        "bank_response": owner_response
+                    }
+                    
+                    reviews_list.append(review_data)
+                    processed_reviews += 1
+                    print(f"Processed review {i+1}: {reviewer} - {review_rating} ({review_date})")
+                    
+                except StaleElementReferenceException:
+                    print(f"Stale element reference for review {i+1}. Skipping.")
+                except Exception as e:
+                    print(f"Error processing review {i+1}: {e}")
+            
+            print(f"\nSuccessfully extracted {processed_reviews} reviews")
+        except Exception as e:
+            print(f"Error processing reviews: {e}")
+    else:
+        print("Could not navigate to reviews tab, no reviews extracted")
+    
+    # Compile all data
+    branch_data = {
+        "name": branch_name,
+        "address": address,
+        "rating": rating,
+        "pincode": pincode,
+        "reviews": reviews_list,
+        "url": url,
+        "source_file": json_source
+    }
+    
+    return branch_data
+
+def process_all_branches(json_files, branches_per_file=None, max_branches_total=None):
+    """Process branches from all JSON files."""
+    all_branch_data = []
+    processed_count = 0
+    
+    # Set up WebDriver
+    options = webdriver.ChromeOptions()
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--disable-extensions")
+    options.add_argument("--disable-notifications")
+    options.add_experimental_option("prefs", {
+        "profile.default_content_setting_values.notifications": 2
+    })
+    
+    # Uncomment to run in headless mode
+    # options.add_argument("--headless")
+    
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    
+    try:
+        for json_file in json_files:
+            json_basename = os.path.basename(json_file)
+            print(f"\n{'='*50}")
+            print(f"Processing JSON file: {json_basename}")
+            print(f"{'='*50}")
+            
+            # Load branch URLs from the current JSON file
+            branch_urls = load_branch_urls_from_file(json_file, limit=branches_per_file)
+            
+            # Create output directory for this state if it doesn't exist
+            state_name = os.path.splitext(json_basename)[0].replace("uco_bank_", "")
+            output_dir = os.path.join(BASE_DIR, "extracted_data", state_name)
+            os.makedirs(output_dir, exist_ok=True)
+            
+            # Process each branch URL
+            for i, url in enumerate(branch_urls):
+                if max_branches_total is not None and processed_count >= max_branches_total:
+                    print(f"Reached maximum total branches limit ({max_branches_total}). Stopping.")
+                    break
+                
+                print(f"\nProcessing branch {i+1}/{len(branch_urls)} from {json_basename}")
+                try:
+                    branch_data = extract_branch_data(driver, url, json_source=json_basename)
+                    
+                    # Save individual branch data to JSON file
+                    branch_slug = branch_data['name'].lower().replace(' ', '_').replace(',', '').replace('/', '_')[:30]
+                    if branch_slug == "not_found":
+                        branch_slug = f"unknown_branch_{i+1}"
+                    
+                    branch_file = os.path.join(output_dir, f"{branch_slug}.json")
+                    
+                    with open(branch_file, 'w', encoding='utf-8') as f:
+                        json.dump(branch_data, f, indent=2, ensure_ascii=False)
+                    
+                    print(f"Saved branch data to {branch_file}")
+                    
+                    # Add to overall collection
+                    all_branch_data.append(branch_data)
+                    processed_count += 1
+                    
+                except Exception as e:
+                    print(f"Error processing branch {i+1}: {e}")
+                
+                # Add a delay between branches to avoid being rate-limited
+                time.sleep(3)
+            
+            # Save combined data for this state
+            if all_branch_data:
+                combined_file = os.path.join(output_dir, f"{state_name}_all_branches.json")
+                with open(combined_file, 'w', encoding='utf-8') as f:
+                    json.dump(all_branch_data, f, indent=2, ensure_ascii=False)
+                print(f"Saved combined data for {state_name} to {combined_file}")
+            
+            # Add a delay between files to avoid being rate-limited
+            time.sleep(5)
+            
+    finally:
+        driver.quit()
+    
+    return all_branch_data
+
+def main():
+    """Main function to run the scraping process."""
+    print("Starting UCO Bank review scraping process...")
+    
+    # Check if BASE_DIR exists
+    if not os.path.exists(BASE_DIR):
+        print(f"Error: Base directory {BASE_DIR} does not exist.")
+        return
+    
+    # Check if JSON_FOLDER exists
+    if not os.path.exists(JSON_FOLDER):
+        print(f"Error: JSON folder {JSON_FOLDER} does not exist.")
+        return
+    
+    # Create output directory if it doesn't exist
+    output_dir = os.path.join(BASE_DIR, "extracted_data")
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Get all JSON files
+    json_files = get_all_json_files()
+    
+    if not json_files:
+        print("No JSON files found. Exiting.")
+        return
+    
+    print(f"Found {len(json_files)} JSON files.")
+    
+    # For testing, you can limit the number of branches per file and total
+    # Set to None to process all branches
+    branches_per_file = 5  # Process only first 5 branches per file for testing
+    max_branches_total = 30  # Process a maximum of 30 branches in total
+    
+    # For production, set these to None to process all branches
+    # branches_per_file = None
+    # max_branches_total = None
+    
+    # Process all branches
+    all_branch_data = process_all_branches(json_files, branches_per_file, max_branches_total)
+    
+    # Save all data to a single combined file
+    if all_branch_data:
+        combined_file = os.path.join(output_dir, "all_branches_combined.json")
+        with open(combined_file, 'w', encoding='utf-8') as f:
+            json.dump(all_branch_data, f, indent=2, ensure_ascii=False)
+        print(f"\nSaved all combined data to {combined_file}")
+        
+        # Create a pandas DataFrame and export to CSV
+        try:
+            # Flatten the data structure for CSV
+            flattened_data = []
+            for branch in all_branch_data:
+                branch_info = {
+                    "name": branch["name"],
+                    "address": branch["address"],
+                    "rating": branch["rating"],
+                    "pincode": branch["pincode"],
+                    "url": branch["url"],
+                    "source_file": branch["source_file"],
+                    "review_count": len(branch["reviews"])
+                }
+                
+                # Add branch with no reviews
+                if not branch["reviews"]:
+                    branch_info["reviewer"] = "No reviews"
+                    branch_info["review_rating"] = "N/A"
+                    branch_info["review_date"] = "N/A"
+                    branch_info["review_text"] = "N/A"
+                    branch_info["bank_response"] = "N/A"
+                    flattened_data.append(branch_info)
+                else:
+                    # Add each review as a separate row
+                    for review in branch["reviews"]:
+                        review_info = branch_info.copy()
+                        review_info["reviewer"] = review["reviewer"]
+                        review_info["review_rating"] = review["rating"]
+                        review_info["review_date"] = review["date"]
+                        review_info["review_text"] = review["text"]
+                        review_info["bank_response"] = review["bank_response"]
+                        flattened_data.append(review_info)
+            
+            # Create DataFrame and export to CSV
+            df = pd.DataFrame(flattened_data)
+            csv_file = os.path.join(output_dir, "all_branches_reviews.csv")
+            df.to_csv(csv_file, index=False, encoding='utf-8-sig')
+            print(f"Exported data to CSV: {csv_file}")
+            
+        except Exception as e:
+            print(f"Error creating CSV export: {e}")
+    
+    print("\nScraping process completed.")
+
+if __name__ == "__main__":
+    main()

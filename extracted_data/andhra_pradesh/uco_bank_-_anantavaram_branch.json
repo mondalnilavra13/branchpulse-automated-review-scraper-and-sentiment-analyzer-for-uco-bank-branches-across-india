@@ -1,0 +1,45 @@
+{
+  "name": "UCO Bank - Anantavaram Branch",
+  "address": "\nGC7J+VJQ, Ananthavaram, Amaravati, Andhra Pradesh 522236",
+  "rating": "4.8 stars",
+  "pincode": "522236",
+  "reviews": [
+    {
+      "reviewer": "hari krishna",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "The bank with atm available here and good management",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "KONDALA RAO BOBBEPALLI",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Jion and experiance world class banking",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Chandana Gorijala",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Good Experience..",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sai Aditya",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "It's awesome",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Banka Punnarao",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Anantavaram+Branch/data=!4m7!3m6!1s0x3a3592981bd9aa09:0x58f4ebffec0b56bd!8m2!3d16.5147118!4d80.431621!16s%2Fg%2F11c58kq0hq!19sChIJCarZG5iSNToRvVYL7P_r9Fg?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_andhra_pradesh.json"
+}

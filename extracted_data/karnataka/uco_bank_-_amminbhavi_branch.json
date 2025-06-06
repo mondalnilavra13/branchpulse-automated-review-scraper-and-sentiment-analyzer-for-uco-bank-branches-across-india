@@ -1,0 +1,45 @@
+{
+  "name": "UCO Bank - Amminbhavi Branch",
+  "address": "\nG3R5+852, Unnamed Road, Amminabhavi, Karnataka 580201",
+  "rating": "3.8 stars",
+  "pincode": "580201",
+  "reviews": [
+    {
+      "reviewer": "Shankar Channaveerappa Kadlimatti",
+      "rating": "5 stars",
+      "date": "2 months ago",
+      "text": "UCO Bank Honours Your Trust",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "mallikarjun totiger (Mallik)",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "satish hegadyal",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "good service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mohan Rathod",
+      "rating": "5 stars",
+      "date": "11 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Raju kolardesai",
+      "rating": "3 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Amminbhavi+Branch/data=!4m7!3m6!1s0x3bb8cc03c8fd0d85:0x2ca1b52e2355753!8m2!3d15.5407555!4d75.0578885!16s%2Fg%2F11dxbn95vv!19sChIJhQ39yAPMuDsRU1c14lIbygI?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_karnataka.json"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "UCO Bank, Ajeetgarh",
+  "address": "\nCRCF+JRF, Ajeetgarh, Rajasthan 332701",
+  "rating": "3.9 stars",
+  "pincode": "332701",
+  "reviews": [
+    {
+      "reviewer": "Abhishek Gurjar",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "Nice place with smart works",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mahendra Yadav",
+      "rating": "4 stars",
+      "date": "4 years ago",
+      "text": "Helpful staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ashok Meena",
+      "rating": "3 stars",
+      "date": "3 years ago",
+      "text": "Not Bad services",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ravi Kumawat",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Prerna Mishra",
+      "rating": "3 stars",
+      "date": "a year ago",
+      "text": "Helping staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ramswaroop Soni",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": ",, good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Fun With Ashok",
+      "rating": "3 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Badal Naredi",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank,+Ajeetgarh/data=!4m7!3m6!1s0x396d1b71586df3f3:0x24f5eedcd6349d3b!8m2!3d27.421567!4d75.8245503!16s%2Fg%2F11cmhvnplx!19sChIJ8_NtWHEbbTkRO5001tzu9SQ?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_rajasthan.json"
+}

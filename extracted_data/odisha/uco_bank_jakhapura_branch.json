@@ -1,0 +1,17 @@
+{
+  "name": "UCO Bank Jakhapura Branch",
+  "address": "\nAT/PO JAKHAPURA, Jakhapura, Odisha 755026",
+  "rating": "4.0 stars",
+  "pincode": "755026",
+  "reviews": [
+    {
+      "reviewer": "Hrudaya Sahoo",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Jakhapura+Branch/data=!4m7!3m6!1s0x3a194fd56ed2c6c3:0x103fa03ba8a19664!8m2!3d20.9301244!4d86.0623337!16s%2Fg%2F11gh_kcyxh!19sChIJw8bSbtVPGToRZJahqDugPxA?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_odisha.json"
+}

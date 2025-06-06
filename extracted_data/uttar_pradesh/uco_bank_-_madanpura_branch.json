@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank - Madanpura Branch",
+  "address": "\n8244+H58, Madanpura Rd, Near Jangambari Mutt, Jangambari, Bangali Tola, Varanasi, Uttar Pradesh 221001",
+  "rating": "3.9 stars",
+  "pincode": "221001",
+  "reviews": [
+    {
+      "reviewer": "Ashish Singh",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "vishnu saha",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "There is a woman who always eats while working.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Firoz Kadri",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Tauheed Ahmad",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "ravi shanker yadav",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Misbah Daniyal",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Khusbhu Seth",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Madanpura+Branch/data=!4m7!3m6!1s0x398e31e2969daa95:0x6c78f1ac9e09c6ba!8m2!3d25.306422!4d83.0054621!16s%2Fg%2F11b6c5ntzc!19sChIJlaqdluIxjjkRusYJnqzxeGw?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_uttar_pradesh.json"
+}

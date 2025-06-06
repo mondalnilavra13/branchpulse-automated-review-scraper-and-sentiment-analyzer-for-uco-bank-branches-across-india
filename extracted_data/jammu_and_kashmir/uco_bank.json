@@ -1,0 +1,52 @@
+{
+  "name": "UCO Bank",
+  "address": "\n3RV5+M5M, Sokalipora, Srinagar, Jammu and Kashmir 190002",
+  "rating": "3.5 stars",
+  "pincode": "190002",
+  "reviews": [
+    {
+      "reviewer": "Aafreen Manzoor",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "UCO Bank has launched UCO Skill Loan Scheme for providing loan facility to individuals who intend to take up skill development courses.\nUCO Bank, formerly United Commercial Bank, established in 1943 in Kolkata, is a major government-owned commercial bank of India. During FY 2013-14, its total business was ₹ 4.55 lakh crore.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Al-Gousia IT & Skill Institutions",
+      "rating": "4 stars",
+      "date": "a year ago",
+      "text": "Ok",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mahfooz Ahmed",
+      "rating": "1 star",
+      "date": "4 years ago",
+      "text": "Sanghiote",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Pola Maan",
+      "rating": "3 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nitin Sharma",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Muhammad Shafi Koul",
+      "rating": "4 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x38e18566f18d5bb7:0xc4b0394f6e257533!8m2!3d34.0942142!4d74.8079255!16s%2Fg%2F125_z1hl3!19sChIJt1uN8WaF4TgRM3Ulbk85sMQ?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_jammu_and_kashmir.json"
+}

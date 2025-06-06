@@ -1,0 +1,66 @@
+{
+  "name": "UCO Bank",
+  "address": "\nWC7R+6JC, Bank Colony, Dhamanagar, Odisha 756117",
+  "rating": "3.5 stars",
+  "pincode": "756117",
+  "reviews": [
+    {
+      "reviewer": "Mukhtar Ahmed",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Very rush in warking hours.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "SOUMYA RANJAN LENKA",
+      "rating": "5 stars",
+      "date": "10 years ago",
+      "text": "Soumya ranjan lenka",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "BIKRAM SAHOO",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "nyc bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Maa Tarini",
+      "rating": "1 star",
+      "date": "3 months ago",
+      "text": "Dhamnagar  block colony",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sk Mustaque",
+      "rating": "1 star",
+      "date": "5 years ago",
+      "text": "Lowest service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "subhashree nayak",
+      "rating": "5 stars",
+      "date": "5 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nikhil Behuria",
+      "rating": "2 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "I M DEV",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3a1bf05f9d20c59b:0xfddc4662b6285526!8m2!3d20.9130509!4d86.4415106!16s%2Fg%2F1tdp80zp!19sChIJm8UgnV_wGzoRJlUotmJG3P0?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_odisha.json"
+}

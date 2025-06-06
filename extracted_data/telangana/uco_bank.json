@@ -1,0 +1,45 @@
+{
+  "name": "UCO Bank",
+  "address": "\n2-3-245, Sunder Talkies Rd, Gandhi Nagar, Praksh Nagar, Khammam, Telangana 507003",
+  "rating": "4.2 stars",
+  "pincode": "507003",
+  "reviews": [
+    {
+      "reviewer": "Shiva Shiva",
+      "rating": "1 star",
+      "date": "3 months ago",
+      "text": "Bad Bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "uppi kumar",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Yaswanth Medaboina",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Venkateswararao Javvaji",
+      "rating": "5 stars",
+      "date": "2 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Maheshbabu Koppula",
+      "rating": "5 stars",
+      "date": "3 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3a3459c149f4a0d1:0xa3160d548ed50c03!8m2!3d17.2446558!4d80.1390722!16s%2Fg%2F11rk2wr71l!19sChIJ0aD0ScFZNDoRAwzVjlQNFqM?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_telangana.json"
+}

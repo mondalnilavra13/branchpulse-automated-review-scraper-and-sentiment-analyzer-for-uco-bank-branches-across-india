@@ -1,0 +1,24 @@
+{
+  "name": "UCO Bank - Dindori Branch",
+  "address": "\nW3MJ+FJX, MP SH 22, Ward Number 11, Dindori, Madhya Pradesh 481880",
+  "rating": "3.5 stars",
+  "pincode": "481880",
+  "reviews": [
+    {
+      "reviewer": "Krishna Kumar",
+      "rating": "4 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Kailash Namdeo",
+      "rating": "3 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Dindori+Branch/data=!4m7!3m6!1s0x39873caeb09a766b:0xbb83a259fd0ad8ef!8m2!3d22.9337334!4d81.081622!16s%2Fg%2F11b6zkp3gt!19sChIJa3aasK48hzkR79gK_Vmig7s?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_madhya_pradesh.json"
+}

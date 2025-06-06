@@ -1,0 +1,38 @@
+{
+  "name": "UCO Bank",
+  "address": "\n9CCJ+QCH, New Tehri, Uttarakhand 249001",
+  "rating": "3.5 stars",
+  "pincode": "249001",
+  "reviews": [
+    {
+      "reviewer": "sS",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Good Staff ... Very polite and helpful 👍 …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "kartik bijalwan",
+      "rating": "4 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "siddharth thapliyal",
+      "rating": "1 star",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "pilot suraj negi",
+      "rating": "4 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39091d788b264f8b:0x997fb446934d4cfd!8m2!3d30.3719429!4d78.4311069!16s%2Fg%2F11c6sr3c62!19sChIJi08mi3gdCTkR_UxNk0a0f5k?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_uttarakhand.json"
+}

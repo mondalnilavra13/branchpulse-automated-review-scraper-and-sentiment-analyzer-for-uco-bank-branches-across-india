@@ -1,0 +1,182 @@
+{
+    "Andhra Pradesh": {
+        "branch_count": 29,
+        "json_file": "uco_bank_data/json/uco_bank_andhra_pradesh.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_andhra_pradesh.csv"
+    },
+    "Arunachal Pradesh": {
+        "branch_count": 0,
+        "json_file": "uco_bank_data/json/uco_bank_arunachal_pradesh.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_arunachal_pradesh.csv"
+    },
+    "Assam": {
+        "branch_count": 60,
+        "json_file": "uco_bank_data/json/uco_bank_assam.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_assam.csv"
+    },
+    "Bihar": {
+        "branch_count": 70,
+        "json_file": "uco_bank_data/json/uco_bank_bihar.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_bihar.csv"
+    },
+    "Chhattisgarh": {
+        "branch_count": 28,
+        "json_file": "uco_bank_data/json/uco_bank_chhattisgarh.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_chhattisgarh.csv"
+    },
+    "Goa": {
+        "branch_count": 8,
+        "json_file": "uco_bank_data/json/uco_bank_goa.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_goa.csv"
+    },
+    "Gujarat": {
+        "branch_count": 52,
+        "json_file": "uco_bank_data/json/uco_bank_gujarat.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_gujarat.csv"
+    },
+    "Haryana": {
+        "branch_count": 97,
+        "json_file": "uco_bank_data/json/uco_bank_haryana.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_haryana.csv"
+    },
+    "Himachal Pradesh": {
+        "branch_count": 92,
+        "json_file": "uco_bank_data/json/uco_bank_himachal_pradesh.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_himachal_pradesh.csv"
+    },
+    "Jharkhand": {
+        "branch_count": 34,
+        "json_file": "uco_bank_data/json/uco_bank_jharkhand.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_jharkhand.csv"
+    },
+    "Karnataka": {
+        "branch_count": 38,
+        "json_file": "uco_bank_data/json/uco_bank_karnataka.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_karnataka.csv"
+    },
+    "Kerala": {
+        "branch_count": 39,
+        "json_file": "uco_bank_data/json/uco_bank_kerala.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_kerala.csv"
+    },
+    "Madhya Pradesh": {
+        "branch_count": 81,
+        "json_file": "uco_bank_data/json/uco_bank_madhya_pradesh.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_madhya_pradesh.csv"
+    },
+    "Maharashtra": {
+        "branch_count": 89,
+        "json_file": "uco_bank_data/json/uco_bank_maharashtra.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_maharashtra.csv"
+    },
+    "Manipur": {
+        "branch_count": 6,
+        "json_file": "uco_bank_data/json/uco_bank_manipur.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_manipur.csv"
+    },
+    "Meghalaya": {
+        "branch_count": 5,
+        "json_file": "uco_bank_data/json/uco_bank_meghalaya.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_meghalaya.csv"
+    },
+    "Mizoram": {
+        "branch_count": 3,
+        "json_file": "uco_bank_data/json/uco_bank_mizoram.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_mizoram.csv"
+    },
+    "Nagaland": {
+        "branch_count": 3,
+        "json_file": "uco_bank_data/json/uco_bank_nagaland.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_nagaland.csv"
+    },
+    "Odisha": {
+        "branch_count": 99,
+        "json_file": "uco_bank_data/json/uco_bank_odisha.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_odisha.csv"
+    },
+    "Punjab": {
+        "branch_count": 91,
+        "json_file": "uco_bank_data/json/uco_bank_punjab.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_punjab.csv"
+    },
+    "Rajasthan": {
+        "branch_count": 68,
+        "json_file": "uco_bank_data/json/uco_bank_rajasthan.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_rajasthan.csv"
+    },
+    "Sikkim": {
+        "branch_count": 4,
+        "json_file": "uco_bank_data/json/uco_bank_sikkim.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_sikkim.csv"
+    },
+    "Tamil Nadu": {
+        "branch_count": 58,
+        "json_file": "uco_bank_data/json/uco_bank_tamil_nadu.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_tamil_nadu.csv"
+    },
+    "Telangana": {
+        "branch_count": 28,
+        "json_file": "uco_bank_data/json/uco_bank_telangana.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_telangana.csv"
+    },
+    "Tripura": {
+        "branch_count": 18,
+        "json_file": "uco_bank_data/json/uco_bank_tripura.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_tripura.csv"
+    },
+    "Uttar Pradesh": {
+        "branch_count": 98,
+        "json_file": "uco_bank_data/json/uco_bank_uttar_pradesh.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_uttar_pradesh.csv"
+    },
+    "Uttarakhand": {
+        "branch_count": 30,
+        "json_file": "uco_bank_data/json/uco_bank_uttarakhand.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_uttarakhand.csv"
+    },
+    "West Bengal": {
+        "branch_count": 117,
+        "json_file": "uco_bank_data/json/uco_bank_west_bengal.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_west_bengal.csv"
+    },
+    "Andaman and Nicobar Islands": {
+        "branch_count": 0,
+        "json_file": "uco_bank_data/json/uco_bank_andaman_and_nicobar_islands.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_andaman_and_nicobar_islands.csv"
+    },
+    "Chandigarh": {
+        "branch_count": 6,
+        "json_file": "uco_bank_data/json/uco_bank_chandigarh.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_chandigarh.csv"
+    },
+    "Dadra and Nagar Haveli and Daman and Diu": {
+        "branch_count": 3,
+        "json_file": "uco_bank_data/json/uco_bank_dadra_and_nagar_haveli_and_daman_and_diu.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_dadra_and_nagar_haveli_and_daman_and_diu.csv"
+    },
+    "Delhi": {
+        "branch_count": 57,
+        "json_file": "uco_bank_data/json/uco_bank_delhi.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_delhi.csv"
+    },
+    "Jammu and Kashmir": {
+        "branch_count": 7,
+        "json_file": "uco_bank_data/json/uco_bank_jammu_and_kashmir.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_jammu_and_kashmir.csv"
+    },
+    "Ladakh": {
+        "branch_count": 0,
+        "json_file": "uco_bank_data/json/uco_bank_ladakh.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_ladakh.csv"
+    },
+    "Lakshadweep": {
+        "branch_count": 0,
+        "json_file": "uco_bank_data/json/uco_bank_lakshadweep.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_lakshadweep.csv"
+    },
+    "Puducherry": {
+        "branch_count": 1,
+        "json_file": "uco_bank_data/json/uco_bank_puducherry.json",
+        "csv_file": "uco_bank_data/csv/uco_bank_puducherry.csv"
+    }
+}

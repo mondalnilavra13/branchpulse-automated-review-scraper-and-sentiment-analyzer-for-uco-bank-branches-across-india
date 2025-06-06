@@ -1,0 +1,52 @@
+{
+  "name": "UCO Bank",
+  "address": "\nC226+JH9, Kazi Waza, Ponda, Goa 403401",
+  "rating": "4.5 stars",
+  "pincode": "403401",
+  "reviews": [
+    {
+      "reviewer": "Sonu Kumar",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "Vivek",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "SACHIN PAWAR",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sharwan Bishnoi",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vrushali Talekar",
+      "rating": "3 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Manoj Saxena",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Prashant Rana",
+      "rating": "5 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3bbfbabee1e9ba51:0x62ef50354007791b!8m2!3d15.4015432!4d74.0114791!16s%2Fg%2F11c6crgh03!19sChIJUbrp4b66vzsRG3kHQDVQ72I?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_goa.json"
+}

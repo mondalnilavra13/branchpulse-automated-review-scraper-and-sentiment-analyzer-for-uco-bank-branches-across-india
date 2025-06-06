@@ -1,0 +1,52 @@
+{
+  "name": "UCO Bank - Bairagarh Branch",
+  "address": "\nB New 18/196, 3 EME Rd, Nirankari Mangal Road, Near Gidwani Park, Wholesale Bartan Bazar,, Block B, Hemu Kalani, Bairagarh, Bhopal, Madhya Pradesh 462030",
+  "rating": "4.2 stars",
+  "pincode": "462030",
+  "reviews": [
+    {
+      "reviewer": "NITISH MISHRA",
+      "rating": "2 stars",
+      "date": "4 years ago",
+      "text": "Most of the time ATM do not work .\nServer error\nSome of the employees dont know how to talk customer\nThey do not give preference to custom",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Neha Suryavanshi",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mona Nagar",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "sumit lalwani",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "string solutions",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vinita Soni",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Bairagarh+Branch/data=!4m7!3m6!1s0x397c679f82bc6bc7:0xc9fb976bd89d39fe!8m2!3d23.269892!4d77.3352534!16s%2Fg%2F1q64c_52f!19sChIJx2u8gp9nfDkR_jmd2GuX-8k?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_madhya_pradesh.json"
+}

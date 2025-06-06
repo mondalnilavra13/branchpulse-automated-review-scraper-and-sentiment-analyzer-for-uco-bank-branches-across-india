@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank",
+  "address": "\n47JH+MVR, Jorethang, Sikkim 737121",
+  "rating": "4.1 stars",
+  "pincode": "737121",
+  "reviews": [
+    {
+      "reviewer": "Chandra Gautam",
+      "rating": "5 stars",
+      "date": "a month ago",
+      "text": "Good service. Response is good.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sagar Gupta",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Very supportive branch Manager Mr. Sushil Gupta sir. Thanks for your kind service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Pravesh Gupta",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Excellent Customer Service.But No ATM",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Anish Gupta",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Supportive staff.....very nice ambience",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "sikkim spices",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "UCO Bank served people during difficult period of demonitization.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Tashi Tsomu",
+      "rating": "1 star",
+      "date": "a month ago",
+      "text": "Irresponsible",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sushil Gupta",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39e429b165eb80ed:0x41fabfd12730a75c!8m2!3d27.1317296!4d88.2796459!16s%2Fg%2F11dyn767zb!19sChIJ7YDrZbEp5DkRXKcwJ9G_-kE?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_sikkim.json"
+}

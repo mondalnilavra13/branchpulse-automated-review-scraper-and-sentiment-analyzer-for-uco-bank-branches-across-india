@@ -1,0 +1,66 @@
+{
+  "name": "UCO Bank - Sabarmati Branch",
+  "address": "\nReal Oravang, 57, Ram Baug Rd, behind Police Station, Ambica Nagar, Sabarmati, Ahmedabad, Gujarat 380005",
+  "rating": "3.4 stars",
+  "pincode": "380005",
+  "reviews": [
+    {
+      "reviewer": "Vinkesh Shah",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Good staff, providing lots of guidance and help",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Positive Silence",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Nice bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Santosh Kumar Mahato",
+      "rating": "5 stars",
+      "date": "2 months ago",
+      "text": "Sab guard's account is",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Aryan Patel",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Manit Purabia",
+      "rating": "1 star",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Popta Prajapti",
+      "rating": "1 star",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Dheeraj Bothra",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "jignesh mali",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Sabarmati+Branch/data=!4m7!3m6!1s0x395e839545035e1f:0x5531d36e4a8f128f!8m2!3d23.0868121!4d72.5905597!16s%2Fg%2F11c0t8yygs!19sChIJH14DRZWDXjkRjxKPSm7TMVU?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_gujarat.json"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "UCO Bank Bidyadharpur",
+  "address": "\n68P8+6C9, Sangam, Odisha 758078",
+  "rating": "2.5 stars",
+  "pincode": "758078",
+  "reviews": [
+    {
+      "reviewer": "Satyaprakash Rout",
+      "rating": "4 stars",
+      "date": "3 years ago",
+      "text": "One of the best branch of UCO bank.\n\nGood behaviour of staff's and it's easy to finish your work on time.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sudam Nayak",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "Sudam\nH",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Bidyadharpur/data=!4m7!3m6!1s0x3a1c03668affa18f:0xef8fbfbf392f3faa!8m2!3d21.2355409!4d86.3160948!16s%2Fg%2F11r_dd4r67!19sChIJj6H_imYDHDoRqj8vOb-_j-8?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_odisha.json"
+}

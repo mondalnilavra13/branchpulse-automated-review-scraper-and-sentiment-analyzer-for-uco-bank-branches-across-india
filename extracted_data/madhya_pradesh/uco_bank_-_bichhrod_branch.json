@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank - Bichhrod Branch",
+  "address": "\n9X78+QHP, Bichrod, Bichhadod Khalsa, Madhya Pradesh 456550",
+  "rating": "3.9 stars",
+  "pincode": "456550",
+  "reviews": [
+    {
+      "reviewer": "shyam patidar",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "Very good arrangement, the stop is amazing",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Babu Lal Gurjar dev sakti group Bichhrod",
+      "rating": "1 star",
+      "date": "9 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vinod Gurjar",
+      "rating": "1 star",
+      "date": "10 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mohit Tripathi",
+      "rating": "5 stars",
+      "date": "10 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mahesh Fagna",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Anuj sharma",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ishwar Gurjar",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Bichhrod+Branch/data=!4m7!3m6!1s0x3963644b1fb315cb:0xdc8694b4da2bd075!8m2!3d23.3644561!4d75.9664495!16s%2Fg%2F11f2pxpw1r!19sChIJyxWzH0tkYzkRddAr2rSUhtw?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_madhya_pradesh.json"
+}

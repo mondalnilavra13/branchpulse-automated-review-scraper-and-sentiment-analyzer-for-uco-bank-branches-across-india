@@ -1,0 +1,45 @@
+{
+  "name": "UCO Bank - Chharol Branch",
+  "address": "\n7Q49+7X9, Charol, Himachal Pradesh 174032",
+  "rating": "4.4 stars",
+  "pincode": "174032",
+  "reviews": [
+    {
+      "reviewer": "Suresh Kumar",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Wonderful bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Kanshi Ram",
+      "rating": "2 stars",
+      "date": "5 years ago",
+      "text": "G hi goblin",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Raghav Rajput",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "Uco Bank Chharol",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Hitesh Verma",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Desh Raj (Lucky)",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Chharol+Branch/data=!4m7!3m6!1s0x390541031696c537:0xb4e7ff36558b549d!8m2!3d31.2556506!4d76.7699712!16s%2Fg%2F11fx5sy1r_!19sChIJN8WWFgNBBTkRnVSLVTb_57Q?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_himachal_pradesh.json"
+}

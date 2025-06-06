@@ -1,0 +1,80 @@
+{
+  "name": "UCO Bank Paldi Branch",
+  "address": "\nChar Rasta, Ambika Complex, Paldi Rd, Paldi, Ahmedabad, Gujarat 380007",
+  "rating": "4.0 stars",
+  "pincode": "380007",
+  "reviews": [
+    {
+      "reviewer": "Mr. Sunny",
+      "rating": "1 star",
+      "date": "4 years ago",
+      "text": "Very poor bank of Gujarat. Don't register in Uco bank.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Narsingh Dixit",
+      "rating": "3 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Harsh Vardhan",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mayur Solanki",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sankar Rajput",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Neeraj Deshwal",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nidhipatel Yaval patel",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Bhavik Upadhyay",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ghanshyam Raval",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "JITENDER GUPTA",
+      "rating": "5 stars",
+      "date": "10 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Paldi+Branch/data=!4m7!3m6!1s0x395e8501a6de1a2b:0x85a0483723c7a104!8m2!3d23.0129096!4d72.563857!16s%2Fg%2F12ml2mtrx!19sChIJKxrepgGFXjkRBKHHIzdIoIU?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_gujarat.json"
+}

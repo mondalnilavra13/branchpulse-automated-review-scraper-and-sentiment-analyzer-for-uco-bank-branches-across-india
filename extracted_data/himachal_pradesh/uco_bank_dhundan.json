@@ -1,0 +1,38 @@
+{
+  "name": "UCO Bank Dhundan",
+  "address": "\nDhundan, Himachal Pradesh 173235",
+  "rating": "3.8 stars",
+  "pincode": "173235",
+  "reviews": [
+    {
+      "reviewer": "NITISH SHARMA",
+      "rating": "5 stars",
+      "date": "2 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "naveen",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Himani Gautam",
+      "rating": "1 star",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Puneet Gautam",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Dhundan/data=!4m7!3m6!1s0x39056be3b8d5d6bd:0x96b1792da45ff09e!8m2!3d31.1547922!4d76.9462246!16s%2Fg%2F11c1_w3jm8!19sChIJvdbVuONrBTkRnvBfpC15sZY?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_himachal_pradesh.json"
+}

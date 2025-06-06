@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank - Halar Road Branch",
+  "address": "\nJW5H+X56 avabhai high school, Halar Rd, Kapadia Chal, Valsad, Gujarat 396001",
+  "rating": "4.3 stars",
+  "pincode": "396001",
+  "reviews": [
+    {
+      "reviewer": "DIPAK UMRIGAR",
+      "rating": "4 stars",
+      "date": "2 years ago",
+      "text": "😊 …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Dinesh Choudhary",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "UCO Bank is the Best",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Anil Lal",
+      "rating": "4 stars",
+      "date": "8 years ago",
+      "text": "Very good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "sushil mishra",
+      "rating": "4 stars",
+      "date": "8 years ago",
+      "text": "Good service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Pritesh",
+      "rating": "4 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Suchit Chauhan",
+      "rating": "5 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Dambarudhar Sahoo",
+      "rating": "4 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Halar+Road+Branch/data=!4m7!3m6!1s0x3be0c29e1beff8d5:0xde577475ce08e5b9!8m2!3d20.6099079!4d72.9278755!16s%2Fg%2F11c0tp9hsc!19sChIJ1fjvG57C4DsRueUIznV0V94?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_gujarat.json"
+}

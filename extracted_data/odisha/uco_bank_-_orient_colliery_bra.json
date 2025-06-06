@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank - Orient Colliery Branch",
+  "address": "\nRWQ8+587, Adarsh Nagar, Brajrajnagar, Odisha 768216",
+  "rating": "4.0 stars",
+  "pincode": "768216",
+  "reviews": [
+    {
+      "reviewer": "Sampat Ganesh",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "Moderate. Specially for MCL employees service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Om prakash Dansana",
+      "rating": "1 star",
+      "date": "2 years ago",
+      "text": "Lack of cleanliness",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "sandeep pradhan",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Rakesh Prasad Gond",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "D. PRAKASH",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Anand Kumar",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Piyush Kumar",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Orient+Colliery+Branch/data=!4m7!3m6!1s0x3a20de0a2f3eb7f5:0x28f320c7988d7bc9!8m2!3d21.8379223!4d83.9157978!16s%2Fg%2F11c7v_pcc7!19sChIJ9bc-LwreIDoRyXuNmMcg8yg?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_odisha.json"
+}

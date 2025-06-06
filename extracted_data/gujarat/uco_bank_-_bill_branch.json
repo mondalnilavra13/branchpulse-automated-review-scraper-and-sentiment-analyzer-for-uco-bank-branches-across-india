@@ -1,0 +1,108 @@
+{
+  "name": "UCO Bank - Bill Branch",
+  "address": "\n748M+R4J, Padra Road, Bhaili, Vadodara, Gujarat 391410",
+  "rating": "3.9 stars",
+  "pincode": "391410",
+  "reviews": [
+    {
+      "reviewer": "sangeeta vasava",
+      "rating": "1 star",
+      "date": "5 months ago",
+      "text": "Third class service...bekkar staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Aryan Malek",
+      "rating": "5 stars",
+      "date": "8 months ago",
+      "text": "Very nice 🙂 …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Parth Patel",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "Staff members of UCO Bank is amazing",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mihir Doshi",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "The ATM machine doesn't work.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "chirag suthar",
+      "rating": "2 stars",
+      "date": "7 years ago",
+      "text": "Very low space",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Krishna kumar Vasava",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Nice...",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "kiran vasava",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Nice to meet",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "hardik maheshwari",
+      "rating": "5 stars",
+      "date": "5 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ashish Patel",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Jainesh Patel",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Pritesh Solanki",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Teena Alex",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ramesh Rajput Rajput",
+      "rating": "1 star",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Hamid Vhora",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Bill+Branch/data=!4m7!3m6!1s0x395fc7b4efcfc3f1:0x77c9288be03735e7!8m2!3d22.2670841!4d73.1327682!16s%2Fg%2F1hm4hxk8c!19sChIJ8cPP77THXzkR5zU34IsoyXc?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_gujarat.json"
+}

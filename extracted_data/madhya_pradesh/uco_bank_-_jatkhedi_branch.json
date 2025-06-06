@@ -1,0 +1,45 @@
+{
+  "name": "UCO Bank - Jatkhedi Branch",
+  "address": "\n262, Narmadapuram Rd, Jatkhedi, Bhopal, Madhya Pradesh 462047",
+  "rating": "3.2 stars",
+  "pincode": "462047",
+  "reviews": [
+    {
+      "reviewer": "Rocky King",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "😔😔😔 …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vidura Niti",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "VEDANT T.",
+      "rating": "1 star",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Dharna Rathod",
+      "rating": "4 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mr. Devi singh Yadav",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Jatkhedi+Branch/data=!4m7!3m6!1s0x397c436578a31575:0xcece04fa3d1bedb0!8m2!3d23.1719794!4d77.4647629!16s%2Fg%2F11j0s5dbsg!19sChIJdRWjeGVDfDkRsO0bPfoEzs4?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_madhya_pradesh.json"
+}

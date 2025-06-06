@@ -1,0 +1,80 @@
+{
+  "name": "UCO Bank Palakkad Branch",
+  "address": "\nMarket Rd, Police Quarters, Vadakkanthara, Palakkad, Kerala 678001",
+  "rating": "3.8 stars",
+  "pincode": "678001",
+  "reviews": [
+    {
+      "reviewer": "Rishi Mohan",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "I am satisfied with this branch and provide better service compared to other banks",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Amol",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "Nice location! Very helpful staff! All Banking services available!",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Kuttan",
+      "rating": "4 stars",
+      "date": "3 years ago",
+      "text": "Good but little bit hard to find",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ranjini TR",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "Very bad experience",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sagesh .p.s",
+      "rating": "5 stars",
+      "date": "10 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Swetha Nambiar",
+      "rating": "2 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Akshara Chandran",
+      "rating": "1 star",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "abhijith s r",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Spid R",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Amol Mandare",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Palakkad+Branch/data=!4m7!3m6!1s0x3ba86dfc09ef2d7b:0xc9f3f5355d02cd4a!8m2!3d10.7730379!4d76.6504312!16s%2Fg%2F11c74dsvm5!19sChIJey3vCfxtqDsRSs0CXTX188k?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_kerala.json"
+}

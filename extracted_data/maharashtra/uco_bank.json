@@ -1,0 +1,101 @@
+{
+  "name": "UCO Bank",
+  "address": "\n94XH+8RR, State Bank Chowk Rd, Rajendra Nagar, Bangar Nagar, Yavatmal, Maharashtra 445001",
+  "rating": "4.4 stars",
+  "pincode": "445001",
+  "reviews": [
+    {
+      "reviewer": "Er.KUNAL KAMBLE",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "Very good customer service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Krishna Khadse",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "This bank is neer to SBI bank provide very fast banking services",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "janardan mokase",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "the best customer service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nilesh Singh Jadaun",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Staff is very helpful.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Jay Dange",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Amazing",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "manish shah",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "Financial hub",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shreyash Patil",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "NISHAD DUDHE",
+      "rating": "4 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "SAGAR RAUT",
+      "rating": "3 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sandesh Thakre",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "pooja wagh",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "KUNAL KAMBLE",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "mayur timande",
+      "rating": "1 star",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3bd3e8b4c1aca211:0xc08468eba7c241d0!8m2!3d20.3983539!4d78.1295194!16s%2Fg%2F11cm02jqf4!19sChIJEaKswbTo0zsR0EHCp-tohMA?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_maharashtra.json"
+}

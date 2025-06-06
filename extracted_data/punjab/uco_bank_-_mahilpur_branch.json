@@ -1,0 +1,38 @@
+{
+  "name": "UCO Bank - Mahilpur Branch",
+  "address": "\n926Q+PWP, Mahilpur, Punjab 146105",
+  "rating": "4.5 stars",
+  "pincode": "146105",
+  "reviews": [
+    {
+      "reviewer": "jot chandeli wala",
+      "rating": "4 stars",
+      "date": "8 years ago",
+      "text": "On roadside with big parking for customers",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Bad boy Riders",
+      "rating": "4 stars",
+      "date": "2 years ago",
+      "text": "UCO back",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "harman parmar",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Jagjit Singh",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Mahilpur+Branch/data=!4m7!3m6!1s0x391ae8555ce78e91:0xe1575917500d7b01!8m2!3d31.3618418!4d76.0398171!16s%2Fg%2F11c56syzym!19sChIJkY7nXFXoGjkRAXsNUBdZV-E?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_punjab.json"
+}

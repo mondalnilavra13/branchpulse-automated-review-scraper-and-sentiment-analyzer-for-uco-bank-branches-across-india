@@ -1,0 +1,94 @@
+{
+  "name": "UCO Bank, Jagdishpur",
+  "address": "\nFGWW+49V, Lucknow - Sultanpur Rd, Kamrauli, Uttar Pradesh 229801",
+  "rating": "4.5 stars",
+  "pincode": "229801",
+  "reviews": [
+    {
+      "reviewer": "MR COOL",
+      "rating": "5 stars",
+      "date": "8 years ago",
+      "text": "Nice staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "ITS ASHISH",
+      "rating": "2 stars",
+      "date": "3 years ago",
+      "text": "Nice",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nirbhai Singh",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "MOHD. ARIF KHAN",
+      "rating": "4 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "devendra singh",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "RAHUL OJHA",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Akhilesh Kumar Maurya",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Rahul Dhatwalia",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Siddhartha Gaine",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Amit Maurya",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "shalu pandey",
+      "rating": "5 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Atul Tiwari",
+      "rating": "5 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank,+Jagdishpur/data=!4m7!3m6!1s0x399a4b1cfa2343af:0x34541f52a4176bfb!8m2!3d26.4953707!4d81.5459298!16s%2Fg%2F11c55dgzt2!19sChIJr0Mj-hxLmjkR-2sXpFIfVDQ?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_uttar_pradesh.json"
+}

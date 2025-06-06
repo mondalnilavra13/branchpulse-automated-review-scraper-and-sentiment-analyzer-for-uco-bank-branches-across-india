@@ -1,0 +1,24 @@
+{
+  "name": "UCO Bank, Thuampui",
+  "address": "\nPPVQ+FCQ, Aizawl, Mizoram 796007",
+  "rating": "4.5 stars",
+  "pincode": "796007",
+  "reviews": [
+    {
+      "reviewer": "Thangliensang Khawbung",
+      "rating": "5 stars",
+      "date": "2 months ago",
+      "text": "Trustable branch,freandley staff nice comeation with staff.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Om Prakash Vishnoi",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "One of the branch of UCO bank, situated in front of AMC office. It has ATM below AMC office.",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank,+Thuampui/data=!4m7!3m6!1s0x374dead5f2df805b:0x9a154ca4bf660329!8m2!3d23.7437221!4d92.7386196!16s%2Fg%2F11fxz7npwx!19sChIJW4Df8tXqTTcRKQNmv6RMFZo?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_mizoram.json"
+}

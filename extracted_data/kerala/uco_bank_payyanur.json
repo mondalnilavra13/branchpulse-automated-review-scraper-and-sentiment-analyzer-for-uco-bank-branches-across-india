@@ -1,0 +1,31 @@
+{
+  "name": "UCO Bank Payyanur",
+  "address": "\n4645+2MJ, Sreeprabha Jct Rd, Payyanur, Kerala 670307",
+  "rating": "4.7 stars",
+  "pincode": "670307",
+  "reviews": [
+    {
+      "reviewer": "Jayahari KV",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "One of the top Nationalised Bank in India. New branch and ATM opened in Payyanur very near to Old Bus Stand. Friendly staff and prompt service. You can do all kinds of banking activities here.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Tony Joy (Architect)",
+      "rating": "4 stars",
+      "date": "2 years ago",
+      "text": "Good service form staffs",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "sudheesh c",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Payyanur/data=!4m7!3m6!1s0x3ba46db0ebb7a2a3:0x736dfc834f60a36d!8m2!3d12.1050925!4d75.2089879!16s%2Fg%2F11sd947mxb!19sChIJo6K367BtpDsRbaNgT4P8bXM?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_kerala.json"
+}

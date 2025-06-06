@@ -1,0 +1,80 @@
+{
+  "name": "UCO Bank Barhalganj",
+  "address": "\n7GP5+HVW, college road, Barhalganj, Chillupar, Uttar Pradesh 273402",
+  "rating": "3.6 stars",
+  "pincode": "273402",
+  "reviews": [
+    {
+      "reviewer": "Rahul Yadav",
+      "rating": "2 stars",
+      "date": "3 years ago",
+      "text": "Atm Does not Support Rupay card.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Deepak Nishad",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "Small bank but good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Saniya Zehra",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "Worst atm machine.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Prabhat kumar",
+      "rating": "5 stars",
+      "date": "10 months ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "R P SINGH",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "Good One",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mark Sambhav",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "Banking at the best",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "NISAR AHMAD",
+      "rating": "3 stars",
+      "date": "2 years ago",
+      "text": "I haven't been here so I have no experience.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "SHRI PRADEEP YADAV",
+      "rating": "1 star",
+      "date": "3 weeks ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Satyam Mishra",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ram pratap Singh",
+      "rating": "3 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Barhalganj/data=!4m7!3m6!1s0x39917f4d09c52b5f:0xbc1bf0130eeded2a!8m2!3d26.2864935!4d83.5096889!16s%2Fg%2F11hb3lg3m2!19sChIJXyvFCU1_kTkRKu3tDhPwG7w?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_uttar_pradesh.json"
+}

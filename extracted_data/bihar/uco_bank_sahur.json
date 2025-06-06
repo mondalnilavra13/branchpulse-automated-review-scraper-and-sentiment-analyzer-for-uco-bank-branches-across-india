@@ -1,0 +1,45 @@
+{
+  "name": "UCO Bank Sahur",
+  "address": "\n5582+FJP, Sahur, Bihar 811310",
+  "rating": "4.8 stars",
+  "pincode": "811310",
+  "reviews": [
+    {
+      "reviewer": "Amit Kumar",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Very good service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sarvajeet Kumar",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "Good bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Anup Prakash",
+      "rating": "5 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Raushan Kumar",
+      "rating": "5 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Utkrist Kumar",
+      "rating": "5 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Sahur/data=!4m7!3m6!1s0x39f223bef0ba43fb:0xcdc90850a5668e9c!8m2!3d25.1662006!4d86.1515933!16s%2Fg%2F11c5t0b8fq!19sChIJ-0O68L4j8jkRnI5mpVAIyc0?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_bihar.json"
+}

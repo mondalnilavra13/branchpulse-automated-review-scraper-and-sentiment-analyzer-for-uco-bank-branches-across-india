@@ -1,0 +1,342 @@
+[
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396ca4c715797465:0xdb67142922978b85!8m2!3d27.6095584!4d75.1384664!16s%2Fg%2F11bxc7q971!19sChIJZXR5FcekbDkRhYuXIikUZ9s?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank - Sawai Madhopur Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Sawai+Madhopur+Branch/data=!4m7!3m6!1s0x396e2418a4275d89:0xd1d698cb0434ccdb!8m2!3d26.0269979!4d76.3569966!16s%2Fg%2F124t4drhx!19sChIJiV0npBgkbjkR28w0BMuY1tE?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396b9dacf0fd07bb:0xbf8a3b0cbd74001d!8m2!3d27.0344831!4d74.739942!16s%2Fg%2F1pp2x5kk1!19sChIJuwf98KydazkRHQB0vQw7ir8?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank, Dundlod Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank,+Dundlod+Branch/data=!4m7!3m6!1s0x39134c93c86bc77d:0x4a4a5691a16c9d66!8m2!3d27.9007821!4d75.229151!16s%2Fg%2F124t2tn8m!19sChIJfcdryJNMEzkRZp1soZFWSko?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank - Pal Road Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Pal+Road+Branch/data=!4m7!3m6!1s0x39418e9c44215aab:0x954ebe09bbd20d11!8m2!3d26.267836!4d72.989525!16s%2Fg%2F124t434rl!19sChIJq1ohRJyOQTkREQ3Suwm-TpU?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396ca4c957e9bf3f:0x23981dbd738ae4a8!8m2!3d27.6143231!4d75.1484534!16s%2Fg%2F1xcbn0hb!19sChIJP7_pV8mkbDkRqOSKc70dmCM?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank Market Quarter Pilani Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Market+Quarter+Pilani+Branch/data=!4m7!3m6!1s0x3913195b1e7f67a9:0x2b0f1ea77447b7!8m2!3d28.3587988!4d75.6060943!16s%2Fg%2F11c0vlk7gx!19sChIJqWd_HlsZEzkRt0d0px4PKwA?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x393fe76128decf27:0x5cb677f83f44e9ac!8m2!3d28.0104613!4d73.3439957!16s%2Fg%2F126208yxq!19sChIJJ8_eKGHnPzkRrOlEP_h3tlw?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank Balicha Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Balicha+Branch/data=!4m7!3m6!1s0x3967efb50b2d364b:0x241b19c4f76b2037!8m2!3d24.5263638!4d73.6784491!16s%2Fg%2F11bxb4ms_l!19sChIJSzYtC7XvZzkRNyBr98QZGyQ?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank - Dungarpur Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Dungarpur+Branch/data=!4m7!3m6!1s0x396771e851c11325:0x38a92a9fe8c86a54!8m2!3d23.8504176!4d73.7265933!16s%2Fg%2F11b88kpy3z!19sChIJJRPBUehxZzkRVGrI6J8qqTg?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank - Mahwa Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Mahwa+Branch/data=!4m7!3m6!1s0x3972440920ffdcf7:0x690ec3a0070eec0f!8m2!3d27.0439884!4d76.9227382!16s%2Fg%2F11fy2k6qyj!19sChIJ99z_IAlEcjkRD-wOB6DDDmk?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank - Phulera Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Phulera+Branch/data=!4m7!3m6!1s0x396c6eb19688f061:0xbde15ec369bbb40b!8m2!3d26.8743564!4d75.2410911!16s%2Fg%2F124std769!19sChIJYfCIlrFubDkRC7S7acNe4b0?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396f9b297e194811:0x9b478ddbc656b7d5!8m2!3d25.1719124!4d75.8502272!16s%2Fg%2F11csqfphcw!19sChIJEUgZfimbbzkR1bdWxtuNR5s?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396db2cd12710441:0x974acb2fd464fa02!8m2!3d26.9699105!4d75.716037!16s%2Fg%2F11cs09dnqr!19sChIJQQRxEs2ybTkRAvpk1C_LSpc?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3917b511d8bf51db:0xfcf0d1226c7e14f4!8m2!3d29.9257698!4d73.8732183!16s%2Fg%2F124ydsl0k!19sChIJ21G_2BG1FzkR9BR-bCLR8Pw?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3967efa17797e7c3:0xb9772539c73ec1c3!8m2!3d24.5459548!4d73.6956483!16s%2Fg%2F11ckxwfksc!19sChIJw-eXd6HvZzkRw8E-xzkld7k?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank Zonal Office JAIPUR",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Zonal+Office+JAIPUR/data=!4m7!3m6!1s0x396db5c57cf748a3:0x7e94b30f1aee158a!8m2!3d26.9099598!4d75.7803551!16s%2Fg%2F11gj776hs7!19sChIJo0j3fMW1bTkRihXuGg-zlH4?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank - Baswa Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Baswa+Branch/data=!4m7!3m6!1s0x39727bbabdc9cddf:0x50cf636cb2b452f8!8m2!3d27.1475958!4d76.5825262!16s%2Fg%2F11cs1wjzjh!19sChIJ383Jvbp7cjkR-FK0smxjz1A?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank Sukher, Udaipur",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Sukher,+Udaipur/data=!4m7!3m6!1s0x3967e444881edc8d:0xf56640fc21d51b91!8m2!3d24.6367735!4d73.7154066!16s%2Fg%2F11bxc7f2tb!19sChIJjdweiETkZzkRkRvVIfxAZvU?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank - Sardarpura",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Sardarpura/data=!4m7!3m6!1s0x39418c2c21fb135b:0x80969982173cdf5a!8m2!3d26.282138!4d73.0102139!16s%2Fg%2F1tf_r83p!19sChIJWxP7ISyMQTkRWt88F4KZloA?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39429e05fcfe43f9:0xa58c6b760d89b137!8m2!3d25.1841948!4d73.4538979!16s%2Fg%2F11bw4hdxyp!19sChIJ-UP-_AWeQjkRN7GJDXZrjKU?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39729992f918a50d:0xb35b37bf18c6f517!8m2!3d27.5676915!4d76.6154833!16s%2Fg%2F11gxm5vc4b!19sChIJDaUY-ZKZcjkRF_XGGL83W7M?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396ba42b7fd54daf:0x28bbc0c8518eeec0!8m2!3d26.9512293!4d74.452656!16s%2Fg%2F11bw7d87gj!19sChIJr03VfyukazkRwO6OUcjAuyg?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank Churu",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Churu/data=!4m7!3m6!1s0x39149e00b7409c85:0xc830237007ac2bb3!8m2!3d28.2965997!4d74.9624113!16s%2Fg%2F11hbgqj3nj!19sChIJhZxAtwCeFDkRsyusB3AjMMg?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank Beelwa",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Beelwa/data=!4m7!3m6!1s0x396dc9da01d0b625:0x8a07c59a5978cc47!8m2!3d26.7658838!4d75.8397026!16s%2Fg%2F11smzk5jwn!19sChIJJbbQAdrJbTkRR8x4WZrFB4o?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39418da99461a4f1:0x537e9eab0b0e5cc1!8m2!3d26.2961918!4d73.0387521!16s%2Fg%2F1hjh5svns!19sChIJ8aRhlKmNQTkRwVwOC6ueflM?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3969742481a06d8b:0xdcece4e982d4e683!8m2!3d26.0113269!4d74.2823058!16s%2Fg%2F11cr_1z7kt!19sChIJi22ggSR0aTkRg-bUgunk7Nw?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396ec87d81b0b249:0x94407f80de367c74!8m2!3d25.9751351!4d75.1459304!16s%2Fg%2F124yp1b5n!19sChIJSbKwgX3IbjkRdHw23oB_QJQ?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x397270e0932ab2cf:0x92e7f775aa7e4326!8m2!3d27.0460429!4d76.573386!16s%2Fg%2F11csqdv39z!19sChIJz7Iqk-BwcjkRJkN-qnX355I?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39418ea23e3e684f:0x182080f951fd256a!8m2!3d26.258577!4d72.9863077!16s%2Fg%2F124sq0w8z!19sChIJT2g-PqKOQTkRaiX9UfmAIBg?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank, Suratgarh",
+        "url": "https://www.google.com/maps/place/UCO+Bank,+Suratgarh/data=!4m7!3m6!1s0x3916724e0d727707:0xdeb1f8ce2f467127!8m2!3d29.3153429!4d73.9020403!16s%2Fg%2F11c2ly2z5b!19sChIJB3dyDU5yFjkRJ3FGL874sd4?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396bb9203bdf0b17:0x63fea5584e2f96ce!8m2!3d26.7338369!4d74.4772166!16s%2Fg%2F11bwydb9l_!19sChIJFwvfOyC5azkRzpYvTlil_mM?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396ddbacab30be23:0xf1b2951086ea13d4!8m2!3d26.6050232!4d75.9463647!16s%2Fg%2F1tgn_640!19sChIJI74wq6zbbTkR1BPqhhCVsvE?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3941c151397a8527:0x54a1daf236097a77!8m2!3d26.6190528!4d73.1757506!16s%2Fg%2F11c6cds725!19sChIJJ4V6OVHBQTkRd3oJNvLaoVQ?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396ffa67489473b9:0xa1b7fefc765eaf1e!8m2!3d25.1554799!4d76.293058!16s%2Fg%2F11bws85zd4!19sChIJuXOUSGf6bzkRHq9edvz-t6E?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396dfc4deb53b06f:0xd7caed63929d663c!8m2!3d26.5608541!4d76.330111!16s%2Fg%2F1hc2rc01_!19sChIJb7BT6038bTkRPGadkmPtytc?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396f9b3d25033045:0x324d605e3d8d9582!8m2!3d25.1860849!4d75.8408818!16s%2Fg%2F11c5rq5gnm!19sChIJRTADJT2bbzkRgpWNPV5gTTI?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank - Sojati Gate Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Sojati+Gate+Branch/data=!4m7!3m6!1s0x39418c4ca9d130bd:0x17a2e5644ff854ac!8m2!3d26.2868033!4d73.022843!16s%2Fg%2F11b637th98!19sChIJvTDRqUyMQTkRrFT4T2Tlohc?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3972a52dac278923:0x4185adf260bdcccc!8m2!3d27.795292!4d76.6381195!16s%2Fg%2F12cpblk6k!19sChIJI4knrC2lcjkRzMy9YPKthUE?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396cf559394aa863:0x611a8353efc849b8!8m2!3d27.153091!4d75.357737!16s%2Fg%2F11b6ljqvwb!19sChIJY6hKOVn1bDkRuEnI71ODGmE?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3941f2705734d5cd:0x34de0e1180172de2!8m2!3d26.3394169!4d73.149079!16s%2Fg%2F11b6j7yq0t!19sChIJzdU0V3DyQTkR4i0XgBEO3jQ?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396f84d86c071219:0x994268f30a516e41!8m2!3d25.153237!4d75.8530902!16s%2Fg%2F124sqnt0g!19sChIJGRIHbNiEbzkRQW5RCvNoQpk?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396d0e3af0266ea1:0x41471bb830041ff8!8m2!3d27.3832594!4d75.9604486!16s%2Fg%2F11cnb487hr!19sChIJoW4m8DoObTkR-B8EMLgbR0E?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396f09468e4a9899:0xa0572dedc04e6638!8m2!3d25.4354176!4d75.6472045!16s%2Fg%2F11g6xs650t!19sChIJmZhKjkYJbzkROGZOwO0tV6A?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396b9e85f8019f7b:0xcc721f39fe396e49!8m2!3d27.0229684!4d74.674947!16s%2Fg%2F11bwyffqg9!19sChIJe58B-IWeazkRSW45_jkfcsw?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3942ecaa9bb467e5:0xbe38d514530ec095!8m2!3d25.1479946!4d73.08567!16s%2Fg%2F11c1vls_kz!19sChIJ5We0m6rsQjkRlcAOUxTVOL4?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396b671a74faa271:0xaa2934c7f3a8b7f6!8m2!3d27.4264897!4d74.8438394!16s%2Fg%2F11c607wcpd!19sChIJcaL6dBpnazkR9reo88c0Kao?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396f9a5eb6ac6c81:0x498d24915e41d916!8m2!3d25.219294!4d75.8711449!16s%2Fg%2F11cscbtmbr!19sChIJgWystl6abzkRFtlBXpEkjUk?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396dfc7ce8d24643:0xbd18e71275a8c8b2!8m2!3d26.5921075!4d76.3211766!16s%2Fg%2F11c70c0c60!19sChIJQ0bS6Hz8bTkRssiodRLnGL0?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396a063d17f94617:0x275c3fd2e38f006!8m2!3d26.3812381!4d73.5336267!16s%2Fg%2F11f18ck7ll!19sChIJF0b5Fz0GajkRBvA4Lv3DdQI?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3941f8660f4a92fb:0xceaa3816e4c67423!8m2!3d26.2021649!4d73.3126352!16s%2Fg%2F11dxkd_k1r!19sChIJ-5JKD2b4QTkRI3TG5BY4qs4?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396bf0d8b56fd0a3:0xbd857c08c8aa6778!8m2!3d26.588105!4d74.8568133!16s%2Fg%2F1wfcmkbg!19sChIJo9BvtdjwazkReGeqyAh8hb0?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank Belwa(Khatriyan)",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Belwa%28Khatriyan%29/data=!4m7!3m6!1s0x394173c9bc17c11d:0xa173b4f0728456ca!8m2!3d26.4524815!4d72.5604587!16s%2Fg%2F11gj4lbwff!19sChIJHcEXvMlzQTkRylaEcvC0c6E?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x393fdda71bfbe477:0x19a803668d9d5bc0!8m2!3d28.0436647!4d73.3261881!16s%2Fg%2F11g87bh3w_!19sChIJd-T7G6fdPzkRwFudjWYDqBk?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39418c594987d669:0xf79cdab9fffc4000!8m2!3d26.2721008!4d73.0360573!16s%2Fg%2F1hm4h4rd8!19sChIJadaHSVmMQTkRAED8_7nanPc?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396a6c83ba8b5d9f:0x9f7c5b04febae2f!8m2!3d26.640341!4d73.7439226!16s%2Fg%2F11gcdwtyvh!19sChIJn12LuoNsajkRL67rT7DF9wk?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396f9ae273499fcf:0xfddb450098092352!8m2!3d25.1969359!4d75.8538382!16s%2Fg%2F11c20925zm!19sChIJz59Jc-KabzkRUiMJmABF2_0?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO BankDechu",
+        "url": "https://www.google.com/maps/place/UCO+BankDechu/data=!4m7!3m6!1s0x39412021bbd88563:0xf951d7c86d046074!8m2!3d26.7698949!4d72.3271884!16s%2Fg%2F11c60njxxw!19sChIJY4XYuyEgQTkRdGAEbcjXUfk?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x393fdd63faf03019:0xa2170c80e41e75b5!8m2!3d28.0160189!4d73.3066275!16s%2Fg%2F11bwfjrk2d!19sChIJGTDw-mPdPzkRtXUe5IAMF6I?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396dbf885f35ed91:0xab6b4ce60436f556!8m2!3d26.8553244!4d76.052659!16s%2Fg%2F11cn94bml5!19sChIJke01X4i_bTkRVvU2BOZMa6s?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank, Pratapgarh",
+        "url": "https://www.google.com/maps/place/UCO+Bank,+Pratapgarh/data=!4m7!3m6!1s0x3966a21672190425:0x4ae5c894756b46ee!8m2!3d24.0275778!4d74.7873527!16s%2Fg%2F11c37r13bh!19sChIJJQQZchaiZjkR7kZrdZTI5Uo?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396db54020b56df5:0x2a50561b3abd8953!8m2!3d26.8818876!4d75.7800309!16s%2Fg%2F11v67rsrtt!19sChIJ9W21IEC1bTkRU4m9OhtWUCo?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank, Ajeetgarh",
+        "url": "https://www.google.com/maps/place/UCO+Bank,+Ajeetgarh/data=!4m7!3m6!1s0x396d1b71586df3f3:0x24f5eedcd6349d3b!8m2!3d27.421567!4d75.8245503!16s%2Fg%2F11cmhvnplx!19sChIJ8_NtWHEbbTkRO5001tzu9SQ?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x396b2e2d1ab6c3e7:0xcb382b3dc70894e9!8m2!3d27.6412636!4d74.3953906!16s%2Fg%2F1pp2wwcw7!19sChIJ58O2Gi0uazkR6ZQIxz0rOMs?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank Kakani Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Kakani+Branch/data=!4m7!3m6!1s0x394221f5cd29f45d:0x35121bb2cf03dedb!8m2!3d26.0666645!4d73.0691248!16s%2Fg%2F11bzx7fz32!19sChIJXfQpzfUhQjkR294Dz7IbEjU?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x394192620dc0ec77:0x31b8aa26e9cc50c1!8m2!3d26.3511792!4d73.0398979!16s%2Fg%2F11hcjsg_y2!19sChIJd-zADWKSQTkRwVDM6SaquDE?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank Banasthali Vidyapith",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Banasthali+Vidyapith/data=!4m7!3m6!1s0x396e79c1a7e3bdfb:0x3cc7569b42f334a5!8m2!3d26.3994906!4d75.8800816!16s%2Fg%2F11cmrk7v3g!19sChIJ-73jp8F5bjkRpTTzQptWxzw?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39686b7b3b5a848d:0xb2fbe71b8210c017!8m2!3d25.0615358!4d73.8782558!16s%2Fg%2F11d_tt9217!19sChIJjYRaO3traDkRF8AQghvn-7I?authuser=0&hl=en&rclk=1",
+        "state": "Rajasthan"
+    }
+]

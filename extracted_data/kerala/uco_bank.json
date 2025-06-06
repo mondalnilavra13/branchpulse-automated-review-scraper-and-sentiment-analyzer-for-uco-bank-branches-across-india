@@ -1,0 +1,45 @@
+{
+  "name": "UCO Bank",
+  "address": "\nP7PM+7R4, Uthamapalayam - Kuchanur - Theni Rd, Maalaikkovil, Theni, Cumbum, Tamil Nadu 625519",
+  "rating": "3.0 stars",
+  "pincode": "625519",
+  "reviews": [
+    {
+      "reviewer": "Nagarajan j",
+      "rating": "1 star",
+      "date": "4 years ago",
+      "text": "This branch cashiera lady  not answer my questions bad service in customer so I cancelled my account",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "pandi selvam",
+      "rating": "1 star",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "krishna kumar",
+      "rating": "3 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "SaNtHi NaRaYaN",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Jai Krishnan",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3b070158c391d32b:0x5abb6b5e893c4136!8m2!3d9.735639!4d77.284569!16s%2Fg%2F11dxlc8fc2!19sChIJK9ORw1gBBzsRNkE8iV5ru1o?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_kerala.json"
+}

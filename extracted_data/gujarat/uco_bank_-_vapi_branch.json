@@ -1,0 +1,73 @@
+{
+  "name": "UCO Bank - Vapi Branch",
+  "address": "\nVaishali Complex, Koparli Rd, Near Bridge, Vapi East, Imran Nagar, Vapi, Gujarat 396191",
+  "rating": "2.9 stars",
+  "pincode": "396191",
+  "reviews": [
+    {
+      "reviewer": "Manthan Vasani",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "Decent staff. Branch looks good kept clean.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Radhe Krishna Developers",
+      "rating": "1 star",
+      "date": "6 years ago",
+      "text": "please send contact number to branch manager",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "MOHAMMAD ANAS",
+      "rating": "1 star",
+      "date": "9 months ago",
+      "text": "cheap bank\n3rd class service\nPrinter to ink never works\nGo to the branch and check what you are doing today.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "ganvit yogesh",
+      "rating": "1 star",
+      "date": "a week ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sobodh Kumar",
+      "rating": "1 star",
+      "date": "9 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Rawal singh Rawal singh",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Viswanath Thirampuram",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Somanath Gahan",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "shafi mansuri",
+      "rating": "3 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Vapi+Branch/data=!4m7!3m6!1s0x3be0ce343e02e5c9:0x133ac36ddd2e1bc8!8m2!3d20.3738839!4d72.9180125!16s%2Fg%2F1q64py5qq!19sChIJyeUCPjTO4DsRyBsu3W3DOhM?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_gujarat.json"
+}

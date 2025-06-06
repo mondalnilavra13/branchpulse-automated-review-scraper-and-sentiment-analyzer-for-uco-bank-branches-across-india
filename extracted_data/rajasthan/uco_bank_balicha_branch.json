@@ -1,0 +1,52 @@
+{
+  "name": "UCO Bank Balicha Branch",
+  "address": "\nGMGH+G9W, Transport Nagar, Udaipur, Gordhan Vilas Rural, Rajasthan 313002",
+  "rating": "4.3 stars",
+  "pincode": "313002",
+  "reviews": [
+    {
+      "reviewer": "Neeraj Chhajed",
+      "rating": "5 stars",
+      "date": "9 years ago",
+      "text": "Very nice staff. UCO bank have very good scheme for Gold loan and Trader loan and property loan.\nHave ATM with branch.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mahesh jetha",
+      "rating": "3 stars",
+      "date": "8 years ago",
+      "text": "Branch of famous public sector bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Bhumi Ahari",
+      "rating": "4 stars",
+      "date": "5 years ago",
+      "text": "Good. Staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Lahar Singh Chhajed",
+      "rating": "5 stars",
+      "date": "9 years ago",
+      "text": "Good staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ashok Teli",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mahendra Patel",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Balicha+Branch/data=!4m7!3m6!1s0x3967efb50b2d364b:0x241b19c4f76b2037!8m2!3d24.5263638!4d73.6784491!16s%2Fg%2F11bxb4ms_l!19sChIJSzYtC7XvZzkRNyBr98QZGyQ?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_rajasthan.json"
+}

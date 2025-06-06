@@ -1,0 +1,24 @@
+{
+  "name": "UCO Bank Barotiwala",
+  "address": "\nWR4R+5P7, VPO Barotiwala, Distt, Tehsil, Baddi, Himachal Pradesh",
+  "rating": "4.5 stars",
+  "pincode": "Not found",
+  "reviews": [
+    {
+      "reviewer": "Deepak Kumar",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "Nice",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gaurav Prajapati (Gk)",
+      "rating": "4 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Barotiwala/data=!4m7!3m6!1s0x390f8b2e0ffb5c6f:0xe390185b209d20a9!8m2!3d30.9054042!4d76.8418098!16s%2Fg%2F11s8kt854t!19sChIJb1z7Dy6LDzkRqSCdIFsYkOM?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_himachal_pradesh.json"
+}

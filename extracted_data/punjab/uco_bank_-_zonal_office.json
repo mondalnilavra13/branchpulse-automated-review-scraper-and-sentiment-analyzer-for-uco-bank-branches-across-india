@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank - Zonal Office",
+  "address": "\n8HCR+7CP, Master Tara Singh Nagar, Jalandhar, Punjab 144001",
+  "rating": "4.1 stars",
+  "pincode": "144001",
+  "reviews": [
+    {
+      "reviewer": "RAJBAL SINGH",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "UCO BANK Zonal office. A controlling office for the UCO bank's branches located in Punjab and J&K.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "King Leo",
+      "rating": "4 stars",
+      "date": "5 years ago",
+      "text": "Good staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Swapnil Mishra",
+      "rating": "5 stars",
+      "date": "8 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Kulwinder Kaur",
+      "rating": "1 star",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sanjay Sahoo",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "VIKASH Bhai",
+      "rating": "4 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nitin Kumar",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Zonal+Office/data=!4m7!3m6!1s0x391a5a4f4fe80a75:0xb64aa621ebd71d65!8m2!3d31.3207001!4d75.5910666!16s%2Fg%2F11b6hszs4p!19sChIJdQroT09aGjkRZR3X6yGmSrY?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_punjab.json"
+}

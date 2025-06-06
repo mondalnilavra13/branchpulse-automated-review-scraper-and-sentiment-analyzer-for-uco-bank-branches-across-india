@@ -1,0 +1,31 @@
+{
+  "name": "UCO Bank CSP",
+  "address": "\nM4R3+M58, Sawant, Bihar 848202",
+  "rating": "4.7 stars",
+  "pincode": "848202",
+  "reviews": [
+    {
+      "reviewer": "Shubham Kumar",
+      "rating": "5 stars",
+      "date": "9 months ago",
+      "text": "Bank services include:\nMoney withdrawal via ATMs and Aadhar Card\nMoney deposit through Aadhaar and ATM cards\nNew account opening (savings, checking, fixed deposits)\nEnrollment in government schemes (PMSBY, PMJJBY and SBY)",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shubham Kumar",
+      "rating": "5 stars",
+      "date": "9 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Rahul Samrat",
+      "rating": "4 stars",
+      "date": "9 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+CSP/data=!4m7!3m6!1s0x39edf9000105bf23:0xecd27f83c7c0ff17!8m2!3d25.6918045!4d86.1027879!16s%2Fg%2F11y5q87f3x!19sChIJI78FAQD57TkRF__Ax4N_0uw?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_bihar.json"
+}

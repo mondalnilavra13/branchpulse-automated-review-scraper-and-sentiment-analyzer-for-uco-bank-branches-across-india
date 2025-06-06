@@ -1,0 +1,17 @@
+{
+  "name": "UCO Bank Petarwar",
+  "address": "\nJR7X+CR3, Kasmar Rd, Peterbar, Jharkhand 829121",
+  "rating": "3.0 stars",
+  "pincode": "829121",
+  "reviews": [
+    {
+      "reviewer": "Kishore kumar biswas",
+      "rating": "3 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Petarwar/data=!4m7!3m6!1s0x39f4410b73cb4b09:0xfba840dc0ca8efd3!8m2!3d23.6135224!4d85.8495583!16s%2Fg%2F11tcrfqwgk!19sChIJCUvLcwtB9DkR0--oDNxAqPs?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_jharkhand.json"
+}

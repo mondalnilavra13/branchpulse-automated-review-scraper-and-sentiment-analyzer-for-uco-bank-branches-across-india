@@ -1,0 +1,24 @@
+{
+  "name": "UCO Bank And ATM Odhav",
+  "address": "\nShop no 1&2 global business park, Odhav, Ahmedabad, Gujarat 382415",
+  "rating": "5.0 stars",
+  "pincode": "382415",
+  "reviews": [
+    {
+      "reviewer": "Tejas Mistry",
+      "rating": "5 stars",
+      "date": "5 months ago",
+      "text": "Serving to Honour Customer Trust",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Naresh Chechi",
+      "rating": "5 stars",
+      "date": "3 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+And+ATM+Odhav/data=!4m7!3m6!1s0x395e877e5cf5aa35:0xd1d17e58a3581979!8m2!3d23.0216587!4d72.6726043!16s%2Fg%2F11td45s68v!19sChIJNar1XH6HXjkReRlYo1h-0dE?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_gujarat.json"
+}

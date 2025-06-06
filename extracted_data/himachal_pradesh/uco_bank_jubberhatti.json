@@ -1,0 +1,66 @@
+{
+  "name": "UCO Bank Jubberhatti",
+  "address": "\n33P9+XPG, Jubbarhatti, Himachal Pradesh 171011",
+  "rating": "4.9 stars",
+  "pincode": "171011",
+  "reviews": [
+    {
+      "reviewer": "RAM Kumar",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Nice👍 …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Himachal rider",
+      "rating": "4 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Rupali Madhan",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Aseem Chaudhry",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "mahesh verma",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Amar Thakur",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "deepika verma",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Parth Sharma",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Jubberhatti/data=!4m7!3m6!1s0x39057b97e0b95373:0xbbaec5e797c5a03d!8m2!3d31.0874376!4d77.0693288!16s%2Fg%2F11f1ybq6hc!19sChIJc1O54Jd7BTkRPaDFl-fFrrs?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_himachal_pradesh.json"
+}

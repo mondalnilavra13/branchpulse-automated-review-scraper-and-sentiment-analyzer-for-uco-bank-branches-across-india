@@ -1,0 +1,73 @@
+{
+  "name": "UCO Bank - Tahliwala Branch",
+  "address": "\n972G+5M4, Tahliwal, Himachal Pradesh 174301",
+  "rating": "3.7 stars",
+  "pincode": "174301",
+  "reviews": [
+    {
+      "reviewer": "Pankaj Thakur",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "Good service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Pawan Kumar",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "Peoples Bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "S Gurdev Singh",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shilpi Soni",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gurmeet Singh",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Goldy Rana",
+      "rating": "3 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Abhishek Saini",
+      "rating": "1 star",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Pardeep sharma",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Varinder Kumar",
+      "rating": "5 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Tahliwala+Branch/data=!4m7!3m6!1s0x391acf572b0a5845:0x977a5540db3c633a!8m2!3d31.3503769!4d76.2767025!16s%2Fg%2F11g68_j_7_!19sChIJRVgKK1fPGjkROmM820BVepc?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_himachal_pradesh.json"
+}

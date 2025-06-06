@@ -1,0 +1,66 @@
+{
+  "name": "UCO Bank MCYC Branch",
+  "address": "\nBilashpur, Bilaspur, NH-88, Shimla Kangar Road, Bilaspur, Bilaspur, Himachal Pradesh 174001",
+  "rating": "3.9 stars",
+  "pincode": "174001",
+  "reviews": [
+    {
+      "reviewer": "Abhay Thakur",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "One of the crowded Bank of the town.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vasu Mahal",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "Very bad service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "satyen prakash",
+      "rating": "4 stars",
+      "date": "5 years ago",
+      "text": "Good to bank with",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vikram",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Raghav Rajput",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Er. Vinod Panwar",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "ryan negi",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "saru singh",
+      "rating": "3 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+MCYC+Branch/data=!4m7!3m6!1s0x39053f19a2d6edb1:0x1455726b6bc7ab62!8m2!3d31.3392725!4d76.7608896!16s%2Fg%2F11g6xrcqs5!19sChIJse3Wohk_BTkRYqvHa2tyVRQ?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_himachal_pradesh.json"
+}

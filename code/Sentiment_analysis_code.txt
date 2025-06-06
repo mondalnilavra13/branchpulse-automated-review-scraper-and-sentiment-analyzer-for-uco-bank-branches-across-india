@@ -1,0 +1,559 @@
+import pandas as pd
+import numpy as np
+import unicodedata
+import torch
+import logging
+import os
+import re
+from tqdm import tqdm
+from sentence_transformers import SentenceTransformer, util
+from transformers import AutoTokenizer, AutoModelForSequenceClassification, AutoModelForSeq2SeqLM
+from langdetect import detect, LangDetectException
+
+# ------------------ Setup Logging ------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
+# ------------------ Paths ------------------
+INPUT_FILE_PATH = r"C:\Users\rzzzc\BFARPy\Python\4th Sem\UCO_google_review_scrapping\extracted_data\all_branches_reviews.csv"
+TOPICS_FILE_PATH = r"C:\Users\rzzzc\BFARPy\Python\4th Sem\UCO_google_review_scrapping\Sentiment_analysis\topic_categorisation.txt"
+OUTPUT_FILE_PATH = r"C:\Users\rzzzc\BFARPy\Python\4th Sem\UCO_google_review_scrapping\Sentiment_analysis\reviews_sentiment_topic.csv"
+
+# ------------------ Create Output Directory ------------------
+output_dir = os.path.dirname(OUTPUT_FILE_PATH)
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+    logger.info(f"📁 Created output directory: {output_dir}")
+
+# ------------------ Create Topics File ------------------
+def create_topics_file():
+    """Create a topics file for bank reviews if it doesn't exist"""
+    if os.path.exists(TOPICS_FILE_PATH):
+        return
+    
+    # Define banking-specific topics with examples
+    topics_dict = {
+        "Customer Service": [
+            "The staff was very helpful and polite",
+            "I had a terrible experience with their customer service",
+            "The bank employees were knowledgeable and solved my problem quickly",
+            "Nobody answered my queries properly",
+            "Service is excellent and staff is friendly"
+        ],
+        "Account Management": [
+            "Opening an account was easy and quick",
+            "Had issues with my account balance",
+            "The process to update my KYC was smooth",
+            "My account was debited without authorization",
+            "The online banking system is user-friendly"
+        ],
+        "Loan Processing": [
+            "My loan was approved quickly",
+            "The interest rates are too high",
+            "The loan documentation process was tedious",
+            "They rejected my loan application without explanation",
+            "Affordable EMI options for home loans"
+        ],
+        "Digital Banking": [
+            "The mobile app is convenient to use",
+            "Online banking platform needs improvement",
+            "The app keeps crashing when I try to transfer money",
+            "Internet banking is secure and fast",
+            "The UPI payment feature works flawlessly"
+        ],
+        "Branch Facilities": [
+            "The branch is clean and well-maintained",
+            "Not enough cash counters during peak hours",
+            "ATM is always out of service",
+            "The branch location is convenient",
+            "Long waiting times at the branch"
+        ],
+        "Charges & Fees": [
+            "The bank charges too many hidden fees",
+            "Reasonable service charges compared to other banks",
+            "High maintenance charges for savings account",
+            "They waived the annual credit card fee",
+            "Excessive penalties for minimum balance requirements"
+        ],
+        "General Feedback": [
+            "Overall a good bank",
+            "I recommend this bank to everyone",
+            "Worst banking experience ever",
+            "The bank has improved a lot in recent years",
+            "Better than other banks in the area"
+        ]
+    }
+    
+    topics_dir = os.path.dirname(TOPICS_FILE_PATH)
+    if not os.path.exists(topics_dir):
+        os.makedirs(topics_dir)
+    
+    with open(TOPICS_FILE_PATH, 'w', encoding='utf-8') as f:
+        f.write("Bank Review Topics Dictionary:\n\n")
+        f.write(str(topics_dict))
+    
+    logger.info(f"📝 Created topics file at: {TOPICS_FILE_PATH}")
+    return topics_dict
+
+# ------------------ Load Topics ------------------
+def load_topics_from_file(file_path):
+    if not os.path.exists(file_path):
+        return create_topics_file()
+    
+    with open(file_path, 'r', encoding='utf-8') as file:
+        content = file.read()
+        dict_start = content.find('{')
+        dict_end = content.rfind('}') + 1
+        dict_content = content[dict_start:dict_end]
+        topics_dict = eval(dict_content)
+    return topics_dict
+
+# ------------------ Load Data ------------------
+def load_data(file_path):
+    encodings_to_try = ['utf-8-sig', 'utf-8', 'ISO-8859-1']
+    for enc in encodings_to_try:
+        try:
+            with open(file_path, 'r', encoding=enc, errors='replace') as f:
+                df = pd.read_csv(f)
+            logger.info(f"✅ Loaded CSV using encoding: {enc}")
+            break
+        except UnicodeDecodeError:
+            logger.warning(f"⚠️ Failed to load with encoding: {enc}")
+    else:
+        raise UnicodeDecodeError("❌ Unable to decode file using tried encodings.")
+
+    df.drop_duplicates(inplace=True)
+    df.columns = [col.lower().strip() for col in df.columns]
+    
+    # Ensure we have the required columns
+    required_columns = ['address', 'url', 'reviewer', 'review_rating', 'review_text']
+    for col in required_columns:
+        if col not in df.columns:
+            raise ValueError(f"Required column '{col}' not found in the CSV file")
+    
+    # Clean and prepare data
+    df['review_text'] = df['review_text'].astype(str).fillna("")
+    
+    return df
+
+# ------------------ Topic Embeddings ------------------
+def compute_all_example_embeddings(model, topics_dict):
+    topic_examples = []
+    topic_labels = []
+    for topic, examples in topics_dict.items():
+        for example in examples:
+            topic_examples.append(example)
+            topic_labels.append(topic)
+
+    logger.info(f"🧠 Encoding {len(topic_examples)} topic examples...")
+    example_embeddings = model.encode(topic_examples, batch_size=32, convert_to_tensor=True)
+    return topic_examples, topic_labels, example_embeddings
+
+def match_comment_to_topic(comment, model, topic_labels, example_embeddings, threshold=0.6):
+    if not comment.strip():
+        return "Other / Unclassified", 0.0
+
+    comment_embedding = model.encode(comment, convert_to_tensor=True)
+    cos_scores = util.cos_sim(comment_embedding, example_embeddings)[0]
+    top_index = torch.argmax(cos_scores).item()
+    top_score = cos_scores[top_index].item()
+
+    if top_score >= threshold:
+        return topic_labels[top_index], round(top_score, 3)
+    else:
+        return "Other / Unclassified", round(top_score, 3)
+
+# ------------------ Text Normalization & Cleanup ------------------
+def normalize_text(text):
+    """Normalize Unicode characters to NFC form"""
+    return unicodedata.normalize("NFC", text) if isinstance(text, str) else ""
+
+def clean_translation(text):
+    """Clean up common translation artifacts"""
+    if not isinstance(text, str):
+        return ""
+    
+    # Remove excessive spaces
+    text = re.sub(r'\s+', ' ', text).strip()
+    
+    # Fix common artifacts
+    text = re.sub(r'\.{2,}', '...', text)  # Standardize ellipses
+    text = re.sub(r' ', '', text)  # Remove replacement character
+    text = re.sub(r'\( *\)', '', text)  # Remove empty parentheses
+    text = re.sub(r'\[ *\]', '', text)  # Remove empty brackets
+    text = re.sub(r'\s+([.,!?;:])', r'\1', text)  # Fix spacing before punctuation
+    
+    # Fix double punctuation
+    text = re.sub(r'([.,!?;:]){2,}', r'\1', text)
+    
+    return text.strip()
+
+# ------------------ Script Detection ------------------
+SCRIPT_PATTERNS = {
+    'bengali': r'[\u0980-\u09FF\u09BC\u09BE-\u09CC\u09CD\u09D7]',
+    'devanagari': r'[\u0900-\u097F\uA8E0-\uA8FF\u1CD0-\u1CFF]',
+    'gurmukhi': r'[\u0A00-\u0A7F]',
+    'gujarati': r'[\u0A80-\u0AFF]',
+    'oriya': r'[\u0B00-\u0B7F]',
+    'tamil': r'[\u0B80-\u0BFF]',
+    'telugu': r'[\u0C00-\u0C7F]',
+    'kannada': r'[\u0C80-\u0CFF]',
+    'malayalam': r'[\u0D00-\u0D7F]'
+}
+
+def detect_scripts(text):
+    """Detect all scripts present in text"""
+    if not isinstance(text, str) or not text.strip():
+        return set()
+    
+    detected_scripts = set()
+    for script, pattern in SCRIPT_PATTERNS.items():
+        if re.search(pattern, text):
+            detected_scripts.add(script)
+            
+    # Check for Latin script (English/Roman letters)
+    if re.search(r'[a-zA-Z]', text):
+        detected_scripts.add('latin')
+        
+    return detected_scripts
+
+def get_primary_script(text):
+    """Get the primary script used in text"""
+    scripts = detect_scripts(text)
+    
+    # No script detected
+    if not scripts:
+        return 'unknown'
+    
+    # Find the script with the most characters
+    script_counts = {}
+    for script in scripts:
+        if script == 'latin':
+            script_counts[script] = len(re.findall(r'[a-zA-Z]', text))
+        else:
+            pattern = SCRIPT_PATTERNS.get(script, '')
+            script_counts[script] = len(re.findall(pattern, text))
+    
+    primary_script = max(script_counts.items(), key=lambda x: x[1])[0]
+    return primary_script
+
+# ------------------ Language Detection with Script Awareness ------------------
+SCRIPT_TO_LANG = {
+    'devanagari': 'hi',  # Hindi
+    'bengali': 'bn',     # Bengali
+    'tamil': 'ta',       # Tamil
+    'telugu': 'te',      # Telugu
+    'kannada': 'kn',     # Kannada
+    'malayalam': 'ml',   # Malayalam
+    'gurmukhi': 'pa',    # Punjabi
+    'gujarati': 'gu',    # Gujarati
+    'oriya': 'or',       # Oriya/Odia
+}
+
+def detect_lang(text):
+    """Detect language with script awareness and fallbacks"""
+    if not isinstance(text, str) or not text.strip():
+        return 'unknown'
+    
+    # Get primary script 
+    primary_script = get_primary_script(text)
+    
+    # If it's a known Indian script, use the script for language detection
+    if primary_script in SCRIPT_TO_LANG:
+        return SCRIPT_TO_LANG[primary_script]
+    
+    # Try langdetect for latin script or mixed text
+    try:
+        # For mixed scripts containing Indian language in Latin script
+        if 'latin' in detect_scripts(text) and len(detect_scripts(text)) > 1:
+            # Check for common Hindi/Indian words in Latin script
+            common_indian_words = ['namaste', 'acha', 'theek', 'bahut', 'kadam', 'shubh', 'desi', 
+                                   'dhan', 'dhanyavad', 'namaskar', 'shukriya']
+            
+            text_lower = text.lower()
+            for word in common_indian_words:
+                if word in text_lower:
+                    logger.info(f"🔍 Detected Hindi-in-Latin: '{word}' in '{text[:50]}...'")
+                    return 'hi'  # Treat as Hindi written in Latin script
+        
+        # Fall back to regular language detection
+        return detect(text)
+    except LangDetectException:
+        return 'unknown'
+
+# ------------------ Enhanced Translation ------------------
+LANG_MAP = {
+    'hi': 'hin_Deva',  # Hindi
+    'bn': 'ben_Beng',  # Bengali
+    'ta': 'tam_Taml',  # Tamil
+    'te': 'tel_Telu',  # Telugu
+    'ml': 'mal_Mlym',  # Malayalam
+    'gu': 'guj_Gujr',  # Gujarati
+    'kn': 'kan_Knda',  # Kannada
+    'mr': 'mar_Deva',  # Marathi
+    'pa': 'pan_Guru',  # Punjabi
+    'or': 'ory_Orya',  # Odia/Oriya
+    'en': 'eng_Latn',  # English
+    'ur': 'urd_Arab',  # Urdu
+    'unknown': 'eng_Latn',  # Default to English for unknown
+}
+
+def preprocess_mixed_script(text):
+    """Handle mixed script text, especially Hindi written in Latin"""
+    scripts = detect_scripts(text)
+    
+    # If multiple scripts including Latin and an Indian script
+    if len(scripts) > 1 and 'latin' in scripts:
+        # For now, just log the detection - more complex handling could be added later
+        logger.info(f"🔄 Mixed script text detected: '{text[:50]}...'")
+    
+    return text
+
+def batch_translate(comments, tokenizer, model, batch_size=16):
+    """Translate comments in batches for efficiency"""
+    all_translations = []
+    
+    # Process in batches
+    for i in range(0, len(comments), batch_size):
+        batch = comments[i:i+batch_size]
+        batch_translations = []
+        
+        # Preprocess and determine language for each comment in batch
+        preprocessed_batch = []
+        src_langs = []
+        
+        for comment in batch:
+            comment = normalize_text(comment)
+            comment = preprocess_mixed_script(comment)
+            lang = detect_lang(comment)
+            
+            preprocessed_batch.append(comment)
+            src_langs.append(lang)
+        
+        # Translate each comment in batch
+        for j, (comment, lang) in enumerate(zip(preprocessed_batch, src_langs)):
+            if lang == 'en' or not comment.strip():
+                batch_translations.append(comment)
+                continue
+                
+            src_lang_code = LANG_MAP.get(lang, 'eng_Latn')
+            tgt_lang_code = 'eng_Latn'
+            
+            try:
+                tokenizer.src_lang = src_lang_code
+                inputs = tokenizer(comment, return_tensors="pt", truncation=True, max_length=512)
+                
+                translated_tokens = model.generate(
+                    **inputs,
+                    forced_bos_token_id = tokenizer(tgt_lang_code, add_special_tokens=False).input_ids[0],
+                    max_length=512,
+                    num_beams=5,
+                    early_stopping=True
+                )
+                
+                translated = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0].strip()
+                translated = clean_translation(translated)
+                
+                if not translated or " " in translated:
+                    logger.warning(f"⚠️ Bad translation output for '{comment[:30]}...' from {lang}")
+                    batch_translations.append(comment)  # Fall back to original
+                else:
+                    batch_translations.append(translated)
+                    
+            except Exception as e:
+                logger.warning(f"❌ Translation failed: {type(e).__name__}: {str(e)[:100]}")
+                batch_translations.append(comment)  # Fall back to original
+        
+        all_translations.extend(batch_translations)
+    
+    return all_translations
+
+# ------------------ Sentiment Analysis ------------------
+import string
+import re
+import torch
+
+# Known placeholder texts - define once here
+placeholder_texts = {
+    "", "no review", "no review text", "no review text found", "n/a", "none", ".", "-", "not available", "not given"
+}
+
+def clean_and_normalize(text):
+    """Clean and normalize review text."""
+    if not isinstance(text, str):
+        return ""
+    text = text.replace('\r', '').replace('\n', '').replace('\xa0', ' ')
+    text = text.lower().strip()
+    text = ''.join(ch for ch in text if ch in string.printable)
+    return " ".join(text.split())
+
+def batch_analyze_sentiment(texts, ratings, tokenizer, model, batch_size=32):
+    """
+    Analyze sentiment using review text and rating together.
+    If text is missing or placeholder, fallback to rating alone.
+    When text sentiment conflicts with rating, prioritize high-confidence text sentiment.
+    """
+    results = []
+
+    def extract_rating(r):
+        """Extract numeric rating from string like '5 stars'. Returns int or 0."""
+        try:
+            return int(re.search(r'\d+', str(r)).group())
+        except:
+            return 0
+
+    for i in range(0, len(texts), batch_size):
+        batch_texts = texts[i:i+batch_size]
+        batch_ratings_raw = ratings[i:i+batch_size]
+
+        batch_ratings = [extract_rating(r) for r in batch_ratings_raw]
+
+        sentiments = ['neutral'] * len(batch_texts)
+        scores = [0.0] * len(batch_texts)
+
+        valid_texts = []
+        valid_indices = []
+
+        for j, text in enumerate(batch_texts):
+            clean_text = clean_and_normalize(text)
+            rating = batch_ratings[j]
+
+            if clean_text in placeholder_texts:
+                # If review text is placeholder or empty, use rating only
+                if rating in [1, 2]:
+                    sentiments[j] = 'negative'
+                    scores[j] = 1.0
+                elif rating == 3:
+                    sentiments[j] = 'neutral'
+                    scores[j] = 1.0
+                elif rating in [4, 5]:
+                    sentiments[j] = 'positive'
+                    scores[j] = 1.0
+                else:
+                    sentiments[j] = 'neutral'
+                    scores[j] = 0.0
+            else:
+                valid_texts.append(clean_text)
+                valid_indices.append(j)
+
+        if valid_texts:
+            inputs = tokenizer(valid_texts, return_tensors='pt', truncation=True,
+                               padding=True, max_length=512)
+            with torch.no_grad():
+                outputs = model(**inputs)
+            probs = torch.nn.functional.softmax(outputs.logits, dim=1)
+            max_indices = torch.argmax(probs, dim=1)
+            sentiment_labels = ['negative', 'neutral', 'positive']
+
+            for idx, valid_idx in enumerate(valid_indices):
+                sentiment_idx = max_indices[idx].item()
+                confidence = round(probs[idx, sentiment_idx].item(), 3)
+                sentiment = sentiment_labels[sentiment_idx]
+                rating = batch_ratings[valid_idx]
+
+                # Adjust sentiment if rating and text sentiment conflict
+                if sentiment == 'neutral':
+                    if rating in [1, 2]:
+                        sentiment = 'negative'
+                        confidence = max(confidence, 0.7)
+                    elif rating in [4, 5]:
+                        sentiment = 'positive'
+                        confidence = max(confidence, 0.7)
+                elif (sentiment == 'positive' and rating in [1, 2]) or (sentiment == 'negative' and rating in [4, 5]):
+                    if confidence > 0.75:
+                        confidence = max(confidence, 0.85)
+                    else:
+                        sentiment = 'neutral'
+                        confidence = 0.6
+
+                sentiments[valid_idx] = sentiment
+                scores[valid_idx] = confidence
+
+        results.extend(zip(sentiments, scores))
+
+    return results
+
+
+
+
+
+# ------------------ Main ------------------
+def main():
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    logger.info(f"🚀 Starting bank review sentiment analysis using device: {device}")
+
+    # Load models
+    logger.info("📚 Loading models...")
+    topic_model = SentenceTransformer('all-MiniLM-L6-v2').to(device)
+    
+    logger.info("📚 Loading translation model (NLLB-200-distilled-600M)...")
+    translation_tokenizer = AutoTokenizer.from_pretrained("facebook/nllb-200-distilled-600M")
+    translation_model = AutoModelForSeq2SeqLM.from_pretrained("facebook/nllb-200-distilled-600M")
+    
+    logger.info("📚 Loading sentiment model...")
+    sentiment_tokenizer = AutoTokenizer.from_pretrained("cardiffnlp/twitter-xlm-roberta-base-sentiment")
+    sentiment_model = AutoModelForSequenceClassification.from_pretrained("cardiffnlp/twitter-xlm-roberta-base-sentiment")
+
+    # Load topics & data
+    logger.info("📂 Loading topics and data...")
+    topics_dict = load_topics_from_file(TOPICS_FILE_PATH)
+    topic_examples, topic_labels, example_embeddings = compute_all_example_embeddings(
+        topic_model, topics_dict
+    )
+    df = load_data(INPUT_FILE_PATH)
+
+    # Extract reviews
+    reviews = df['review_text'].tolist()
+    total_reviews = len(reviews)
+    logger.info(f"📦 Processing {total_reviews} reviews...")
+
+    # Step 1: Translate reviews in batches
+    logger.info("🔄 Translating reviews in batches...")
+    translated_reviews = batch_translate(
+        reviews, translation_tokenizer, translation_model, batch_size=16
+    )
+    
+    # Step 2: Analyze sentiment in batches
+    logger.info("😊 Analyzing sentiment in batches...")
+    sentiment_results = batch_analyze_sentiment(
+    translated_reviews, df['review_rating'].tolist(), sentiment_tokenizer, sentiment_model, batch_size=32
+    )
+
+    
+    # Step 3: Match reviews to topics
+    logger.info("🏷️ Categorizing topics...")
+    topic_results = []
+    for translated in tqdm(translated_reviews, desc="Matching topics"):
+        topic, topic_score = match_comment_to_topic(
+            translated, topic_model, topic_labels, example_embeddings, threshold=0.6
+        )
+        topic_results.append((topic, topic_score))
+    
+    # Combine results into dataframe
+    logger.info("🔄 Combining results...")
+    # Only keep the required columns from the original dataframe
+    selected_cols = ['address', 'url', 'reviewer', 'review_rating', 'review_text']
+    result_df = df[selected_cols].copy()
+    
+    # Add the analysis results
+    result_df['translated_review'] = translated_reviews
+    result_df['topic_categorisation'] = [tr[0] for tr in topic_results]
+    result_df['topic_confidence'] = [tr[1] for tr in topic_results]
+    result_df['sentiment'] = [sr[0] for sr in sentiment_results]
+    result_df['sentiment_score'] = [sr[1] for sr in sentiment_results]
+    
+    # Save results
+    result_df.to_csv(OUTPUT_FILE_PATH, index=False, encoding='utf-8-sig')
+    logger.info(f"✨ Final output saved to: {OUTPUT_FILE_PATH} (UTF-8 with BOM)")
+    
+    # Print summary
+    logger.info("📊 Processing Summary:")
+    logger.info(f"   - Total reviews processed: {total_reviews}")
+    logger.info(f"   - Topic distribution: {result_df['topic_categorisation'].value_counts().to_dict()}")
+    logger.info(f"   - Sentiment distribution: {result_df['sentiment'].value_counts().to_dict()}")
+
+if __name__ == "__main__":
+    main()

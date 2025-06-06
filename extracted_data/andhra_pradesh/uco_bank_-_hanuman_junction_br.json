@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank - Hanuman Junction Branch",
+  "address": "\nnear Bus station, Sivaji Colony, Bapulapadu, Hanuman Junction, Andhra Pradesh 521110",
+  "rating": "4.7 stars",
+  "pincode": "521110",
+  "reviews": [
+    {
+      "reviewer": "shaiba amit pattanaik",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Nice bank.staff behaviour is so good.helping a lot.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "satyen rawat",
+      "rating": "5 stars",
+      "date": "9 years ago",
+      "text": "Awesome Banking experience",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ravikanth Thummala",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Nicee staff and friendly environment",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vinod kotthuru",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Good bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Feat _Franklin",
+      "rating": "3 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "mani kumar",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Siva Reddy",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Hanuman+Junction+Branch/data=!4m7!3m6!1s0x3a360de8de9e7d29:0xca7d960881772648!8m2!3d16.6352874!4d80.969423!16s%2Fg%2F11b7tq0z65!19sChIJKX2e3ugNNjoRSCZ3gQiWfco?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_andhra_pradesh.json"
+}

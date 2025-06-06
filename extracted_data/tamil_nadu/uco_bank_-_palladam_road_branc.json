@@ -1,0 +1,80 @@
+{
+  "name": "UCO Bank - Palladam Road Branch",
+  "address": "\n384, Palladam Main Rd, Thennampalayam, Tiruppur, Tamil Nadu 641604",
+  "rating": "4.1 stars",
+  "pincode": "641604",
+  "reviews": [
+    {
+      "reviewer": "SHANMUGAM MOHAN PRASANTH",
+      "rating": "4 stars",
+      "date": "2 years ago",
+      "text": "Not too crowded..",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Neelambaran R",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "Nice communication",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gowtham MN",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Dhivya Sp",
+      "rating": "5 stars",
+      "date": "10 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "sed depp",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gowthaman N",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "PRABHA KARAN.A",
+      "rating": "1 star",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Milan Chakma",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "THINAMANI.T 18-29",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vignesh Karthickeyan",
+      "rating": "1 star",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Palladam+Road+Branch/data=!4m7!3m6!1s0x3ba90796dd942f2f:0x2c4c71b011838fbf!8m2!3d11.084341!4d77.3449478!16s%2Fg%2F11bw_61904!19sChIJLy-U3ZYHqTsRv4-DEbBxTCw?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_tamil_nadu.json"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "UCO Bank with ATM & CDM (24 Hours)",
+  "address": "\nNew No 78, Old No 62, CN Krishnaswamy Road, CNK Rd, Police Quarters, Triplicane, Chennai, Tamil Nadu 600005",
+  "rating": "3.0 stars",
+  "pincode": "600005",
+  "reviews": [
+    {
+      "reviewer": "MOHAMMED ZAID",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "Too difficult to access atm because always two vehicles (auto and tata ace) and water cans are always parked in front of atm and bank. Mostly it's in evening time. Unable to enter freely. See the images",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Divya Sathyanarayanan",
+      "rating": "1 star",
+      "date": "a month ago",
+      "text": "Worst customer serviceever I have seen. They made me wait for 4 hrs still haven't processed my work and asked me to come tomorrow.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Aishwarya K",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Cash deposit machine cum ATM available 24*7",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Dhana Lakshmi",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "Worst service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Amjad Zahoor",
+      "rating": "5 stars",
+      "date": "9 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Rama Krishna Raja S",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+with+ATM+%26+CDM+%2824+Hours%29/data=!4m7!3m6!1s0x3a5267da5e738591:0xbee87b08b810107f!8m2!3d13.0634446!4d80.2747381!16s%2Fg%2F11mfwq0_xm!19sChIJkYVzXtpnUjoRfxAQuAh76L4?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_tamil_nadu.json"
+}

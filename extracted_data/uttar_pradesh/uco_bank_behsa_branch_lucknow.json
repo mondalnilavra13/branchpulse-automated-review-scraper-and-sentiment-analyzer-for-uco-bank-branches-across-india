@@ -1,0 +1,17 @@
+{
+  "name": "UCO Bank Behsa Branch Lucknow",
+  "address": "\nPurani Chungi, G-1/G-2 Sengar Complex, Kanpur - Lucknow Rd, near UCO Bank, Hind Nagar, Sector C1, LDA Colony, Lucknow, Uttar Pradesh 226012",
+  "rating": "5.0 stars",
+  "pincode": "226012",
+  "reviews": [
+    {
+      "reviewer": "Harpreet Singh",
+      "rating": "5 stars",
+      "date": "a month ago",
+      "text": "Good govt Bank near nice",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Behsa+Branch+Lucknow/data=!4m7!3m6!1s0x399bff004b09b3b7:0xcde6925a40994b3b!8m2!3d26.789469!4d80.889354!16s%2Fg%2F11vz277dms!19sChIJt7MJSwD_mzkRO0uZQFqS5s0?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_uttar_pradesh.json"
+}

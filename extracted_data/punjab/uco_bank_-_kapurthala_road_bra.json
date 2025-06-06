@@ -1,0 +1,80 @@
+{
+  "name": "UCO Bank - Kapurthala Road Branch",
+  "address": "\nGround Floor, Saran Complex, 5-C-3, Kapurthala - Jalandhar Rd, Raj Nagar, Basti Bawa Khel, Jalandhar, Punjab 144021",
+  "rating": "3.0 stars",
+  "pincode": "144021",
+  "reviews": [
+    {
+      "reviewer": "Meraj Khan",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "0 rating for service, but I don't have less the one so that's the reason I'm giving one.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Kartik Bhagat",
+      "rating": "1 star",
+      "date": "4 months ago",
+      "text": "Very bad service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gurvarinder Gilhotra (गोविंद)",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Wonderful govt bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Rajesh Kumar",
+      "rating": "3 stars",
+      "date": "5 years ago",
+      "text": "Good bank.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "BBoy Ishu",
+      "rating": "1 star",
+      "date": "11 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gurpreet Singh",
+      "rating": "4 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sonu Gill",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Raman Kumar",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Jonny Sharma",
+      "rating": "1 star",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Parteek Kaushal",
+      "rating": "4 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Kapurthala+Road+Branch/data=!4m7!3m6!1s0x391a5abd078c3b8d:0xba7731520d8c5e0b!8m2!3d31.3362707!4d75.5488324!16s%2Fg%2F11b6btyfbn!19sChIJjTuMB71aGjkRC16MDVIxd7o?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_punjab.json"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "UCO Bank Zonal Office",
+  "address": "\nW3FX+P84 Chandok Complex, Bawra Rd, Chambaghat, Himachal Pradesh 173213",
+  "rating": "1.0 stars",
+  "pincode": "173213",
+  "reviews": [
+    {
+      "reviewer": "chander raj Thakur",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "I have personal as well as Chanshal Education Society",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Zonal+Office/data=!4m7!3m6!1s0x390f86d24a57ab6d:0xf0990fd1fed04e85!8m2!3d30.9242684!4d77.0983228!16s%2Fg%2F11bvt8mtkp!19sChIJbatXStKGDzkRhU7Q_tEPmfA?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_himachal_pradesh.json"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank Rasulpur",
+  "address": "\nM9XM+6VM, Rasulpur, Punjab 142035",
+  "rating": "4.7 stars",
+  "pincode": "142035",
+  "reviews": [
+    {
+      "reviewer": "Pawandeep Singh Sekhon",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Its average bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Pankaj Thakur",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "Peaceful area",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Jaswinder Sidhu",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vip Sidhu",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "satyen rawat",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "hakam",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "AJINDER SINGH SIDHU",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Rasulpur/data=!4m7!3m6!1s0x391098d42dbf924d:0x298efc3f3717d7f!8m2!3d30.6980789!4d75.3846605!16s%2Fg%2F11c1v5sl7m!19sChIJTZK_LdSYEDkRf31x88PvmAI?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_punjab.json"
+}

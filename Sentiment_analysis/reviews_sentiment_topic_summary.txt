@@ -1,0 +1,45 @@
+===============================================
+                 ANALYSIS SUMMARY              
+===============================================
+Date & Time: 2025-05-18 15:19:09
+Input File: all_branches_reviews.csv
+Output File: reviews_sentiment_topic.csv
+-----------------------------------------------
+Total Comments Processed: 19641
+-----------------------------------------------
+TOPIC CATEGORISATION RESULTS:
+Other / Unclassified:18979, customer service / branch experience:231, ATM withdrawal issues:164, banking service information:116, account opening issues:47, internet banking issues:30, digital banking accessibility issues:13, passbook / statement issues:10, loan / EMI issues:7, KYC / CKYC issues:6, cheque issues:5, mobile app issues:5, debit card issues:5, communication / language barriers:4, digital banking security:3, fraud / unauthorized transaction:3, banking data privacy concerns:3, account blocked / frozen:2, business banking issues:2, UPI issues:2, credit card issues:2, sms / notification issues:1, charges / penalty disputes:1
+-----------------------------------------------
+SENTIMENT ANALYSIS RESULTS:
+positive:13348, negative:4636, neutral:1657
+-----------------------------------------------
+DETAILED TOPIC BREAKDOWN:
+- Other / Unclassified: 18979 comments (96.6%)
+- customer service / branch experience: 231 comments (1.2%)
+- ATM withdrawal issues: 164 comments (0.8%)
+- banking service information: 116 comments (0.6%)
+- account opening issues: 47 comments (0.2%)
+- internet banking issues: 30 comments (0.2%)
+- digital banking accessibility issues: 13 comments (0.1%)
+- passbook / statement issues: 10 comments (0.1%)
+- loan / EMI issues: 7 comments (0.0%)
+- KYC / CKYC issues: 6 comments (0.0%)
+- cheque issues: 5 comments (0.0%)
+- mobile app issues: 5 comments (0.0%)
+- debit card issues: 5 comments (0.0%)
+- communication / language barriers: 4 comments (0.0%)
+- digital banking security: 3 comments (0.0%)
+- fraud / unauthorized transaction: 3 comments (0.0%)
+- banking data privacy concerns: 3 comments (0.0%)
+- account blocked / frozen: 2 comments (0.0%)
+- business banking issues: 2 comments (0.0%)
+- UPI issues: 2 comments (0.0%)
+- credit card issues: 2 comments (0.0%)
+- sms / notification issues: 1 comments (0.0%)
+- charges / penalty disputes: 1 comments (0.0%)
+-----------------------------------------------
+DETAILED SENTIMENT BREAKDOWN:
+- positive: 13348 comments (68.0%)
+- negative: 4636 comments (23.6%)
+- neutral: 1657 comments (8.4%)
+===============================================

@@ -1,0 +1,31 @@
+{
+  "name": "UCO Bank Jandiala Manjki",
+  "address": "\n5J78+8XP, Jandiala Manjki, Punjab 144033",
+  "rating": "5.0 stars",
+  "pincode": "144033",
+  "reviews": [
+    {
+      "reviewer": "abhinav sharma",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "SANDEEP KUMAR",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Puneet Khehra",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Jandiala+Manjki/data=!4m7!3m6!1s0x391a674c6741fe13:0x4ca11a9131125172!8m2!3d31.1633291!4d75.6174447!16s%2Fg%2F11cnbmvvjg!19sChIJE_5BZ0xnGjkRclESMZEaoUw?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_punjab.json"
+}

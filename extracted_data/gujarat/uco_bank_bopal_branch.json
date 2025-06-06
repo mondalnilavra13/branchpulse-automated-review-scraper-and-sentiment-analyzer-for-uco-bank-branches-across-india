@@ -1,0 +1,45 @@
+{
+  "name": "UCO Bank Bopal Branch",
+  "address": "\nShreeji Complex, Ground Floor, Shriji Complex, Near India Colony, Bopal Rd, near India Colony, Bopal, Ahmedabad, Gujarat 380058",
+  "rating": "4.2 stars",
+  "pincode": "380058",
+  "reviews": [
+    {
+      "reviewer": "mayank jain",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "ladies staff branch of UCO Bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ashok Gurram",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Good working ATM in this location",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Geetanjali Patel Patel",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Saras Amarant",
+      "rating": "4 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shiva Rajak",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Bopal+Branch/data=!4m7!3m6!1s0x395e9b9749a01a0b:0xa2b375f92fb69b6f!8m2!3d23.0321318!4d72.4600207!16s%2Fg%2F1ptxd9fk_!19sChIJCxqgSZebXjkRb5u2L_l1s6I?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_gujarat.json"
+}

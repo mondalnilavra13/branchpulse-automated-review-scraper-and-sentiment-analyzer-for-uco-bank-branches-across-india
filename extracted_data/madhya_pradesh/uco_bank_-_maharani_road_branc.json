@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank - Maharani Road Branch",
+  "address": "\nNo.2, 16/17 Ward No.42, Maharani Rd, Street, Near, Railway Station Rd, Chhoti Gwaltoli, Indore, Madhya Pradesh 452007",
+  "rating": "4.3 stars",
+  "pincode": "452007",
+  "reviews": [
+    {
+      "reviewer": "Heena 123",
+      "rating": "3 stars",
+      "date": "2 years ago",
+      "text": "No parking",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "kuldeep d",
+      "rating": "3 stars",
+      "date": "3 years ago",
+      "text": "Good one",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Akash Raghuwanshi",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Achha Bank hai ATM paas ke station Hai Qubool suvidhaye Hai Paas ke station mein hai UCO Bank ATM and UCO Bank also has one nearby. It is also near platform number 4 of the station. This is also a market and there is an ATM in UC Market. It is very beneficial for the people because people buy goods from here and travel by train, so it is necessary for them to have an ATM but the ATM accepts the cards of all the banks and is a major ATM which is built at a prominent place and people come and go from here. But this is a very useful ATM for the shopping people. This is made by UCO Bank. What can the head of UCO Bank say that it is an ATM of UCO Bank and due to this, the customer does not get troubled and he can withdraw as much money from here as he wants, according to the limit in his card, he can withdraw money near the station and near the market.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Neelima Waiker",
+      "rating": "4 stars",
+      "date": "a month ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "abhishek kumar",
+      "rating": "5 stars",
+      "date": "3 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sundar Patidar",
+      "rating": "5 stars",
+      "date": "7 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sandeep Tyagi",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Maharani+Road+Branch/data=!4m7!3m6!1s0x3962fd11873bd043:0xe861381fd95af26b!8m2!3d22.7184224!4d75.8674447!16s%2Fg%2F1q62bkj4n!19sChIJQ9A7hxH9YjkRa_Ja2R84Yeg?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_madhya_pradesh.json"
+}

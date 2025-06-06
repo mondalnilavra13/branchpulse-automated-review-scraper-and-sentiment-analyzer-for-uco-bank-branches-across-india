@@ -1,0 +1,80 @@
+{
+  "name": "UCO Bank Dhargaura",
+  "address": "\nFPHM+WF4, Rampur-Mashnoo-Sarahan-Jeori Rd, Dobi, Batali, Himachal Pradesh 172201",
+  "rating": "4.2 stars",
+  "pincode": "172201",
+  "reviews": [
+    {
+      "reviewer": "Anish Patiyal",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "It is a good place",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Naresh Chauhan",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mr & Mrs Dingtu",
+      "rating": "3 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "GAUTAM KUMAR",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Aayushi Sharma",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ashutosh Dogra",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Susheel Thakur",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "suraj sharma",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Prashant Yadav",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Pratap Singh Dingtu",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Dhargaura/data=!4m7!3m6!1s0x3905c34556524beb:0x8714cd0dd03605f7!8m2!3d31.4797594!4d77.7336951!16s%2Fg%2F11c7sxr4y3!19sChIJ60tSVkXDBTkR9wU20A3NFIc?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_himachal_pradesh.json"
+}

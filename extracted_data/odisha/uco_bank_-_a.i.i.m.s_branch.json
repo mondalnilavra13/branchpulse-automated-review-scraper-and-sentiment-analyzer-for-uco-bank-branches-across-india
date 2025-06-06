@@ -1,0 +1,73 @@
+{
+  "name": "UCO Bank - A.I.I.M.S Branch",
+  "address": "\n751019, MIG, Patrapada, Bhubaneswar, Odisha 751019",
+  "rating": "3.1 stars",
+  "pincode": "751019",
+  "reviews": [
+    {
+      "reviewer": "Harish Chandra Behera",
+      "rating": "4 stars",
+      "date": "8 years ago",
+      "text": "Well located branch.good service.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Rishav Kumar",
+      "rating": "1 star",
+      "date": "5 years ago",
+      "text": "Very bad experience. Staff people are very rude and contact number not available.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Pritish Mohapatra",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "Very Good Bank. Staff are very cooperative.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Liptirekha Maharana",
+      "rating": "1 star",
+      "date": "2 years ago",
+      "text": "Bad experience ..",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Biswajit Sahoo",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "Good service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Santosh Kisan",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Bibhu Prasad Mohanty",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "94 Tanbeer Biswal",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Debasis Bag",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+A.I.I.M.S+Branch/data=!4m7!3m6!1s0x3a19a879b5f8d5f1:0xedaf1c279ca93dd2!8m2!3d20.2426507!4d85.763801!16s%2Fg%2F11c30vq9pw!19sChIJ8dX4tXmoGToR0j2pnCccr-0?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_odisha.json"
+}

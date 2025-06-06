@@ -1,0 +1,38 @@
+{
+  "name": "UCO Bank - Mithapur Road Branch",
+  "address": "\nPlot No.5-B, Mithapur Rd, Gurmeet Nagar, Baba Makhan Shah Lubana Nagar, Phase 2, Khurla Kingra, Jalandhar, Punjab 144001",
+  "rating": "4.3 stars",
+  "pincode": "144001",
+  "reviews": [
+    {
+      "reviewer": "Gurvarinder Gilhotra (गोविंद)",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "UCO Bank ATM.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "RAJINDER SINGH AHLUWALIA",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "Slow services",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mamata Mohanta",
+      "rating": "4 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "channel pind da channel pind da",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Mithapur+Road+Branch/data=!4m7!3m6!1s0x391a5ba3ff885c47:0xa2b096d2902218a4!8m2!3d31.2924362!4d75.5802132!16s%2Fg%2F125_t5kd9!19sChIJR1yI_6NbGjkRpBgikNKWsKI?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_punjab.json"
+}

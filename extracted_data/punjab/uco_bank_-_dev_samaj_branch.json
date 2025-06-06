@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank - Dev Samaj Branch",
+  "address": "\nR557+VPC, New Town, Moga, Punjab 142001",
+  "rating": "5.0 stars",
+  "pincode": "142001",
+  "reviews": [
+    {
+      "reviewer": "Rajinder Singh",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Good Service and good staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ravipal Kachhawaha",
+      "rating": "5 stars",
+      "date": "8 years ago",
+      "text": "Nice customer service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "parwindra Sekhon",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Good service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Harshdeep “Garg”",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "Fair deal with customers",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Deepika Luddar",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Good  staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "neeraj kumar",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "RAMANPREET KHOSA",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Dev+Samaj+Branch/data=!4m7!3m6!1s0x391a087ce26fde41:0xbf05a97a2accd1c!8m2!3d30.8096952!4d75.1642574!16s%2Fg%2F11csqvj9sf!19sChIJQd5v4nwIGjkRHM2sopda8As?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_punjab.json"
+}

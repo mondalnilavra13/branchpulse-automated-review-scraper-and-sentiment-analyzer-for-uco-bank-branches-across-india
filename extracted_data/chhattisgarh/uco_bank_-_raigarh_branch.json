@@ -1,0 +1,73 @@
+{
+  "name": "UCO Bank - Raigarh Branch",
+  "address": "\nW94R+5H8, Darogapara, Raigarh, Chhattisgarh 496001",
+  "rating": "3.7 stars",
+  "pincode": "496001",
+  "reviews": [
+    {
+      "reviewer": "SuryDeep Agrawal (Sunny)",
+      "rating": "3 stars",
+      "date": "4 years ago",
+      "text": "Good one",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Rinki Saral",
+      "rating": "1 star",
+      "date": "3 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "ritesh kumar dash",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Devesh Patel",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "JIO DIL SE RAJ",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "ROHIT KUMAR JAYSAWAL",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mousumi Santikary",
+      "rating": "2 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "rakesh kumar",
+      "rating": "2 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Monty Agrawal",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Raigarh+Branch/data=!4m7!3m6!1s0x3a2725304f8d32c9:0x8f5a27ac0da002ad!8m2!3d21.905419!4d83.3914629!16s%2Fg%2F11c44prgvp!19sChIJyTKNTzAlJzoRrQKgDawnWo8?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_chhattisgarh.json"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "UCO Bank Beelwa",
+  "address": "\nGoner Mod Flyover, opposite Chokhi Dhani, Bilwa, Saraswati Vihar, Sukhdeopura Nohara, Jaipur, Laxmipura at Nataniwala, Rajasthan 302022",
+  "rating": "5.0 stars",
+  "pincode": "302022",
+  "reviews": [
+    {
+      "reviewer": "Kailash Banjara",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "UCO bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Puran Prajapati",
+      "rating": "5 stars",
+      "date": "8 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "mahesh sharma",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ashish sharma",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "manvendra singh",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Beelwa/data=!4m7!3m6!1s0x396dc9da01d0b625:0x8a07c59a5978cc47!8m2!3d26.7658838!4d75.8397026!16s%2Fg%2F11smzk5jwn!19sChIJJbbQAdrJbTkRR8x4WZrFB4o?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_rajasthan.json"
+}

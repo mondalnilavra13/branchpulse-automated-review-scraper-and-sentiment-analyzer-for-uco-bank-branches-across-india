@@ -1,0 +1,31 @@
+{
+  "name": "UCO Bank",
+  "address": "\n25FR+63X, Junga Rd., Shimla, Junga, Himachal Pradesh 171009",
+  "rating": "4.7 stars",
+  "pincode": "171009",
+  "reviews": [
+    {
+      "reviewer": "Sumit Raj",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "This bank serves the need of banking to the local people in and around junga. E stamping is also done here.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Anil Thakur",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "Good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Jivitesh Karol",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39057f85f0c53d99:0x26a0b64ba2cceb40!8m2!3d31.0231179!4d77.1902489!16s%2Fg%2F11gdkqwt9r!19sChIJmT3F8IV_BTkRQOvMoku2oCY?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_himachal_pradesh.json"
+}

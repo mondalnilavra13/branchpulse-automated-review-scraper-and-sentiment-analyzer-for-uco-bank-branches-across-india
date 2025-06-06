@@ -1,0 +1,80 @@
+{
+  "name": "UCO Bank, Julana",
+  "address": "\n4CF4+GQ5, Rindhana Colony, Julana, Haryana 126101",
+  "rating": "3.7 stars",
+  "pincode": "126101",
+  "reviews": [
+    {
+      "reviewer": "Mandeep",
+      "rating": "4 stars",
+      "date": "5 years ago",
+      "text": "Service is good, behaviour is good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gauràv Verma",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Really having a good staff 👏 …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Rabi lather",
+      "rating": "4 stars",
+      "date": "3 years ago",
+      "text": "good staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "sandeep lather",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Excellent service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Rinku Garg",
+      "rating": "1 star",
+      "date": "6 years ago",
+      "text": "No",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Atul Gautam",
+      "rating": "1 star",
+      "date": "8 months ago",
+      "text": "A lot of people have said this but this is the time, we have no knowledge or no way to speak.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Balraj",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vishnu Chauhan",
+      "rating": "2 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "sunil jangra",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mohan Dahiya",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank,+Julana/data=!4m7!3m6!1s0x39120b3a116cc1d9:0xb9406da24a52a90c!8m2!3d29.1237545!4d76.4069894!16s%2Fg%2F11f61dvyxf!19sChIJ2cFsEToLEjkRDKlSSqJtQLk?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_haryana.json"
+}

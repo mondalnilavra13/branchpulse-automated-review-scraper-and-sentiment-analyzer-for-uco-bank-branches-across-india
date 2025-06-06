@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank G.T Road Branch",
+  "address": "\n4QFG+36J, Krishna Nagar, Goraya, Punjab 144409",
+  "rating": "4.1 stars",
+  "pincode": "144409",
+  "reviews": [
+    {
+      "reviewer": "akhil sharma",
+      "rating": "4 stars",
+      "date": "6 years ago",
+      "text": "HONOURS YOUR TRUST",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nav Manku61",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "Poor service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Swapnil Mishra",
+      "rating": "5 stars",
+      "date": "4 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Arun Verma",
+      "rating": "4 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "SAHIB KUMAR",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sahil Gugnani",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sarshar Verma",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+G.T+Road+Branch/data=!4m7!3m6!1s0x391a8bc430d2f911:0x1ebcc374c3b2ecb4!8m2!3d31.1227148!4d75.7755204!16s%2Fg%2F11c5b18gc_!19sChIJEfnSMMSLGjkRtOyyw3TDvB4?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_punjab.json"
+}

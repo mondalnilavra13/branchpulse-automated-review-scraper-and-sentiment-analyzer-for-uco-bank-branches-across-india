@@ -1,0 +1,80 @@
+{
+  "name": "UCO Bank Railway Road Gandhi Nagar Jammu",
+  "address": "\nPV25+52F, Gandhi Nagar, Jammu, Jammu and Kashmir 180004",
+  "rating": "4.0 stars",
+  "pincode": "180004",
+  "reviews": [
+    {
+      "reviewer": "SAMBHAV GUPTA",
+      "rating": "1 star",
+      "date": "6 months ago",
+      "text": "Atm is not working",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Abhinandan (abhi)",
+      "rating": "4 stars",
+      "date": "9 months ago",
+      "text": "Staff was good and welcoming and had a good experience",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "JAGMOHAN shah",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "Good environment",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "sushil kumar",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Awesome service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nitin Sharma",
+      "rating": "5 stars",
+      "date": "5 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Avnish Gorka",
+      "rating": "4 stars",
+      "date": "10 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ravi kumar Ravi kumar",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Monib Chouhan",
+      "rating": "4 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Yatin Gupta",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Bol Bantai",
+      "rating": "4 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Railway+Road+Gandhi+Nagar+Jammu/data=!4m7!3m6!1s0x391e84b0b91ecdd7:0xbf46d07525fd890f!8m2!3d32.7004491!4d74.8575515!16s%2Fg%2F11d_5zwxh7!19sChIJ180eubCEHjkRD4n9JXXQRr8?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_jammu_and_kashmir.json"
+}

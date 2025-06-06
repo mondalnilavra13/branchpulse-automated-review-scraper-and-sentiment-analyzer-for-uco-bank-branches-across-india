@@ -1,0 +1,101 @@
+{
+  "name": "UCO Bank, Guna",
+  "address": "\nModel Town Colony, Guna, Madhya Pradesh 473001",
+  "rating": "4.5 stars",
+  "pincode": "473001",
+  "reviews": [
+    {
+      "reviewer": "Prerna Shrivastava",
+      "rating": "5 stars",
+      "date": "5 months ago",
+      "text": "Fast Banking Service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Deepu kashyap",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "Very excellent service...",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shivani",
+      "rating": "3 stars",
+      "date": "3 years ago",
+      "text": "Employee is quitely less supportive .",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Arvind Raghuvanshi",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "Best customer service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Rakesh kushwah",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "Fast service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Arvind Gupta",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "Customer is paramount, for UCO Bank they never make unnecessary trips and do every task easily.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Satish Arora",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "Great customer service 🙏🏻🙏🏻 …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sanju Sahariya",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sanskrti rajput",
+      "rating": "4 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Raghavendra Singh",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sunil Sahu",
+      "rating": "3 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ajay Sharma",
+      "rating": "5 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "swetang jayswal",
+      "rating": "4 stars",
+      "date": "8 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank,+Guna/data=!4m7!3m6!1s0x397a5b8adfcf14b9:0xf971d98e77c179cd!8m2!3d24.6428636!4d77.3073581!16s%2Fg%2F11btv69zxc!19sChIJuRTP34pbejkRzXnBd47Zcfk?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_madhya_pradesh.json"
+}

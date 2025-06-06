@@ -1,0 +1,24 @@
+{
+  "name": "UCO Bank, Mysuru Main Branch",
+  "address": "\n7MW2+XPH, Agrahara, Chamrajpura, Mysuru, Karnataka 570004",
+  "rating": "3.0 stars",
+  "pincode": "570004",
+  "reviews": [
+    {
+      "reviewer": "mahesha scryn",
+      "rating": "1 star",
+      "date": "3 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "uday kumar",
+      "rating": "5 stars",
+      "date": "11 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank,+Mysuru+Main+Branch/data=!4m7!3m6!1s0x3baf71001928a65f:0x1e1db8dc1f9c72a3!8m2!3d12.2974187!4d76.6518702!16s%2Fg%2F11vz4wtvlk!19sChIJX6YoGQBxrzsRo3KcH9y4HR4?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_karnataka.json"
+}

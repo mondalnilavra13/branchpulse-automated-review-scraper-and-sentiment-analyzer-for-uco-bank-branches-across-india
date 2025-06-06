@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank - Jagoti Branch",
+  "address": "\n9RX3+GQ8, Jagoti, Madhya Pradesh 456550",
+  "rating": "4.6 stars",
+  "pincode": "456550",
+  "reviews": [
+    {
+      "reviewer": "Abhinandan Sarda",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "Staff is good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mahendra Lodwal",
+      "rating": "5 stars",
+      "date": "10 months ago",
+      "text": "Amzing work by uco bank jagoti all staff",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shashank Kumar",
+      "rating": "4 stars",
+      "date": "3 years ago",
+      "text": "Bhagwan singh body",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Virendra Parmar",
+      "rating": "5 stars",
+      "date": "2 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "bhgwan bodana",
+      "rating": "4 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sourabh Pawar",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "satyendra singh",
+      "rating": "4 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Jagoti+Branch/data=!4m7!3m6!1s0x39637eaa49d908bb:0xf9402567808b3080!8m2!3d23.3987835!4d75.8044608!16s%2Fg%2F11gf1wtyr9!19sChIJuwjZSap-YzkRgDCLgGclQPk?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_madhya_pradesh.json"
+}

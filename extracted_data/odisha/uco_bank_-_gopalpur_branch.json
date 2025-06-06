@@ -1,0 +1,52 @@
+{
+  "name": "UCO Bank - Gopalpur Branch",
+  "address": "\n7W52+VJ5, Boxipalli, Odisha 761002",
+  "rating": "4.3 stars",
+  "pincode": "761002",
+  "reviews": [
+    {
+      "reviewer": "Rahul Samantaray",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "Worst service.Even a savings account opening time is 7days .Employees are very lazy.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "tulasi rao",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "Very nice & good place for business.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "T MADHUMITA SARAF",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "Good customer service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Subham Maharana",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "So late to make passbook",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Roni Rana",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "SUSIL KUMAR DAS",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Gopalpur+Branch/data=!4m7!3m6!1s0x3a3d58ff7b83187d:0x638799e84818cf62!8m2!3d19.2596261!4d84.9016141!16s%2Fg%2F11d_8g7ghp!19sChIJfRiDe_9YPToRYs8YSOiZh2M?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_odisha.json"
+}

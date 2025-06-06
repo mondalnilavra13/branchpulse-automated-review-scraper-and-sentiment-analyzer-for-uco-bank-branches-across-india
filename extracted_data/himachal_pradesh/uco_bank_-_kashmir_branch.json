@@ -1,0 +1,59 @@
+{
+  "name": "UCO Bank - Kashmir Branch",
+  "address": "\nJ9JW+46P, po kashmir teh. nadaun distt. hamirpur, 177006",
+  "rating": "3.3 stars",
+  "pincode": "177006",
+  "reviews": [
+    {
+      "reviewer": "Abhishek Sharma",
+      "rating": "5 stars",
+      "date": "10 months ago",
+      "text": "Very good bank good staff humble",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "arun kumar",
+      "rating": "5 stars",
+      "date": "4 months ago",
+      "text": "Nice",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vinod Thakur",
+      "rating": "1 star",
+      "date": "7 years ago",
+      "text": "My bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Roan Jansen",
+      "rating": "2 stars",
+      "date": "2 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Lalit Sharma",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vinay Dhiman",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vinod Thakur",
+      "rating": "4 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Kashmir+Branch/data=!4m7!3m6!1s0x391b2a71200107d5:0xe44b833ce77e535b!8m2!3d31.6303345!4d76.3955744!16s%2Fg%2F11f3pnrk35!19sChIJ1QcBIHEqGzkRW1N-5zyDS-Q?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_himachal_pradesh.json"
+}

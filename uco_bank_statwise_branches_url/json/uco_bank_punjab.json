@@ -1,0 +1,457 @@
+[
+    {
+        "name": "UCO Bank Ropar Main branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Ropar+Main+branch/data=!4m7!3m6!1s0x3905551bc752b421:0xe0e1f3d0e7bf64da!8m2!3d30.9670463!4d76.5305602!16s%2Fg%2F11g0wgj76k!19sChIJIbRSxxtVBTkR2mS_59Dz4eA?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Jagirpur Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Jagirpur+Branch/data=!4m7!3m6!1s0x391a84a919a144e9:0x261dc82a1e8e1423!8m2!3d30.944139!4d75.8917178!16s%2Fg%2F11b6lh04d_!19sChIJ6UShGamEGjkRIxSOHirIHSY?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Civil Lines Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Civil+Lines+Branch/data=!4m7!3m6!1s0x391a5a5c24a93103:0xb829fd47790451a0!8m2!3d31.3277475!4d75.5805979!16s%2Fg%2F11b6gqxkj2!19sChIJAzGpJFxaGjkRoFEEeUf9Kbg?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x390feffedb2c1939:0xf147bfc0b28c3c5d!8m2!3d30.7462206!4d76.6448847!16s%2Fg%2F11b5qxywn1!19sChIJORks2_7vDzkRXTyMssC_R_E?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Partabpura Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Partabpura+Branch/data=!4m7!3m6!1s0x391a89d4c70e5bef:0x3abc35cc7ceedc2!8m2!3d31.0564993!4d75.7181292!16s%2Fg%2F11c48xpd0m!19sChIJ71sOx9SJGjkRwu3Ox1zDqwM?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Nuhon Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Nuhon+Branch/data=!4m7!3m6!1s0x3905513eba870cc5:0x40209f232643731f!8m2!3d31.031918!4d76.5768223!16s%2Fg%2F11bwgvzyn7!19sChIJxQyHuj5RBTkRH3NDJiOfIEA?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Dhandari Kalan Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Dhandari+Kalan+Branch/data=!4m7!3m6!1s0x391a9d2ce3c2341b:0xfcb9d3d844981629!8m2!3d30.888008!4d75.901889!16s%2Fg%2F1tp25nzv!19sChIJGzTC4yydGjkRKRaYRNjTufw?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a5fa855555555:0x4b4d0a7e5f68b1b4!8m2!3d31.2301533!4d75.6716728!16s%2Fg%2F11bwfl322m!19sChIJVVVVVahfGjkRtLFoX34KTUs?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a08f3ae15e853:0x6c5e9a738bd548fc!8m2!3d30.8225373!4d75.1814611!16s%2Fg%2F11bxb8tqf6!19sChIJU-gVrvMIGjkR_EjVi3OaXmw?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391077d5ee028f33:0xd3ab9c6fad3264fc!8m2!3d30.8549817!4d75.941357!16s%2Fg%2F1v8x0kqz!19sChIJM48C7tV3EDkR_GQyrW-cq9M?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Zonal Office",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Zonal+Office/data=!4m7!3m6!1s0x391a5a4f4fe80a75:0xb64aa621ebd71d65!8m2!3d31.3207001!4d75.5910666!16s%2Fg%2F11b6hszs4p!19sChIJdQroT09aGjkRZR3X6yGmSrY?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Kapurthala Road Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Kapurthala+Road+Branch/data=!4m7!3m6!1s0x391a5abd078c3b8d:0xba7731520d8c5e0b!8m2!3d31.3362707!4d75.5488324!16s%2Fg%2F11b6btyfbn!19sChIJjTuMB71aGjkRC16MDVIxd7o?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391732bbba8f98f1:0x2aec8923b7f1a90a!8m2!3d30.2177319!4d74.9522442!16s%2Fg%2F11cjhzz6fk!19sChIJ8ZiPursyFzkRCqnxtyOJ7Co?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391ae2def7777747:0x45e842ea7f8b6cad!8m2!3d31.5286462!4d75.9135131!16s%2Fg%2F1tpf5jlh!19sChIJR3d3997iGjkRrWyLf-pC6EU?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank rekha",
+        "url": "https://www.google.com/maps/place/UCO+Bank+rekha/data=!4m7!3m6!1s0x391a8304384048d9:0x355554b0b5c60433!8m2!3d30.8999278!4d75.8597599!16s%2Fg%2F1ths_vl1!19sChIJ2UhAOASDGjkRMwTGtbBUVTU?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Mithapur Road Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Mithapur+Road+Branch/data=!4m7!3m6!1s0x391a5ba3ff885c47:0xa2b096d2902218a4!8m2!3d31.2924362!4d75.5802132!16s%2Fg%2F125_t5kd9!19sChIJR1yI_6NbGjkRpBgikNKWsKI?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Katra Ahluwalia Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Katra+Ahluwalia+Branch/data=!4m7!3m6!1s0x391964aa905ebe1f:0xd8f2d7af1eb2170a!8m2!3d31.630003!4d74.873265!16s%2Fg%2F11b6bpvwhg!19sChIJH75ekKpkGTkRCheyHq_X8tg?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a1d9d7ec5cc91:0x1f6b2cdafb5cfb3b!8m2!3d30.970908!4d74.981999!16s%2Fg%2F11cn92y0mm!19sChIJkczFfp0dGjkRO_tc-9osax8?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Haibowal Kalan",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Haibowal+Kalan/data=!4m7!3m6!1s0x391a83fdac8a4c7b:0x1c02f0529879d03!8m2!3d30.9198739!4d75.8178552!16s%2Fg%2F11b6dqwm1r!19sChIJe0yKrP2DGjkRA52HKQUvwAE?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Dev Samaj Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Dev+Samaj+Branch/data=!4m7!3m6!1s0x391a087ce26fde41:0xbf05a97a2accd1c!8m2!3d30.8096952!4d75.1642574!16s%2Fg%2F11csqvj9sf!19sChIJQd5v4nwIGjkRHM2sopda8As?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Behlana Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Behlana+Branch/data=!4m7!3m6!1s0x390fec9fcd71fd8d:0x22ebdddc00094f49!8m2!3d30.6784948!4d76.8002141!16s%2Fg%2F11c2k87dtt!19sChIJjf1xzZ_sDzkRSU8JANzd6yI?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391028eaaaaaaaad:0x9c9595eab9f225b!8m2!3d30.3397942!4d76.3868923!16s%2Fg%2F11bzs3qxkb!19sChIJraqqquooEDkRWyKfq15ZyQk?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3910102b1c8830df:0xb81dbaa96657cf42!8m2!3d30.7034964!4d76.2267323!16s%2Fg%2F11cmh2zmsn!19sChIJ3zCIHCsQEDkRQs9XZqm6Hbg?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x390fef6cb48e68ad:0xd623c2d8e9c97652!8m2!3d30.6919934!4d76.6642291!16s%2Fg%2F11c1xm5vxw!19sChIJrWiOtGzvDzkRUnbJ6djCI9Y?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a82f9e2c10609:0xa7b359aa7cace1c!8m2!3d30.8803819!4d75.8584007!16s%2Fg%2F11btmqf4xc!19sChIJCQbB4vmCGjkRHM7Kp5o1ewo?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a5b174ec6b2df:0xbc29ed194876dd9a!8m2!3d31.2940931!4d75.5563197!16s%2Fg%2F11g6mj95tc!19sChIJ37LGThdbGjkRmt12SBntKbw?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Model House Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Model+House+Branch/data=!4m7!3m6!1s0x391a5ae35c6a4ebb:0xec2beeb9a24f5feb!8m2!3d31.3118672!4d75.5613828!16s%2Fg%2F11bby7kvt3!19sChIJu05qXONaGjkR619PornuK-w?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Ram Bagh Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Ram+Bagh+Branch/data=!4m7!3m6!1s0x3919635469efff47:0x7649b55f7d540789!8m2!3d31.632492!4d74.878536!16s%2Fg%2F11b6cm3y7d!19sChIJR__vaVRjGTkRiQdUfV-1SXY?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x390fee702d03c131:0x155ef183a58f5066!8m2!3d30.7278295!4d76.7226081!16s%2Fg%2F1pv0252py!19sChIJMcEDLXDuDzkRZlCPpYPxXhU?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a5a3d4d0b62b5:0xb92e6a5d5df03f3!8m2!3d31.3338527!4d75.6089834!16s%2Fg%2F11gh05bn3q!19sChIJtWILTT1aGjkR8wPf1aXmkgs?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3910c49aab743567:0x4ae9cd6b01602f55!8m2!3d30.2693775!4d75.2365288!16s%2Fg%2F1262lmhfk!19sChIJZzV0q5rEEDkRVS9gAWvN6Uo?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Raipur Majri Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Raipur+Majri+Branch/data=!4m7!3m6!1s0x391004cdcd13e399:0xdc77e66a8a92ca71!8m2!3d30.7227514!4d76.3318932!16s%2Fg%2F11c67vv8y5!19sChIJmeMTzc0EEDkRccqSimrmd9w?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391759ca5b3e2e59:0x813fc723207b451c!8m2!3d30.6711622!4d74.7593067!16s%2Fg%2F11cn93z2k8!19sChIJWS4-W8pZFzkRHEV7ICPHP4E?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391bcc6325017b51:0x52c32cc191a02076!8m2!3d31.5407341!4d75.2353601!16s%2Fg%2F11c2j8w77t!19sChIJUXsBJWPMGzkRdiCgkcEsw1I?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391014ab3052da3d:0x65b19a6815a14ffb!8m2!3d30.597553!4d76.086148!16s%2Fg%2F11bwn8pm9q!19sChIJPdpSMKsUEDkR-0-hFWiasWU?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x390fd1b10a09dfc9:0x1e4e09f6e0c4c745!8m2!3d30.3330912!4d76.6095003!16s%2Fg%2F11cn316gl5!19sChIJyd8JCrHRDzkRRcfE4PYJTh4?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a5bff3d5db20b:0xd990b87f89012f57!8m2!3d31.2703729!4d75.6164557!16s%2Fg%2F11bbxnghhz!19sChIJC7JdPf9bGjkRVy8BiX-4kNk?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Gur Mandi Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Gur+Mandi+Branch/data=!4m7!3m6!1s0x391a5a8ae8f197d1:0x201b0b778ed9bc65!8m2!3d31.332088!4d75.572183!16s%2Fg%2F11b6jgnrr6!19sChIJ0Zfx6IpaGjkRZbzZjncLGyA?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391ba12cd3ddd85d:0x16b75aa883a72115!8m2!3d31.809987!4d75.659092!16s%2Fg%2F11dxlb288w!19sChIJXdjd0yyhGzkRFSGng6hatxY?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Garhdiwala Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Garhdiwala+Branch/data=!4m7!3m6!1s0x391b087ceaaaaaab:0x25c518fb5fa15c9c!8m2!3d31.7412342!4d75.7560455!16s%2Fg%2F11fz9jmcpz!19sChIJq6qq6nwIGzkRnFyhX_sYxSU?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Mukerian Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Mukerian+Branch/data=!4m7!3m6!1s0x391b992d509eba3f:0xddd300e4a618ec8!8m2!3d31.9497976!4d75.6197147!16s%2Fg%2F11c1pggglf!19sChIJP7qeUC2ZGzkRyI5hSg4w3Q0?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a5692cc8eeb07:0xfffe38ac4c3568bd!8m2!3d31.4294487!4d75.6534829!16s%2Fg%2F11clwf8z2s!19sChIJB-uOzJJWGjkRvWg1TKw4_v8?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391964909bb3627d:0xfd450f28747497ee!8m2!3d31.6571703!4d74.8602494!16s%2Fg%2F11btvb68k4!19sChIJfWKzm5BkGTkR7pd0dCgPRf0?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a5768bf986ee7:0xf0d16eaabb92f25d!8m2!3d31.3742598!4d75.6487281!16s%2Fg%2F11ddyxdyjg!19sChIJ526Yv2hXGjkRXfKSu6pu0fA?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a48518db80f35:0xca9cfc392e38362b!8m2!3d31.3714801!4d75.3936808!16s%2Fg%2F12ll8x17b!19sChIJNQ-4jVFIGjkRKzY4Ljn8nMo?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank G.T Road Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+G.T+Road+Branch/data=!4m7!3m6!1s0x391a8bc430d2f911:0x1ebcc374c3b2ecb4!8m2!3d31.1227148!4d75.7755204!16s%2Fg%2F11c5b18gc_!19sChIJEfnSMMSLGjkRtOyyw3TDvB4?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a7f9822450e8d:0x28c799a13e799d76!8m2!3d30.8473843!4d75.6782974!16s%2Fg%2F11dxlb058l!19sChIJjQ5FIph_GjkRdp15PqGZxyg?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Ayali Khurd Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Ayali+Khurd+Branch/data=!4m7!3m6!1s0x391a812fe2973a0f:0x9ed9bacf0f1321bc!8m2!3d30.9166624!4d75.7726878!16s%2Fg%2F11fx95lzv2!19sChIJDzqX4i-BGjkRvCETD8-62Z4?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391bbd58c7e4615b:0x708e74115bef0543!8m2!3d31.8802683!4d75.510956!16s%2Fg%2F11btv66g8s!19sChIJW2Hkx1i9GzkRQwXvWxF0jnA?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Industrial Area Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Industrial+Area+Branch/data=!4m7!3m6!1s0x391a5a5f309bf7c9:0xfbba1af80aeee149!8m2!3d31.3502431!4d75.5739851!16s%2Fg%2F11cn9g371t!19sChIJyfebMF9aGjkRSeHuCvgauvs?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a48518db6ccbb:0x23504b5e186ae27d!8m2!3d31.3690985!4d75.377903!16s%2Fg%2F11g86mwrjd!19sChIJu8y2jVFIGjkRfeJqGF5LUCM?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3919634fe6c3daeb:0x8633c53f00606142!8m2!3d31.6413414!4d74.8748281!16s%2Fg%2F11g9m91s2m!19sChIJ69rD5k9jGTkRQmFgAD_FM4Y?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a82576e21f17f:0xc7901876a2eab7cc!8m2!3d30.8802738!4d75.8497435!16s%2Fg%2F11dyxtcth2!19sChIJf_EhbleCGjkRzLfqonYYkMc?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x390fede5df0e892f:0x9b663f9ad98af6e3!8m2!3d30.7443341!4d76.7435631!16s%2Fg%2F1pv0wy_29!19sChIJL4kO3-XtDzkR4_aK2Zo_Zps?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank Jandiala Manjki",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Jandiala+Manjki/data=!4m7!3m6!1s0x391a674c6741fe13:0x4ca11a9131125172!8m2!3d31.1633291!4d75.6174447!16s%2Fg%2F11cnbmvvjg!19sChIJE_5BZ0xnGjkRclESMZEaoUw?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank Sector 35 Chandigarh",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Sector+35+Chandigarh/data=!4m7!3m6!1s0x390fedb10ff8201d:0xc95733546e9242f7!8m2!3d30.7266532!4d76.7576937!16s%2Fg%2F1td4snwq!19sChIJHSD4D7HtDzkR90KSblQzV8k?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a444aa5f94217:0xb3b77917d5434eb4!8m2!3d31.2942459!4d75.4581472!16s%2Fg%2F11cn7x7pxb!19sChIJF0L5pUpEGjkRtE5D1Rd5t7M?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a5c2f513d8aef:0xf7548af1035eb262!8m2!3d31.2339912!4d75.6145608!16s%2Fg%2F11c5gbpklq!19sChIJ74o9US9cGjkRYrJeA_GKVPc?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a9e1c945b4c63:0xe1bc9918509f500d!8m2!3d30.867265!4d76.0060605!16s%2Fg%2F11bv1vkb0_!19sChIJY0xblByeGjkRDVCfUBiZvOE?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391bb2bed670c855:0x586e1f76acb89a0f!8m2!3d31.5414871!4d75.5075001!16s%2Fg%2F11bwpcl830!19sChIJVchw1r6yGzkRD5q4rHYfblg?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a480049565f37:0x66dd001acd2747d4!8m2!3d31.3283217!4d75.3426621!16s%2Fg%2F11g6xqpvnw!19sChIJN19WSQBIGjkR1EcnzRoA3WY?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39101a627b4d64d3:0x98f1a0b1e5dfa13e!8m2!3d30.6668204!4d76.2862521!16s%2Fg%2F1tflktw6!19sChIJ02RNe2IaEDkRPqHf5bGg8Zg?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a559171f2e371:0x1e0bc6f0b8176913!8m2!3d31.4858032!4d75.6984998!16s%2Fg%2F11btx0629_!19sChIJcePycZFVGjkRE2kXuPDGCx4?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391abf7230c7501b:0x45ab42db4c82c982!8m2!3d31.2194052!4d76.1412959!16s%2Fg%2F11c70c19n8!19sChIJG1DHMHK_GjkRgsmCTNtCq0U?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank Rasulpur",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Rasulpur/data=!4m7!3m6!1s0x391098d42dbf924d:0x298efc3f3717d7f!8m2!3d30.6980789!4d75.3846605!16s%2Fg%2F11c1v5sl7m!19sChIJTZK_LdSYEDkRf31x88PvmAI?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a3daf059269dd:0x28f467ddd5ac934f!8m2!3d31.1673549!4d75.2095318!16s%2Fg%2F11bw3dp675!19sChIJ3WmSBa89GjkRT5Os1d1n9Cg?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391bd69c49fd0ed5:0x912d7bc4aeabcef8!8m2!3d31.5609161!4d75.0303368!16s%2Fg%2F11g6xwmjdr!19sChIJ1Q79SZzWGzkR-M6rrsR7LZE?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a6853a0644737:0x57ece563d1738664!8m2!3d31.1259067!4d75.4840531!16s%2Fg%2F11cm1sq5np!19sChIJN0dkoFNoGjkRZIZz0WPl7Fc?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x390ff29c20529329:0x41450445333ab7bf!8m2!3d30.7708205!4d76.7972151!16s%2Fg%2F1vkxkndc!19sChIJKZNSIJzyDzkRv7c6M0UERUE?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a50739db9d9d7:0x20611ef7686770c3!8m2!3d31.3571273!4d75.5539084!16s%2Fg%2F11b6nyv4t0!19sChIJ19m5nXNQGjkRw3BnaPceYSA?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a15c906f265f3:0x7cb111465db51361!8m2!3d31.1017433!4d75.2680635!16s%2Fg%2F1tf5j0jr!19sChIJ82XyBskVGjkRYRO1XUYRsXw?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a64bb03e88c4d:0xb449ab3e009f9ef9!8m2!3d31.0100208!4d75.6080895!16s%2Fg%2F1pp2vckpc!19sChIJTYzoA7tkGjkR-Z6fAD6rSbQ?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391ba8dbb1312f5f:0x5a7cbc0eeb21df7d!8m2!3d31.6803161!4d75.6370121!16s%2Fg%2F11btxhmxkf!19sChIJXy8xsduoGzkRfd8h6w68fFo?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a88993061c277:0xa90a27d038221ce3!8m2!3d31.02385!4d75.779848!16s%2Fg%2F11cn937509!19sChIJd8JhMJmIGjkR4xwiONAnCqk?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank Chunni Kalan",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Chunni+Kalan/data=!4m7!3m6!1s0x390fe5a73f27d0a9:0xf0dee10d5b7a001a!8m2!3d30.6583355!4d76.565149!16s%2Fg%2F11gj19t7bn!19sChIJqdAnP6flDzkRGgB6Ww3h3vA?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39197f81ee3a18df:0xaaebc88e620e16b1!8m2!3d31.4603263!4d74.9218413!16s%2Fg%2F1hc3frknm!19sChIJ3xg67oF_GTkRsRYOYo7I66o?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a937d6630bcb7:0xc8287081e02ffd1b!8m2!3d31.1855559!4d75.9921707!16s%2Fg%2F1pp2xblf1!19sChIJt7wwZn2TGjkRG_0v4IFwKMg?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3910399637a1b6a1:0x75a5d9a15890bdf4!8m2!3d30.3683507!4d76.1564366!16s%2Fg%2F11cltg99dm!19sChIJobahN5Y5EDkR9L2QWKHZpXU?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x390ff56bfbbb2c95:0x5177edf6bf056cd6!8m2!3d30.9299525!4d76.7978234!16s%2Fg%2F1hjgm23q1!19sChIJlSy7-2v1DzkR1mwFv_btd1E?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39109c1c541dba45:0x3584a874f470786b!8m2!3d30.7241028!4d75.4374025!16s%2Fg%2F11cs9m3r6l!19sChIJRbodVBycEDkRa3hw9HSohDU?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a669bf9a8daed:0x3f94809c7dc0d1cb!8m2!3d31.0919341!4d75.591144!16s%2Fg%2F11bxd8cz9q!19sChIJ7dqo-ZtmGjkRy9HAfZyAlD8?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank ,Branch Manimajra",
+        "url": "https://www.google.com/maps/place/UCO+Bank+,Branch+Manimajra/data=!4m7!3m6!1s0x390f936f59589963:0xef76b86a6b203dca!8m2!3d30.7201408!4d76.8328862!16s%2Fg%2F11g1vzjfky!19sChIJY5lYWW-TDzkRyj0ga2q4du8?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391bb21c9890d68d:0xdee6de9cf47b5022!8m2!3d31.609436!4d75.5145405!16s%2Fg%2F11ckvbq07m!19sChIJjdaQmByyGzkRIlB79Jze5t4?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39109d88829205d7:0x5287f7970e4433c!8m2!3d30.7994015!4d75.4692465!16s%2Fg%2F11dzdpysyn!19sChIJ1wWSgoidEDkRPEPkcHl_KAU?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Tahliwala Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Tahliwala+Branch/data=!4m7!3m6!1s0x391acf572b0a5845:0x977a5540db3c633a!8m2!3d31.3503769!4d76.2767025!16s%2Fg%2F11g68_j_7_!19sChIJRVgKK1fPGjkROmM820BVepc?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a584ab4717e7b:0x1000a117b57111da!8m2!3d31.3403191!4d75.667616!16s%2Fg%2F11b6ydzyvq!19sChIJe35xtEpYGjkR2hFxtRehABA?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Mahilpur Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Mahilpur+Branch/data=!4m7!3m6!1s0x391ae8555ce78e91:0xe1575917500d7b01!8m2!3d31.3618418!4d76.0398171!16s%2Fg%2F11c56syzym!19sChIJkY7nXFXoGjkRAXsNUBdZV-E?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank Dhariwal",
+        "url": "https://www.google.com/maps/place/UCO+Bank+Dhariwal/data=!4m7!3m6!1s0x391bed89121603b1:0x7970ff87d258b8f3!8m2!3d31.9591467!4d75.3223602!16s%2Fg%2F11f5_j5vj8!19sChIJsQMWEontGzkR87hY0of_cHk?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39107182aa0e144b:0xa0bcf7770a0e4281!8m2!3d30.724999!4d75.9814418!16s%2Fg%2F11bxf9kqw9!19sChIJSxQOqoJxEDkRgUIOCnf3vKA?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank - Ambala City Branch",
+        "url": "https://www.google.com/maps/place/UCO+Bank+-+Ambala+City+Branch/data=!4m7!3m6!1s0x390fc88d05522b8b:0xcd0d0f6a2cf3ce1b!8m2!3d30.3817661!4d76.7704711!16s%2Fg%2F11bx8j_brg!19sChIJiytSBY3IDzkRG87zLGoPDc0?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    },
+    {
+        "name": "UCO Bank",
+        "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x391a594745555555:0x2841994e4aa13cfa!8m2!3d31.3271102!4d75.5917092!16s%2Fg%2F1ts2yp1g!19sChIJVVVVRUdZGjkR-jyhSk6ZQSg?authuser=0&hl=en&rclk=1",
+        "state": "Punjab"
+    }
+]

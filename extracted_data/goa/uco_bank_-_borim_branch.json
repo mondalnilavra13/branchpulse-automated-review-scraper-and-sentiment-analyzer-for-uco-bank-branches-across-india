@@ -1,0 +1,31 @@
+{
+  "name": "UCO Bank - Borim Branch",
+  "address": "\n9295+WQG, Borim, Goa 403401",
+  "rating": "3.7 stars",
+  "pincode": "403401",
+  "reviews": [
+    {
+      "reviewer": "vinit Satardekar",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "It' has ATM also",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ravish Roshan",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Siddharth Bhandari",
+      "rating": "2 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Borim+Branch/data=!4m7!3m6!1s0x3bbfb012898d317f:0x6f8c8771001bb31d!8m2!3d15.3698171!4d74.0094541!16s%2Fg%2F11dxm64lxy!19sChIJfzGNiRKwvzsRHbMbAHGHjG8?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_goa.json"
+}

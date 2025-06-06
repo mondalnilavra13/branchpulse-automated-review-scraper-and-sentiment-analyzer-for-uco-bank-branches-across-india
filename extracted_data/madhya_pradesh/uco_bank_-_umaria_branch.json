@@ -1,0 +1,38 @@
+{
+  "name": "UCO Bank - Umaria Branch",
+  "address": "\nGRGQ+W8W, Umaria, Madhya Pradesh 484661",
+  "rating": "4.8 stars",
+  "pincode": "484661",
+  "reviews": [
+    {
+      "reviewer": "Shivraj patel",
+      "rating": "5 stars",
+      "date": "8 years ago",
+      "text": "Good bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mohit jaiswal",
+      "rating": "5 stars",
+      "date": "a month ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Chandan Rajak",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shagun Mahto",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Umaria+Branch/data=!4m7!3m6!1s0x3986b510b71f65e5:0x64ed79edc2e5397f!8m2!3d23.5273521!4d80.8383126!16s%2Fg%2F11csbtxsbd!19sChIJ5WUftxC1hjkRfznlwu157WQ?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_madhya_pradesh.json"
+}

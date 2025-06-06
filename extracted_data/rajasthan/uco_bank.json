@@ -1,0 +1,66 @@
+{
+  "name": "UCO Bank",
+  "address": "\n3V6H+J86, kishor Nagar, Rajsamand, Rajasthan 313333",
+  "rating": "3.8 stars",
+  "pincode": "313333",
+  "reviews": [
+    {
+      "reviewer": "YADHAVAN",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "Very good bank not heavy rush",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Krishna Vijay",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "Very poor service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shubham Rajput",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "Contact no please",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Mangala dave",
+      "rating": "1 star",
+      "date": "11 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sarvesh Ameta",
+      "rating": "5 stars",
+      "date": "a year ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "ashok odh",
+      "rating": "3 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sarvesh Ameta",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "पेरम राणा",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39686b7b3b5a848d:0xb2fbe71b8210c017!8m2!3d25.0615358!4d73.8782558!16s%2Fg%2F11d_tt9217!19sChIJjYRaO3traDkRF8AQghvn-7I?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_rajasthan.json"
+}

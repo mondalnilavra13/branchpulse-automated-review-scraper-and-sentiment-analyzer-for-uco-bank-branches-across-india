@@ -1,0 +1,94 @@
+{
+  "name": "UCO Bank, Bounsi Branch",
+  "address": "\nManjhi Market, Station Rd, Bounsi, Banka, Bihar 813104",
+  "rating": "3.8 stars",
+  "pincode": "813104",
+  "reviews": [
+    {
+      "reviewer": "Immortal",
+      "rating": "2 stars",
+      "date": "2 years ago",
+      "text": "Very delay in service...low customer response...Staff are not customer friendly",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shashank Ghosh",
+      "rating": "4 stars",
+      "date": "4 years ago",
+      "text": "Some of the staffs were rude, but some were friendly.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ashok kumar bajaj",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Good staff and great team",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "gautam pandit",
+      "rating": "1 star",
+      "date": "2 years ago",
+      "text": "Very delay staff\nNot respond",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Rakesh Kumar",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "Very good",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Senap Mandal",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "Good service",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sonu Kumar",
+      "rating": "5 stars",
+      "date": "3 weeks ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "amrit sharma",
+      "rating": "4 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Amit Kumar Singh",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Shipu Devi",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sunil Kumar",
+      "rating": "4 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "shubhendu shekhar shashi",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank,+Bounsi+Branch/data=!4m7!3m6!1s0x39f0f99f6557ece1:0xa5c5521c270eee46!8m2!3d24.8028472!4d87.0256049!16s%2Fg%2F11f03qfzzm!19sChIJ4exXZZ_58DkRRu4OJxxSxaU?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_bihar.json"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "UCO Bank",
+  "address": "\n5WFG+5C5, Garha Fatak Rd, Siddha Baba Ward, Gupta Colony, Jabalpur, Madhya Pradesh 482002",
+  "rating": "2.9 stars",
+  "pincode": "482002",
+  "reviews": [
+    {
+      "reviewer": "sameer agarwal",
+      "rating": "1 star",
+      "date": "a year ago",
+      "text": "The bank person is very miss behaviour\nNot helpfully Bank of UCO Bank jawaharganj branch",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Ankit Khandelwal",
+      "rating": "1 star",
+      "date": "3 years ago",
+      "text": "Worst bank\n\nAnd worst staff\n\nOld appointed staff think s that the bank is their ancestral place.\n\nNeed to train the staff for public dealings.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Azad आज़ाद Patel",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "Nice bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "sagar gupta",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Nice place.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Om Agrawal",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "ANIKET NORIYA",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nikhil Suwalka",
+      "rating": "1 star",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Hem Saji",
+      "rating": "1 star",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x3981ae19418f63af:0x43dd87cfadb3aea4!8m2!3d23.17289!4d79.9261049!16s%2Fg%2F11cnbpttc2!19sChIJr2OPQRmugTkRpK6zrc-H3UM?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_madhya_pradesh.json"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "UCO Bank",
+  "address": "\n8228+GHQ, Gumla-Bero-Jariya Rd, Bero, Jharkhand 835202",
+  "rating": "5.0 stars",
+  "pincode": "835202",
+  "reviews": [
+    {
+      "reviewer": "Ranjit Kujur",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank/data=!4m7!3m6!1s0x39f52a073d1d185f:0xdb1d736849363563!8m2!3d23.301347!4d85.0164808!16s%2Fg%2F11bz_xfj5p!19sChIJXxgdPQcq9TkRYzU2SWhzHds?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_jharkhand.json"
+}

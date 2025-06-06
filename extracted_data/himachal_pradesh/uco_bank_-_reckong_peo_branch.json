@@ -1,0 +1,73 @@
+{
+  "name": "UCO Bank - Reckong Peo Branch",
+  "address": "\nDeepak hotel, Yuwaringi, Reckong Peo, Himachal Pradesh 172107",
+  "rating": "4.1 stars",
+  "pincode": "172107",
+  "reviews": [
+    {
+      "reviewer": "blwbisht",
+      "rating": "3 stars",
+      "date": "6 years ago",
+      "text": "Nice office but you have to take couple of stairs to reach the branch",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Happy Negi",
+      "rating": "3 stars",
+      "date": "7 years ago",
+      "text": "Almost usual banking",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "satyen prakash",
+      "rating": "4 stars",
+      "date": "4 years ago",
+      "text": "Good to bank with",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Varun Vir Pathania",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gian Mathus",
+      "rating": "2 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "tc negi",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "T C Negi",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Kaum Ansari",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "oviyan",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Reckong+Peo+Branch/data=!4m7!3m6!1s0x39066a2000bdd785:0xa9e23a4dd0c3db0e!8m2!3d31.5413206!4d78.2700962!16s%2Fg%2F11c1wpz8bs!19sChIJhde9ACBqBjkRDtvD0E064qk?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_himachal_pradesh.json"
+}

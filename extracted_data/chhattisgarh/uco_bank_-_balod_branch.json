@@ -1,0 +1,73 @@
+{
+  "name": "UCO Bank - Balod Branch",
+  "address": "\nP6G4+3W9, Balod, Chhattisgarh 491226",
+  "rating": "4.2 stars",
+  "pincode": "491226",
+  "reviews": [
+    {
+      "reviewer": "Hasnain Tigala",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "Nice bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Aaryan yogi",
+      "rating": "4 stars",
+      "date": "5 years ago",
+      "text": "Uco bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Gautam Singh",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "Visit today",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "priyanka netam",
+      "rating": "4 stars",
+      "date": "2 years ago",
+      "text": "Good bank👍 …",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nomesh Sahu",
+      "rating": "4 stars",
+      "date": "5 years ago",
+      "text": "You are at the bank",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Suman Sahu",
+      "rating": "4 stars",
+      "date": "2 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "vivek subba",
+      "rating": "3 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Tanvir Khan",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Jinesh Patel",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Balod+Branch/data=!4m7!3m6!1s0x3a2ec9ac3115f0f7:0x9f95f36e091b3a80!8m2!3d20.725173!4d81.2073709!16s%2Fg%2F11bv6pl2yy!19sChIJ9_AVMazJLjoRgDobCW7zlZ8?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_chhattisgarh.json"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "UCO Bank Mandi",
+  "address": "\nPW4H+XRF, School Bazar, Samkhetar, Mandi, Himachal Pradesh 175001",
+  "rating": "4.7 stars",
+  "pincode": "175001",
+  "reviews": [
+    {
+      "reviewer": "Anurag Thakur",
+      "rating": "4 stars",
+      "date": "7 years ago",
+      "text": "Only 4 star.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Job Khoji",
+      "rating": "5 stars",
+      "date": "7 years ago",
+      "text": "Near boy school",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Nisha Rawal",
+      "rating": "5 stars",
+      "date": "11 months ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Pummy",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Anurag Bhatia",
+      "rating": "5 stars",
+      "date": "3 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Sunil Kumar",
+      "rating": "4 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+Mandi/data=!4m7!3m6!1s0x3904e223525efa5f:0xae9659156150a04a!8m2!3d31.7074392!4d76.9295489!16s%2Fg%2F11btvlfj23!19sChIJX_peUiPiBDkRSqBQYRVZlq4?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_himachal_pradesh.json"
+}

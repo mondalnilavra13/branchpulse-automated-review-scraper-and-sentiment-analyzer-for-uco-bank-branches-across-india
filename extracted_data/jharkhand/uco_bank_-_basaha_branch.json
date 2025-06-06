@@ -1,0 +1,45 @@
+{
+  "name": "UCO Bank - Basaha Branch",
+  "address": "\n62Q7+RC5, Block Road Palojori, Jharkhand 814146",
+  "rating": "5.0 stars",
+  "pincode": "814146",
+  "reviews": [
+    {
+      "reviewer": "Anil Roy",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "Very good behaviour of bank employees..5 plus from my side.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Vishwanath Kumar",
+      "rating": "5 stars",
+      "date": "4 years ago",
+      "text": "Some sweet memories created here. Miss you Guys.",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Aman Kumar",
+      "rating": "5 stars",
+      "date": "2 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "Khan Boss",
+      "rating": "5 stars",
+      "date": "5 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    },
+    {
+      "reviewer": "MD ZAFAR",
+      "rating": "5 stars",
+      "date": "6 years ago",
+      "text": "No review text found",
+      "bank_response": "No response from bank"
+    }
+  ],
+  "url": "https://www.google.com/maps/place/UCO+Bank+-+Basaha+Branch/data=!4m7!3m6!1s0x39f0d10ddbeffafb:0xfeae56a5bd17d9e1!8m2!3d24.239512!4d87.0136177!16s%2Fg%2F11c804sxk8!19sChIJ-_rv2w3R8DkR4dkXvaVWrv4?authuser=0&hl=en&rclk=1",
+  "source_file": "uco_bank_jharkhand.json"
+}
